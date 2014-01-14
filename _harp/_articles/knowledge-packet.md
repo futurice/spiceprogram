@@ -11,4 +11,10 @@ Our focus means that we are not too interested in preaching to the choir, contri
 
 Further reading:
 
-[Wikipedia](http://en.wikipedia.org/wiki/Open-source_software "Title")
+[Wikipedia - FOSS](http://en.wikipedia.org/wiki/Open-source_software "Title")
+[Wikipedia - semantics](http://en.wikipedia.org/wiki/Alternative_terms_for_free_software "Title")
+[FSF - free software](http://www.fsf.org/about/what-is-free-software "Title")
+[OSI - open source definition](http://opensource.org/osd-annotated "Title")
+
+
+
