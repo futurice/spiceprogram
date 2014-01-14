@@ -25,6 +25,6 @@ Meanwhile open source project participation is growing exponentially. Big player
 
 Many government institutions have adopted free software and open innovation as the fundamental building blocks in building a successful information society. For instance, the Helsinki Region Infoshare program has since 2010 promoted open data publication in the metropolitan area of Finland's capital, opening up more than a thousand datasets online, allowing for free development of applications to support new business. 
 
-The US government has an Open Government National Action Plan that includes an Open Data Policy, with the aim of #making information resources accessible, discoverable, and usable by the public, to help fuel entrepreneurship, innovation, and scientific discovery - to improve Americans' lives and contribute significantly to job creation.#
+The US government has an Open Government National Action Plan that includes an Open Data Policy, with the aim of "making information resources accessible, discoverable, and usable by the public, to help fuel entrepreneurship, innovation, and scientific discovery - to improve Americans' lives and contribute significantly to job creation."
 
 Developments such as these are certain to catch the attention of the software industry giants. Hopefully they don't make a complete mess of it.
