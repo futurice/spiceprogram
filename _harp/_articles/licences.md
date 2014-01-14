@@ -19,4 +19,4 @@ Further reading:
 
 [The OSI Board](http://opensource.org/board "The OSI Board")
 
-[FSF opinion of many licenses](http://www.gnu.org/licenses/license-list.html "FSF stand of licences")
+[FSF opinion on many licenses](http://www.gnu.org/licenses/license-list.html "FSF stand of licences")
