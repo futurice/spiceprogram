@@ -7,7 +7,7 @@ Organizations making use of CC licenses include Flickr, Wikipedia and Nine Inch 
 The parameters are:
 
 * Attribution (BY) - must credit the author of the original work
-* No Derivatives (ND) - now allowed to modify the original work
+* No Derivatives (ND) - not allowed to modify the original work
 * Non Commercial (NC) - only non-commercial use and derivatives 
 * Share Alike (SA) - copyleft parameter, license must remain the same
 
@@ -19,11 +19,12 @@ These four parameters are used to define a total of six different licenses:
 
 [![Attribution-NonCommercial-ShareAlike](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/) - Attribution-NonCommercial-ShareAlike CC BY-NC-SA - This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.
 
-[![Attribution-ShareAlike](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) - Attribution-ShareAlike CC BY-SA - This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.
+[![Attribution-ShareAlike](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) - Attribution-ShareAlike CC BY-SA - This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical
+terms. This license is often compared to "copyleft" free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.
 
-[![Attribution-NonCommercial](http://i.creativecommons.org/l/by-nc/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/) - Attribution-NonCommercial CC BY-NC - This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.
+[![Attribution-NonCommercial](http://i.creativecommons.org/l/by-nc/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/) - Attribution-NonCommercial CC BY-NC - This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don't have to license their derivative works on the same terms.
 
-[![Attribution-NonCommercial-NoDerivs](http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/) - Attribution-NonCommercial-NoDerivs CC BY-NC-ND - This license is the most restrictive of our six main licenses, only allowing others to download your works and share them with others as long as they credit you, but they can’t change them in any way or use them commercially.
+[![Attribution-NonCommercial-NoDerivs](http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/) - Attribution-NonCommercial-NoDerivs CC BY-NC-ND - This license is the most restrictive of our six main licenses, only allowing others to download your works and share them with others as long as they credit you, but they can't change them in any way or use them commercially.
 
 In addition there is a CC0 license, which allows you to waive all rights and place your work in the public domain.
 
