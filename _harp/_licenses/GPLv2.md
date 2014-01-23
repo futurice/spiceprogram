@@ -8,7 +8,7 @@ The GPL was written by Richard Stallman in 1989 for use with programs released a
 
 Projects that have chosen GPLv2:
 
-[Linux Kernel](http://www.kernel.org) "Linux Kernel")
+[Linux Kernel](http://www.kernel.org "Linux Kernel")
 
 [WebKit](http://www.webkit.org/coding/lgpl-license.html "WebKit")
 
