@@ -8,6 +8,9 @@ The original license used on BSD Unix had four clauses. The advertising clause (
 
 Projects that have chosen BSD 3-Clause or BSD 2-Clause:
 
+[nginx web server](http://nginx.org/ "nginx")
+
+[FreeBSD](http://www.freebsd.org/ "FreeBSD") and [NetBSD](http://www.netbsd.org/)
 
 Further reading:
 
