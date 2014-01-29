@@ -11,7 +11,7 @@ Trying to be honest here; starting a program like this in a business environment
 
 Even if you somehow manage to avoid them all, someone is going to be unhappy. If nobody else, then certainly Richard Stallman, if he ever learns of our endeavor.
 
-Because business and social movements do not mix well. Sure, there's all the fun stuff – hackathons for worthy goals (at company premises with free pizza and beer, but no paid overtime), sending people to related events (networking and scene marketing), arranging said events yourself (brand recognition), sponsoring individuals or projects with a feasible amount (good PR!), even open sourcing something you have built for your own use, to show you can also walk the walk. These are all good things and very much on our agenda!
+Because business and social movements do not mix well. Sure, there's all the fun stuff - hackathons for worthy goals (at company premises with free pizza and beer, but no paid overtime), sending people to related events (networking and scene marketing), arranging said events yourself (brand recognition), sponsoring individuals or projects with a feasible amount (good PR!), even open sourcing something you have built for your own use, to show you can also walk the walk. These are all good things and very much on our agenda!
 
 But then you have the difficult things, the quicksand.  
 
