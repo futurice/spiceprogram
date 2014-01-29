@@ -7,11 +7,11 @@ Being a company, the motivation is of course not entirely altruistic. We think t
 
 But most of all, it is the right thing to do and will help us make the world a better place.
 
-Trying to be honest here; starting a program like this in a business environment is not entirely unlike to walking on broken glass. It’s not dangerous like crossing a minefield, obviously, but perhaps akin to crossing the kitchen floor barefooted, after accidentally shattering your spouse’s favorite glass into a thousand tiny glistening sharp pieces. You are likely to hit a few of those, no matter how careful you navigate.
+Trying to be honest here; starting a program like this in a business environment is not entirely unlike to walking on broken glass. It's not dangerous like crossing a minefield, obviously, but perhaps akin to crossing the kitchen floor barefooted, after accidentally shattering your spouse's favorite glass into a thousand tiny glistening sharp pieces. You are likely to hit a few of those, no matter how careful you navigate.
 
 Even if you somehow manage to avoid them all, someone is going to be unhappy. If nobody else, then certainly Richard Stallman, if he ever learns of our endeavor.
 
-Because business and social movements do not mix well. Sure, there’s all the fun stuff – hackathons for worthy goals (at company premises with free pizza and beer, but no paid overtime), sending people to related events (networking and scene marketing), arranging said events yourself (brand recognition), sponsoring individuals or projects with a feasible amount (good PR!), even open sourcing something you have built for your own use, to show you can also walk the walk. These are all good things and very much on our agenda!
+Because business and social movements do not mix well. Sure, there's all the fun stuff – hackathons for worthy goals (at company premises with free pizza and beer, but no paid overtime), sending people to related events (networking and scene marketing), arranging said events yourself (brand recognition), sponsoring individuals or projects with a feasible amount (good PR!), even open sourcing something you have built for your own use, to show you can also walk the walk. These are all good things and very much on our agenda!
 
 But then you have the difficult things, the quicksand.  
 
