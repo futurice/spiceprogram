@@ -1,7 +1,11 @@
 ## Popular free and open source licenses 
 > "Liberty is the right to do what I like; license, the right to do what you like." --Bertrand Russel
 
+It is important to understand the difference between owning the copyright and licensing the code. Copyright is the set of exclusive rights granted to the author or creator of an original work, including the right to copy, distribute and adapt the work. A license defines the rights and privileges the copyright holder grants to the others; how the work can be used, modified and redistributed. 
+
 A license is a contract. This contract can define rights, obligations and restrictions. Since business and people are difficult, there appears to be a need for a multitude of different licenses. 
+
+In practice, code (or content) can not be used, unless license is known. A snippet of few statements copied from a web forum might not be an issue, but Oracle famously did sue Google over 9 lines of code. Fortunately they did not win. 
 
 Copyleft licenses require that the original license is applied to the modified work, to ensure that the software remains free. Permissive licenses (or non-copyleft licenses) allow distributors to add restrictions, go proprietary with their derived work, or even with the original work. 
 
