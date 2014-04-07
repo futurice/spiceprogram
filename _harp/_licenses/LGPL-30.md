@@ -6,7 +6,6 @@ Version 3 of the LGPL was published in 2007. It seeks to provide guidance for la
 
 Further reading:
 
-[LGPL-3.0 license template](http://opensource.org/licenses/LGPL-3.0 "LGPL-3.0 license")
-
-[Wikipedia](http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License "Wikipedia")
+* [LGPL-3.0 license template](http://opensource.org/licenses/LGPL-3.0 "LGPL-3.0 license")
+* [Wikipedia](http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License "Wikipedia")
 ***

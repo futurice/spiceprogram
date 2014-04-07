@@ -1,38 +1,51 @@
-function generateTableOfContents (doc) {
-    doc = doc || document;
-    var toc = doc.getElementById('toc');
-    var sections = [].slice.call(doc.body.querySelectorAll('div.section'));
-    sections.forEach(function (section, index) {
-        var heading = section.querySelector('h2');
+var viewportWidth = window.innerWidth;
 
-        var link = doc.createElement('a');
-        link.setAttribute('href', '#' + section.id);
-        link.textContent = heading.textContent;
+window.onload = function() {
+    var menu = document.getElementById("menu");
+    var body = document.body;
+    var menuContent = document.getElementById("menu-content");
+    var close = document.getElementById("close");
 
-        var div = doc.createElement('div');
-        div.setAttribute('class', heading.tagName.toLowerCase());
+    menu.onclick = function(e) {
+        body.style.position = "relative";
+        classie.toggle( this, 'active' );
+        classie.toggle( body, 'cbp-spmenu-push-toleft' );
+        classie.toggle( menuContent, 'cbp-spmenu-open' );
+        e.preventDefault();
+    };
 
-        div.appendChild(link);
-        
-        var subSections = [].slice.call(section.querySelectorAll('div.sub-section'));
-        subSections.forEach(function (subSection, index) {
-            var subHeading = subSection.querySelector('h4');
-            var subLink = doc.createElement('a');
-            subLink.setAttribute('href', '#' + subSection.id);
-            subLink.setAttribute('class', 'sub-header');
-            subLink.textContent = subHeading.textContent;
-            div.appendChild(subLink);
-        });
-        toc.appendChild(div);
-   });
-}
+    close.onclick = function(e) {
+        body.style.position = "relative";
+        classie.toggle( this, 'active' );
+        classie.toggle( body, 'cbp-spmenu-push-toleft' );
+        classie.toggle( menuContent, 'cbp-spmenu-open' );
+        e.preventDefault();
+    };
 
-try {
-     module.exports = generateTableOfContents;
-} catch (e) {
-    // module.exports is not defined
-}
+    var sticky = document.getElementById("sticky-list");
+    var blurred = document.getElementById("blurred");
+    if (blurred) {
+        window.onscroll = function() {
+            var s = window.pageYOffset;
+            var opacityVal = (s / 200.0);
+            document.getElementById("blurred").style.opacity = opacityVal;
+            console.log(opacityVal);
+        };
+    }
+    if (sticky) {
+        var stickyHeaderTop = sticky.offsetTop;
 
-window.onload = function () {
-    generateTableOfContents();
+        window.onscroll = function() {
+            if (window.pageYOffset > stickyHeaderTop && viewportWidth > 767) {
+                var offset = window.pageYOffset - stickyHeaderTop;
+                sticky.style.top = offset + "px";
+            } else {
+                sticky.style.top = 0;
+            }
+        };
+    }
+};
+
+window.onresize = function() {
+    viewportWidth = window.innerWidth;
 }

@@ -1,0 +1,39 @@
+!= partial("_header")
+
+div.padded(style="padding-top: 2%;")
+    div
+        img(src="popular.svg", style="width: 500px;").image-scale
+    h1 Popular and free open source licenses
+    p.quote(style="padding-top:5%;") "'Free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,' not as in 'free beer'." --Richard M. Stallman
+div
+    div.sticky-list#sticky-list
+        div
+            ul.license-list
+                li: a(href="#GPLv2") GNU General Public License, version 2.0 (GPLv2)
+                li: a(href="#GPLv3") GNU General Public License, version 3.0 (GPLv3)
+                li: a(href="#LGPL-11") GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+                li: a(href="#LGPL-30") GNU Lesser General Public License, version 3.0 (LGPL-3.0)
+                li: a(href="#ASL20") Apache License (2.0)
+                li: a(href="#MIT") MIT License
+                li: a(href="#BSD3-Clause") BSD 3-Clause and 2-Clause
+                li: a(href="#MPL2") Mozilla Public License 2.0 (MPL-2)
+            a(href="cc")
+                div(style="text-align: center; padding-right: 2%;")
+                    strong.orange Creative Commons
+                    p &rarr; What is creative commons? How can it be used?
+            a(href="choosing")
+                div(style="text-align: center; padding-right: 2%;")
+                    strong.orange Choosing a license
+                    p &rarr; How to choose the best license for your work?
+    div.next-to-sticky.licenses
+        div(style="padding-right: 10%; padding-left: 10%;")
+            div!= partial("_articles/licences.md")
+            div#GPLv2.sub-section!= partial("_licenses/GPLv2")
+            div#GPLv3.sub-section!= partial("_licenses/GPLv3")
+            div#LGPL-11.sub-section!= partial("_licenses/LGPL-11")
+            div#LGPL-30.sub-section!= partial("_licenses/LGPL-30")
+            div#ASL20.sub-section!= partial("_licenses/ASL20")
+            div#MIT.sub-section!= partial("_licenses/MIT")
+            div#BSD3-Clause.sub-section!= partial("_licenses/BSD3-Clause")
+            div#MPL2.sub-section!= partial("_licenses/MPL2")
+    div.clear

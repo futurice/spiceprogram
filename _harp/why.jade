@@ -1,0 +1,41 @@
+!= partial("_header")
+
+div.fullscreen-cont
+    div.fullscreen-img.seconds
+    div.content.padded
+        h1 Why are we doing this?
+        div.ingress Our company both advocates and benefits from making use of open source software when we build software solutions for our customers. It is the one ideology that the majority of our people subscribe to.
+div.read-more-button
+    div.read-more: a(href="#start") read more
+    div.arrow-down
+div#start.thin-padded!= partial("_why")
+div#box
+    div(style="display: inline-block;").whys
+        a(href="/howto", style="float: left;")
+            div(style="").box-container
+                strong How to establish a similar program?
+                div It is essential that you start by defining your motivation. Why do you consider it important ...
+            div.arrow-right
+div(style="height: 50px;")
+div.vertical
+        div.choose
+            div
+                a(href="/choosing")
+                    img(src="choose_big.svg", style="width: auto; max-width: 95%;")
+                    h3 Choosing a license
+                    p.box How to choose the best license for your work?
+        div.common
+            div
+                a(href="/licenses")
+                    img(src="popular.svg", style="width: auto; max-width: 95%;")
+                    h3 Common open source licenses
+                    p.box Check out our summaries for the 13 most common licenses.
+        div.creative
+            div
+                a(href="/cc")
+                    img(src="cc.svg", style="width: auto; max-width: 95%;")
+                    h3 Creative commons
+                    p.box What is creative commons? How can it be used?
+    div.clear
+
+div(style="height: 50px;")

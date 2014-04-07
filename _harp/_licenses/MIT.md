@@ -8,11 +8,10 @@ According to FSF, MIT License is not ambiguous, since it can refer to their Expa
 
 Projects that have chosen MIT:
 
-[JQuery](https://jquery.org/license/ "JQuery")
-
-[Ruby on Rails](http://rubyonrails.org/ "Ruby on Rails")
+* [JQuery](https://jquery.org/license/ "JQuery")
+* [Ruby on Rails](http://rubyonrails.org/ "Ruby on Rails")
 
 Further reading:
 
-[MIT license template](http://opensource.org/licenses/MIT "MIT license")
+* [MIT license template](http://opensource.org/licenses/MIT "MIT license")
 ***

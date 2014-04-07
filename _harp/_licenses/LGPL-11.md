@@ -10,11 +10,10 @@ Whether a work that uses an LGPL program is a derivative work or not is a legal 
 
 Projects that have chosen LGPL-2.1:
 
-[Qt Project](https://qt-project.org/products/licensing "Qt Project")
+* [Qt Project](https://qt-project.org/products/licensing "Qt Project")
 
 Further reading:
 
-[LGPL-2.1 license template](http://opensource.org/licenses/LGPL-2.1 "LGPL-2.1 license")
-
-[Wikipedia](http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License "Wikipedia")
+* [LGPL-2.1 license template](http://opensource.org/licenses/LGPL-2.1 "LGPL-2.1 license")
+* [Wikipedia](http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License "Wikipedia")
 ***
