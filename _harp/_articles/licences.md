@@ -1,6 +1,3 @@
-## Popular free and open source licenses 
-> "Liberty is the right to do what I like; license, the right to do what you like." --Bertrand Russel
-
 It is important to understand the difference between owning the copyright and licensing the code. Copyright is the set of exclusive rights granted to the author or creator of an original work, including the right to copy, distribute and adapt the work. A license defines the rights and privileges the copyright holder grants to the others; how the work can be used, modified and redistributed. 
 
 A license is a contract. This contract can define rights, obligations and restrictions. Since business and people are difficult, there appears to be a need for a multitude of different licenses. 
@@ -17,10 +14,7 @@ There are of course other considerations. Free Software Foundation (FSF) maintai
 
 Further reading:
 
-[The Open Source Definition by OSI](http://opensource.org/osd-annotated "The Open Source Definition")
-
-[The Osi Review process described](http://opensource.org/approval "The Osi Review process")
-
-[The OSI Board](http://opensource.org/board "The OSI Board")
-
-[FSF opinion on many licenses](http://www.gnu.org/licenses/license-list.html "FSF stand of licences")
+* [The Open Source Definition by OSI](http://opensource.org/osd-annotated "The Open Source Definition")
+* [The Osi Review process described](http://opensource.org/approval "The Osi Review process")
+* [The OSI Board](http://opensource.org/board "The OSI Board")
+* [FSF opinion on many licenses](http://www.gnu.org/licenses/license-list.html "FSF stand of licences")

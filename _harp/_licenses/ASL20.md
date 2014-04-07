@@ -12,12 +12,11 @@ Code under GPL version 3 and Apache License 2.0 can be combined, as long as the 
 
 Projects that have chosen Apache License 2.0:
 
-[Apache web server](http://httpd.apache.org/ "Apache httpd") among other [Apache projects](http://projects.apache.org/indexes/alpha.html "Alphabetical list of apache projects")
-
-[Android](http://source.android.com/source/licenses.html "Apache 2.0 license")
+* [Apache web server](http://httpd.apache.org/ "Apache httpd") among other [Apache projects](http://projects.apache.org/indexes/alpha.html "Alphabetical list of apache projects")
+* [Android](http://source.android.com/source/licenses.html "Apache 2.0 license")
 
 
 Further reading:
 
-[Apache 2.0 license template](http://opensource.org/licenses/Apache-2.0 "Apache 2.0 license")
+* [Apache 2.0 license template](http://opensource.org/licenses/Apache-2.0 "Apache 2.0 license")
 ***

@@ -10,17 +10,13 @@ Other changes relate to internationalization, how license violations are handled
 
 Projects that have chosen GPLv3:
 
-[Sencha](http://www.sencha.com/products/extjs/license/ "Sencha")
-
-[Drupal](https://drupal.org/licensing/faq/ "Drupal")
-
-[Samba](http://www.samba.org/samba/ "Samba")
-
-[GNU Make](http://www.gnu.org/software/make/ "GNU Make")
+* [Sencha](http://www.sencha.com/products/extjs/license/ "Sencha")
+* [Drupal](https://drupal.org/licensing/faq/ "Drupal")
+* [Samba](http://www.samba.org/samba/ "Samba")
+* [GNU Make](http://www.gnu.org/software/make/ "GNU Make")
 
 Further reading:
 
-[GPLv3 license template](http://opensource.org/licenses/GPL-3.0 "GPLv3 license")
-
-[Wikipedia](http://en.wikipedia.org/wiki/GPL#Version_3 "Wikipedia")
+* [GPLv3 license template](http://opensource.org/licenses/GPL-3.0 "GPLv3 license")
+* [Wikipedia](http://en.wikipedia.org/wiki/GPL#Version_3 "Wikipedia")
 ***

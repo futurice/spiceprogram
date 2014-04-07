@@ -8,10 +8,9 @@ Unlike strong copyleft licenses, code under the MPL may be combined with files u
 
 Projects that have chosen Mozilla Public License 2.0 (MPL-2):
 
-[Firefox](http://www.mozilla.org/en-US/firefox/ "Firefox") and other [Mozilla projects](http://www.mozilla.org/en-US/products/ "List of Mozilla products")
-
-[TimelineJS](https://github.com/NUKnightLab/TimelineJS/blob/master/LICENSE "MPL-2")
+* [Firefox](http://www.mozilla.org/en-US/firefox/ "Firefox") and other [Mozilla projects](http://www.mozilla.org/en-US/products/ "List of Mozilla products")
+* [TimelineJS](https://github.com/NUKnightLab/TimelineJS/blob/master/LICENSE "MPL-2")
 
 Further reading:
 
-[Mozilla Public License 2.0 license template](http://opensource.org/licenses/MPL-2.0 "Mozilla Public License  2.0")
+* [Mozilla Public License 2.0 license template](http://opensource.org/licenses/MPL-2.0 "Mozilla Public License  2.0")
