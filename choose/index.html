@@ -1,0 +1,26 @@
+---
+layout: default
+title: Spice Program - Choosing a license
+---
+
+<div class="container">
+
+    <div class="row centered">
+        <div class="col-md-12">
+            <img src="/assets/img/choose_big.svg" style="width: 500px;" />
+            <h1>Choosing a license</h1>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <p style="padding-bottom: 80px;" class="quote">"Liberty is the right to do what I like; license, the right to do what you like." --Bertrand Russel</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 top-level article">
+                {% capture choose %}{% include choose.md %}{% endcapture %}
+                {{ choose | markdownify }}
+        </div>
+    </div>
+</div>

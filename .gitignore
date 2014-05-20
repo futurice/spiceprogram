@@ -26,3 +26,4 @@ node_modules
 
 .tmp
 _harp/www
+_site

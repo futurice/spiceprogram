@@ -1,0 +1,29 @@
+---
+layout: default
+title: Spice Program - Short History of Open Source
+---
+
+<div class="fullscreen-cont">
+    <div class="fullscreen-img third">&nbsp;</div>
+    <div class="container content centered">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 top-level">
+                <h1>Short history of Open Source</h1>
+                <div>This chapter is largely a summary of the Wikipedia article on History of Free and open-source software, complemented with some information tidbits and shameless opinions.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+        <p class="quote">"'Free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,' not as in 'free beer'." --Richard M. Stallman</p>
+        </div>
+        <div class="col-sm-8 col-sm-offset-2 article">
+            {% capture licenses %}{% include history-present-future.md %}{% endcapture %}
+            {{ licenses | markdownify }}
+    </div>
+</div>
+
+{% include bottom-banner.html %}
