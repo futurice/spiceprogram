@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+
+    <body>
+        <header id="topnav">
+            <a href="http://www.futurice.com">
+                <img src="/futurice_logo_basic_rgb_no_text.svg" style="max-height: 100%;" />
+            </a>
+            <a id="menu" href="#">
+                <div class="burger">&#9776;</div>
+            </a>
+        </header>
+
+        <div id="sidebar-wrapper" class="hidden">
+
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#" style="float: right;" id="close">&#10006;</a></li>
+                <li><a href="/">Spice Program landing</a>
+                </li>
+                <li><a href="/choose">Choosing a license</a>
+                </li>
+                <li><a href="/licenses">Popular Open Source licenses</a>
+                </li>
+                <li><a href="/cc">Creative Commons</a>
+                </li>
+                <li><a href="/history">Brief history of OSS</a>
+                </li>
+                <li><a href="/why">Why are we doing this?</a>
+                </li>
+                <li><a href="/how">How to establish a similar program?</a>
+                </li>
+            </ul>
+        </div>
+        {{ content }}
+        <footer>
+            <p>Authored by Teemu Turunen, Matias Kirvel&auml; and <a href="https://github.com/mkirvela/spice-doc-source/graphs/contributors" alt="others">others</a>.</p>
+            <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+        </footer>
+
+    <script>
+    $("#menu").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("hidden");
+        $("body").toggleClass("pushed");
+    });
+    $("#close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("hidden");
+        $("body").toggleClass("pushed");
+    });
+    </script>
+    </body>
+</html>
