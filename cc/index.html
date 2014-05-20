@@ -1,0 +1,36 @@
+---
+layout: default
+title: Spice Program - Creative Commons
+---
+
+<div class="container">
+
+    <div class="row centered">
+        <div class="col-md-12">
+            <img src="/cc.svg" style="width: 500px;" />
+            <h1>Creative commons</h1>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <p style="padding-bottom: 80px;" class="quote">"Open source isn't about saving money, it's about doing more stuff, and getting incremental innovation with the finite budget you have." --Jim Whitehurst, CEO, Red Hat</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <nav class="col-md-4 sidebar">
+            <a href="/cc" class="licenses centered">
+                <h3>Creative Commons</h3>
+                <p>&rarr;What is Creative Commons? How can it be used?</p>
+            </a>
+            <a href="/choose" class="licenses centered">
+                <h3>Choosing a license</h3>
+                <p>&rarr;How to choose the best license for your work?</p>
+            </a>
+        </nav>
+        <div class="col-md-8 article">
+                {% capture cc %}{% include creative-commons.md %}{% endcapture %}
+                {{ cc | markdownify }}
+        </div>
+    </div>
+</div>

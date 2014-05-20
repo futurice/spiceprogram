@@ -1,0 +1,27 @@
+---
+layout: default
+title: Spice Program - Why are we doing this?
+---
+
+<div class="fullscreen-cont">
+    <div class="fullscreen-img fourth">&nbsp;</div>
+    <div class="container content centered">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 top-level">
+                <h1>Why are we doing this?</h1>
+                <div>Our company both advocates and benefits from making use of open source software when we build software solutions for our customers. It is the one ideology that the majority of our people subscribe to.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row" style="padding-top: 30px;">
+        <div class="col-sm-8 col-sm-offset-2 article">
+            {% capture why %}{% include why-bother.md %}{% endcapture %}
+            {{ why | markdownify }}
+        </div>
+    </div>
+</div>
+
+{% include bottom-banner.html %}

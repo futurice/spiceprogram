@@ -1,0 +1,70 @@
+---
+layout: default
+title: Spice Program - Popular open source licenses
+---
+
+<div class="container">
+
+    <div class="row centered">
+        <div class="col-md-12">
+            <img src="/popular.svg" style="width: 500px;" />
+            <h1>Popular and free open source licenses</h1>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <p style="padding-bottom: 80px;" class="quote">"'Free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,' not as in 'free beer'." --Richard M. Stallman</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <nav class="col-md-4 sidebar">
+            <ul class="menu">
+                <li><a href="#GPLv2">GNU General Public License, version 2.0 (GPLv2)</a></li>
+                <li><a href="#GPLv3">GNU General Public License, version 3.0 (GPLv3)</a></li>
+                <li><a href="#LGPL-11">GNU Lesser General Public License, version 2.1 (LGPL-2.1)</a></li>
+                <li><a href="#LGPL-30">GNU Lesser General Public License, version 3.0 (LGPL-3.0)</a></li>
+                <li><a href="#ASL20">Apache License (2.0)</a></li>
+                <li><a href="#MIT">MIT License</a></li>
+                <li><a href="#BSD3-Clause">BSD 3-Clause and 2-Clause</a></li>
+                <li><a href="#MPL2">Mozilla Public License 2.0 (MPL-2)</a></li>
+            </ul>
+            <a href="/cc" class="licenses centered">
+                <h3>Creative Commons</h3>
+                <p>&rarr;What is Creative Commons? How can it be used?</p>
+            </a>
+            <a href="/choosing" class="licenses centered">
+                <h3>Choosing a license</h3>
+                <p>&rarr;How to choose the best license for your work?</p>
+            </a>
+        </nav>
+        <div class="col-md-8 article">
+            <div>
+                {% capture licenses %}{% include licences.md %}{% endcapture %}
+                {{ licenses | markdownify }}
+                <div id="GPLv2">
+                {% capture gplv2 %}{% include GPLv2.md %}{% endcapture %}
+                {{ gplv2 | markdownify }}
+                </div>
+                <div id="GPLv3">
+                {% capture gplv3 %}{% include GPLv3.md %}{% endcapture %}
+                {{ gplv3 | markdownify }}
+                </div>
+                <div id="LGPL-11">
+                {% capture lgpl11 %}{% include LGPL-11.md %}{% endcapture %}
+                {{ lgpl11 | markdownify }}
+                </div>
+                {% capture lgpl30 %}{% include LGPL-30.md %}{% endcapture %}
+                {{ lgpl30 | markdownify }}
+                {% capture ASL20 %}{% include ASL20.md %}{% endcapture %}
+                {{ ASL20 | markdownify }}
+                {% capture MIT %}{% include MIT.md %}{% endcapture %}
+                {{ MIT | markdownify }}
+                {% capture bsd3clause %}{% include BSD3-Clause.md %}{% endcapture %}
+                {{ bsd3clause | markdownify }}
+                {% capture mpl2 %}{% include MPL2.md %}{% endcapture %}
+                {{ mpl2 | markdownify }}
+            </div>
+        </div>
+    </div>
+</div>
