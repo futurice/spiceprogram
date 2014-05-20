@@ -5,6 +5,8 @@ html, body {
     min-height: 100%;
     font-family:'Open Sans',sans-serif;
     font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 .fullscreen-cont {
