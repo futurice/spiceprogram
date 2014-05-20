@@ -334,6 +334,9 @@ span.date {
   list-style-type: disc;
 }
 
+.article p {
+  margin: 0 0 15px;
+}
 .article > img {
   max-width: 500px;
 }
