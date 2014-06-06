@@ -41,7 +41,8 @@ Instead we agreed that we can spend this much time (read: money) on the program 
 
 We are not saying that there couldn’t be proper measurable goals, just that we are unable to define them yet. Since we are exploring new territory here and we have a general agreement that the rewards may be  great, it makes sense to risk some limited amount of money. 
 
-So we went with this: 
+So we went with this:
+
 * Effort estimate for 2014/H1: 60 work days + separately agreed extra expenses 
 
 The 10 monthly work days cover the work of the core program team. On top of that there are plenty of  extra expenses, which are negotiated case by case. For these investments measurable goals may apply, eve with measurable return. 
