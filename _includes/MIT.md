@@ -1,4 +1,5 @@
-#### MIT License
+MIT License
+-----------
 
 The MIT License is a free software license originating at the Massachusetts Institute of Technology (MIT). It is a permissive free software license, meaning that it permits reuse within proprietary software provided all copies of the licensed software include a copy of the MIT License terms. Such proprietary software retains its proprietary nature even though it incorporates software under the MIT License. The license is also GPL-compatible, meaning that the GPL permits combination and redistribution with software that uses the MIT License.
 
@@ -14,4 +15,3 @@ Projects that have chosen MIT:
 Further reading:
 
 * [MIT license template](http://opensource.org/licenses/MIT "MIT license")
-***

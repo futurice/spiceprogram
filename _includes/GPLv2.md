@@ -1,4 +1,5 @@
-#### GNU General Public License, version 2.0 (GPLv2)
+GNU General Public License, version 2.0 (GPLv2)
+-----------------------------------------------
 
 The GNU General Public License is the most widely used free software license. 
 
@@ -16,4 +17,3 @@ Further reading:
 
 * [GPLv2 license template](http://opensource.org/licenses/GPL-2.0 "GPLv2 license")
 * [Wikipedia](http://en.wikipedia.org/wiki/GNU_General_Public_License#Version_2 "Wikipedia")
-***

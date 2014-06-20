@@ -7,6 +7,7 @@ html, body {
     font-size: 16px;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,0.8);
 }
 
 .fullscreen-cont {
@@ -99,7 +100,6 @@ background-color: transparent;
 position: fixed;
 z-index: 3;
 width: 100%;
-min-width: 480px;
 padding: 4px;
 height: 30px;
 }
@@ -132,7 +132,7 @@ div.burger {
   margin-right: -250px;
   right: 250px;
   width: 250px;
-  background: #000;
+  background: #f3f3f4;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -142,10 +142,6 @@ div.burger {
 
 #page-content-wrapper {
   width: 100%;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .sidebar-nav {
@@ -163,14 +159,14 @@ ul {
 }
 
 .sidebar-nav li a {
-  color: #999999;
+  color: #8e98a7;
   display: block;
   text-decoration: none;
 }
 
 .sidebar-nav li a:hover {
-  color: #fff;
-  background: rgba(255,255,255,0.2);
+  color: #d78227;
+  /*background: rgba(255,255,255,0.2);*/
   text-decoration: none;
 }
 
@@ -214,6 +210,14 @@ ul {
   padding: 20px;
 }
 
+a {
+  color: #D78227;
+}
+
+a:hover {
+  color: #8B3600;
+}
+/*
 @media (max-width:767px) {
 
 #wrapper {
@@ -244,7 +248,7 @@ ul {
 }
 
 }
-
+*/
 .arrow-box h3 {
   color: #d78227;
   font-weight: bolder;
@@ -265,12 +269,12 @@ border-left-color: #d78227;
 
 h1 {
   color: #d78227;
-  font-weight: 600;
-  font-size: 3.4em;
+  font-weight: 300;
+  font-size: 5.4em;
 }
 
 p.quote {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 300;
   margin-top: 40px;
   margin-bottom: 80px;
@@ -292,9 +296,6 @@ p.quote {
     background-color: rgb(229, 229, 242);
 }
 
-.odd {
-  margin-top: 20px;
-}
 .odd div:nth-child(odd) {
     background-color: rgb(229, 229, 242);
 }
@@ -330,15 +331,22 @@ span.date {
   font-size: 1.2em;
   line-height: 1.7;
   font-weight: 400;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.article > ul {
+ul {
+  list-style-type: none;
+}
+
+.article ul {
   list-style-type: disc;
 }
 
-.article p {
-  margin: 0 0 15px;
+.cc > ul {
+  list-style-type: none;
 }
+
 .article > img {
   max-width: 500px;
 }
@@ -346,7 +354,35 @@ span.date {
 .article h4 {
   font-weight: 700;
 }
+
 .caption {
   font-size: 0.6em;
   color: grey;
+  padding-top: 20px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+}
+
+.article p {
+  margin: 0 0 15px;
+}
+
+.cc img {
+  width: 50px;
+}
+
+.padded-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.beef {
+  font-size: 1.2em;
+  padding-top: 40px;
+}
+@media (max-width: 768px) { 
+  h1 { font-size: 3em; }
 }

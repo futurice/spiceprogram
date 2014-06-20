@@ -1,4 +1,5 @@
-#### BSD 3-Clause and 2-Clause
+BSD 3-Clause and 2-Clause
+-------------------------
 
 BSD licenses are a family of permissive free software licenses, imposing minimal restrictions on the redistribution of covered software. 
 
@@ -15,4 +16,3 @@ Further reading:
 
 * [BSD 3-Clause license template](http://opensource.org/licenses/BSD-3-Clause "BSD 3-Clause license")
 * [BSD 2-Clause license template](http://opensource.org/licenses/BSD-2-Clause "BSD 2-Clause license")
-***

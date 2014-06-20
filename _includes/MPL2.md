@@ -1,4 +1,5 @@
-#### Mozilla Public License 2.0 (MPL-2)
+Mozilla Public License 2.0 (MPL-2)
+----------------------------------
 
 This is a lenient license used by the Mozilla Corporation that allows you a variety of explicit freedoms with the software so long as you keep it open source, under this license. It is a good midway license; it isn't very strict and has only straightforward requirements.
 

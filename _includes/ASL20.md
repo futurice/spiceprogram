@@ -1,4 +1,5 @@
-#### Apache License (2.0)
+Apache License (2.0)
+--------------------
 
 The Apache License is a free software license written by the Apache Software Foundation (ASF). The Apache License requires preservation of the copyright notice and disclaimer. 
 
@@ -19,4 +20,3 @@ Projects that have chosen Apache License 2.0:
 Further reading:
 
 * [Apache 2.0 license template](http://opensource.org/licenses/Apache-2.0 "Apache 2.0 license")
-***

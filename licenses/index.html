@@ -11,7 +11,7 @@ title: Spice Program - Popular open source licenses
             <h1>Popular and free open source licenses</h1>
         </div>
         <div class="col-md-8 col-md-offset-2">
-            <p style="padding-bottom: 80px;" class="quote">"'Free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,' not as in 'free beer'." --Richard M. Stallman</p>
+            <p style="padding-bottom: 80px;" class="quote">"'Free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,' not as in 'free beer'."<br />&mdash;Richard M. Stallman</p>
         </div>
     </div>
 </div>
@@ -43,27 +43,37 @@ title: Spice Program - Popular open source licenses
                 {% capture licenses %}{% include licences.md %}{% endcapture %}
                 {{ licenses | markdownify }}
                 <div id="GPLv2">
-                {% capture gplv2 %}{% include GPLv2.md %}{% endcapture %}
-                {{ gplv2 | markdownify }}
+                    {% capture gplv2 %}{% include GPLv2.md %}{% endcapture %}
+                    {{ gplv2 | markdownify }}
                 </div>
                 <div id="GPLv3">
-                {% capture gplv3 %}{% include GPLv3.md %}{% endcapture %}
-                {{ gplv3 | markdownify }}
+                    {% capture gplv3 %}{% include GPLv3.md %}{% endcapture %}
+                    {{ gplv3 | markdownify }}
                 </div>
                 <div id="LGPL-11">
-                {% capture lgpl11 %}{% include LGPL-11.md %}{% endcapture %}
-                {{ lgpl11 | markdownify }}
+                    {% capture lgpl11 %}{% include LGPL-11.md %}{% endcapture %}
+                    {{ lgpl11 | markdownify }}
                 </div>
-                {% capture lgpl30 %}{% include LGPL-30.md %}{% endcapture %}
-                {{ lgpl30 | markdownify }}
-                {% capture ASL20 %}{% include ASL20.md %}{% endcapture %}
-                {{ ASL20 | markdownify }}
-                {% capture MIT %}{% include MIT.md %}{% endcapture %}
-                {{ MIT | markdownify }}
-                {% capture bsd3clause %}{% include BSD3-Clause.md %}{% endcapture %}
-                {{ bsd3clause | markdownify }}
-                {% capture mpl2 %}{% include MPL2.md %}{% endcapture %}
-                {{ mpl2 | markdownify }}
+                <div id="LGPL-30">
+                    {% capture lgpl30 %}{% include LGPL-30.md %}{% endcapture %}
+                    {{ lgpl30 | markdownify }}
+                </div>
+                <div id="ASL20">
+                    {% capture ASL20 %}{% include ASL20.md %}{% endcapture %}
+                    {{ ASL20 | markdownify }}
+                </div>
+                <div id="MIT">
+                    {% capture MIT %}{% include MIT.md %}{% endcapture %}
+                    {{ MIT | markdownify }}
+                </div>
+                <div id="BSD3-Clause">
+                    {% capture bsd3clause %}{% include BSD3-Clause.md %}{% endcapture %}
+                    {{ bsd3clause | markdownify }}
+                </div>
+                <div id="MPL2">
+                    {% capture mpl2 %}{% include MPL2.md %}{% endcapture %}
+                    {{ mpl2 | markdownify }}
+                </div>
             </div>
         </div>
     </div>
