@@ -50,7 +50,7 @@ Budget can at least be expressed in numbers
 -------------------------------------------
 After establishing that proper ROI calculations will be in the distant future, we agreed with our sponsor that we can spend a certain amount of time (read: money) on this program during the first six months (H1/2014).
 
-Effort estimate for 2014/H1: 60 work days + separately agreed extra expenses
+> Effort estimate for 2014/H1: 60 work days + separately agreed extra expenses
  
 If at the end of that period we cannot make a plausible argument on how at least some of these goals have been advanced, or present alternative acceptable goals that have, oh well. Bury the program or pivot away.
 
