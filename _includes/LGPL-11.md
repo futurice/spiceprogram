@@ -1,4 +1,5 @@
-#### GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+---------------------------------------------------------
 
 The LGPL is a compromise between the strong copyleft of GPL and permissive licenses such as the BSD and MIT.  It is primarily used for software libraries, although it is also used by some stand-alone applications. Developers and companies can use and integrate LGPL software into their own (even proprietary) software without being required to release the source code of their own parts.
 
@@ -16,4 +17,3 @@ Further reading:
 
 * [LGPL-2.1 license template](http://opensource.org/licenses/LGPL-2.1 "LGPL-2.1 license")
 * [Wikipedia](http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License "Wikipedia")
-***

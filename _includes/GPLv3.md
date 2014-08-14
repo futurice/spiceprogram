@@ -1,4 +1,5 @@
-#### GNU General Public License, version 3.0 (GPLv3)
+GNU General Public License, version 3.0 (GPLv3)
+-----------------------------------------------
 
 The third version of the license (GNU GPLv3) was released to address some perceived problems with the second version (GNU GPLv2). GPLv3 was written by Richard Stallman with legal counsel. 
 
@@ -19,4 +20,3 @@ Further reading:
 
 * [GPLv3 license template](http://opensource.org/licenses/GPL-3.0 "GPLv3 license")
 * [Wikipedia](http://en.wikipedia.org/wiki/GPL#Version_3 "Wikipedia")
-***

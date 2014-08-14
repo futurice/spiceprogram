@@ -1,10 +1,11 @@
-Brewing Freebeer
+Brewing Beer
 ================
 _by Teemu Turunen on 20th of May 2014_
 
 
 
-**Hello!**
+Hello!
+------
 
 Richard Stallman's famous quote explaining Free Software; To understand the concept, you should think of free as in free speech, not as in free beer, inevitably resulting in an open source beer recipe and several derivatives of it - see [http://freebeer.org](http://freebeer.org/ "Freebeer"). 
 
@@ -13,7 +14,7 @@ Richard Stallman's famous quote explaining Free Software; To understand the conc
 </div>
 <div class="row text-center">
     <div class="col-sm-7">
-        <img src="/assets/img/FREEBEER3.2_label.png" />
+        <img class="padded-img" src="/assets/img/FREEBEER3.2_label.png" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -60,7 +61,7 @@ We started the actual brewing by grinding the various malts with the hand grinde
 </div>
 <div class="row text-center">
     <div class="col-sm-7">
-        <img src="/assets/img/photo_1.jpg" />
+        <img class="padded-img" src="/assets/img/photo_1.jpg" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -115,4 +116,4 @@ Then we opened some and had a taste!
 
 [ kuva missä maistellaan bissee ]
 
-Great victory! Our beer is actually pretty good. Since some people use Untapped, you can also find it there: [Free Beer 4.0.1](https://untappd.com/b/spicebrew-free-beer-4-0-1/642919 "Free Beer 4.0.1")
+Great victory! Our beer is actually pretty good. Since some people use Untappd, you can also find it there: [Free Beer 4.0.1](https://untappd.com/b/spicebrew-free-beer-4-0-1/642919 "Free Beer 4.0.1")

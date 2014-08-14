@@ -13,14 +13,16 @@ These four parameters are used to define a total of six different licenses:
 
 [![Attribution CC BY](/assets/img/by.svg)](http://creativecommons.org/licenses/by/4.0/)
 
-**Attribution CC BY**
+Attribution CC BY
+-----------------
 
 This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
 
 [![Attribution-NoDerivs CC BY-ND](/assets/img/by.svg)](http://creativecommons.org/licenses/by-nd/4.0/)
 [![Attribution-NoDerivs CC BY-ND](/assets/img/nd.svg)](http://creativecommons.org/licenses/by-nd/4.0/)
 
-**Attribution-NoDerivs CC BY-ND**
+Attribution-NoDerivs CC BY-ND
+-----------------------------
 
 This license allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to you.
 
@@ -28,14 +30,16 @@ This license allows for redistribution, commercial and non-commercial, as long a
 [![Attribution-NonCommercial-ShareAlike](/assets/img/nc-eu.svg)](http://creativecommons.org/licenses/by-nd/4.0/)
 [![Attribution-NonCommercial-ShareAlike](/assets/img/sa.svg)](http://creativecommons.org/licenses/by-nd/4.0/)
 
-**Attribution-NonCommercial-ShareAlike CC BY-NC-SA**
+Attribution-NonCommercial-ShareAlike CC BY-NC-SA
+------------------------------------------------
 
 This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.
 
 [![Attribution-ShareAlike](/assets/img/by.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 [![Attribution-ShareAlike](/assets/img/sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-**Attribution-ShareAlike CC BY-SA**
+Attribution-ShareAlike CC BY-SA
+-------------------------------
 
 This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical
 terms. This license is often compared to "copyleft" free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.
@@ -43,7 +47,8 @@ terms. This license is often compared to "copyleft" free and open source softwar
 [![Attribution-NonCommercial](/assets/img/by.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
 [![Attribution-NonCommercial](/assets/img/nc-eu.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
 
-**Attribution-NonCommercial CC BY-NC**
+Attribution-NonCommercial CC BY-NC
+----------------------------------
 
 This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don't have to license their derivative works on the same terms.
 
@@ -51,7 +56,8 @@ This license lets others remix, tweak, and build upon your work non-commercially
 [![Attribution-NonCommercial-NoDerivs](/assets/img/nd.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Attribution-NonCommercial-NoDerivs](/assets/img/nc-eu.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-**Attribution-NonCommercial-NoDerivs CC BY-NC-ND**
+Attribution-NonCommercial-NoDerivs CC BY-NC-ND
+----------------------------------------------
 
 This license is the most restrictive of our six main licenses, only allowing others to download your works and share them with others as long as they credit you, but they can't change them in any way or use them commercially.
 
