@@ -53,7 +53,7 @@ So on February 26th 2014 we gathered to our Designated Brewing Laboratory, aka a
 Liquid yeast was our pick, so we extracted it from the fridge three hours before the actual brewing started. A newbie mistake was made; you activate the liquid yeast by “punching” the bag, breaking a smaller bag inside it. This was done while the yeast was still very cold, 
 resulting in the yeast failing to activate. This caused us some unnecessary distress later...
 
-> Fun fact
+> **Fun fact**
 
 > I was going to write a "fun fact" segment on beer brewing, then I found this: 
 
