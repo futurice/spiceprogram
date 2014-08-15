@@ -110,10 +110,19 @@ I am happy with this and so are the others in our small task force. Yeah!
 
 The next step was to present this to a few select people heavily involved in customer work... account management... business proposals. I try to dance around and avoid saying sales, but that is precisely what I am talking about. 
 
-Sales reaction
---------------
+Sales reaction and the Finnish translation
+------------------------------------------
 
 This wasn't really a hurdle at all, at least not yet. Perhaps not so surprising considering I and Mikko both have done a lot of it in the past. We sent the fifth draft to two guys, and they both said let's run with it.
+
+They did point out that we need a version in Finnish, since their customers are here and the contracts are in our language mainly. So I translated, Jorma corrected it a bit, and Bob's your uncle:
+
+> Niissä hankkeissa, joissa käytetään avoimen lähdekoodin komponentteja, kaikki tällaisessa hankkeessa laaditut korjaukset ja toiminnalliset parannukset avoimen lähdekoodin komponentteihin voidaan julkistaa Futuricen ja sen kehittäjien toimesta kyseisen komponentin lisenssiehtojen mukaisesti. Ohjelmakoodin lisäksi julkaistava työ voi sisältää dokumentaatiota, testejä, graafikkaa tai muita tuotoksia, jotka vaaditaan hyväksyttävään kontribuutioon. Futurice varmistaa ennen julkaisujen tekemistä, ettei asiakkaan liikesalaisuuksiksi luokiteltavaa toiminnallisuutta tai tietoa paljasteta julkaisun yhteydessä.
+
+> Korjaukset ja toiminnalliset parannukset julkaisemalla Futurice pyrkii varmistamaan, että nämä muutokset löytyvät myös kyseisten komponenttien uusista versioista. Tämä tekee päivitykset helpommaksi ja madaltaa kokonaisratkaisun ylläpitokustannuksia. Julkaisuun vaadittava työ katsotaan normaaliksi projektityöksi ja se priorisoidaan kuten muukin projektissa tehtävä työ.
+
+
+
 
 
 
