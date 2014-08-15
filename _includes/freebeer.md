@@ -54,11 +54,11 @@ Liquid yeast was our pick, so we extracted it from the fridge three hours before
 resulting in the yeast failing to activate. This caused us some unnecessary distress later...
 
 > **Fun fact**
-
+>
 > I was going to write a "fun fact" segment on beer brewing, then I found this: 
-
+>
 > [Twenty Things Worth Knowing About Beer by Oatmeal](http://theoatmeal.com/comics/beer "Oatmeal")
-
+>
 > Now I can waste the time I allocated for this, and have a beer instead. 
 
 We started the actual brewing by grinding the various malts with the hand grinder. Kind of hard work, even with the modest amount that we are making. For larger batches or frequent use, it might make sense to integrate an electric drill with the grinder, as Rauli suggested. 
