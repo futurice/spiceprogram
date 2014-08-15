@@ -125,7 +125,7 @@ The bottles were then left into room temperature for nine days, the idea being t
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/bottles.jpg" />
+        <img class="padded-img" src="/assets/img/flindat.jpg" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
