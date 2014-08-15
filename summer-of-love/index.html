@@ -1,0 +1,26 @@
+---
+layout: default
+title: Spice Program - How to establish a similar program?
+---
+
+<div class="container content centered">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 top-level">
+            <h1>Header text</h1>
+            <div>Short description of this section</div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p class="quote">"Quote, if one is needed" --Quoter</p>
+        </div>
+        <div class="col-md-8 col-md-offset-2 article">
+            {% capture summer-of.love %}{% include summer-of-love.md %}{% endcapture %}
+            {{ summer-of-love | markdownify }}
+    </div>
+</div>
+
+{% include bottom-banner.html %}
