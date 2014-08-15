@@ -28,9 +28,9 @@ First draft
 
 Here goes, version point one!
 
-_Fixes and enhancements to any open sourced components used by the project and created as part of the project work, can be published under the same license by the developers, to ascertain the changes will be merged to any future versions of the component. This will make subcomponent upgrades easier and reduce the cost of maintaining the solution. The act of publishing the fix or enhancement is considered normal project work._
+> Fixes and enhancements to any open sourced components used by the project and created as part of the project work, can be published under the same license by the developers, to ascertain the changes will be merged to any future versions of the component. This will make subcomponent upgrades easier and reduce the cost of maintaining the solution. The act of publishing the fix or enhancement is considered normal project work.
 
-_This includes potential changes to the fix or enhancement requested by the maintainers of the open sourced component, prior to accepting and merging the contribution._
+> This includes potential changes to the fix or enhancement requested by the maintainers of the open sourced component, prior to accepting and merging the contribution.
 
 Well that wasn't so hard. Thirty minutes by one uni-drop-out That's a pretty solid contract term, right? 
 
@@ -46,16 +46,16 @@ Review started with our contributor extraordinary, Mr Jarva, M.Sc. (Tech.).
 * Open source, not open sourced
 * "Under the same license" is too vague
 
-No point to go further with this one. 
+Needs work!
 
 Second draft
 ------------
 
-_Fixes and enhancements to any open source components used in the project, created as part of the project work, can be published under the component's license by the developers._
+> Fixes and enhancements to any open source components used in the project, created as part of the project work, can be published under the component's license by the developers.
 
-_By doing so we will ascertain that the changes will be merged upstream; that they will become a part of any future releases of the component. This will make sub-component upgrades easier and reduce the cost of maintaining the solution._
+> By doing so we will ascertain that the changes will be merged upstream; that they will become a part of any future releases of the component. This will make sub-component upgrades easier and reduce the cost of maintaining the solution.
 
-_The effort required to publish the change is considered normal project work. In addition to code, the work to be published may include documentation, tests, graphics or other relevant deliverables._
+> The effort required to publish the change is considered normal project work. In addition to code, the work to be published may include documentation, tests, graphics or other relevant deliverables.
 
 "Much better!", says Olli, pointing out that "relevant" is a term too generic. So a couple more refinements required...
 
@@ -64,11 +64,11 @@ Third draft
 
 This version was presented to the Futurice partner and corporate sponsor of the OSS program, Mikko Viikari:
 
-_Fixes and enhancements to any open source components used in the project, created as part of the project work, can be published under the component's license by the developers._
+> Fixes and enhancements to any open source components used in the project, created as part of the project work, can be published under the component's license by the developers.
 
-_By doing so we will ensure that the changes will be merged upstream - that they will become a part of any future releases of the component. This will make upgrades easier and reduce the cost of maintaining the solution._
+> By doing so we will ensure that the changes will be merged upstream - that they will become a part of any future releases of the component. This will make upgrades easier and reduce the cost of maintaining the solution.
 
-_The effort required to publish the change is considered normal project work. In addition to code, the work to be published may include documentation, tests, graphics or other deliverables required to make an acceptable contribution._
+> The effort required to publish the change is considered normal project work. In addition to code, the work to be published may include documentation, tests, graphics or other deliverables required to make an acceptable contribution.
 
 Comments from Mikko:
 
@@ -87,28 +87,38 @@ Mikko and Olli were happy with this, so on to the next challenge. A big one! The
 
 Here's what I sent:
 
-_Fixes and enhancements to any open source components used in the project, created as part of the project work, can be published by the developers under the component's license_
+> Fixes and enhancements to any open source components used in the project, created as part of the project work, can be published by the developers under the component's license
 
-_The enhancements are functional, generally useful improvements. Functionality or information that could be considered a trade secret will be excluded._
+> The enhancements are functional, generally useful improvements. Functionality or information that could be considered a trade secret will be excluded.
 
-_By publishing the fixes and enhancements we will ensure that these changes will become a part of any future releases of the component. This will make upgrades easier and reduce the cost of maintaining the solution._
+> By publishing the fixes and enhancements we will ensure that these changes will become a part of any future releases of the component. This will make upgrades easier and reduce the cost of maintaining the solution.
 
-_The effort required to publish the change is considered normal project work and prioritized like any other tasks in the project._
+> The effort required to publish the change is considered normal project work and prioritized like any other tasks in the project.
 
-_In addition to code, the work to be published may include documentation, tests, graphics or other deliverables required to make an acceptable open source contribution._
+> In addition to code, the work to be published may include documentation, tests, graphics or other deliverables required to make an acceptable open source contribution.
 
 Fifth draft
 -----------
 
 Here's how Jorma countered:
 
-_Where the Parties have agreed that open source components can be used in the project, all fixes and functional enhancements to any such open source components created as part of the project work can be published by Futurice and its the developers under the respective open source component's license. In addition to code, the work to be published may include documentation, tests, graphics or other deliverables required to make an acceptable open source contribution. When publishing material Futurice and its developers will ensure that no functionality or information that is considered customer’s trade secret will be published._
+> Where the Parties have agreed that open source components can be used in the project, all fixes and functional enhancements to any such open source components created as part of the project work can be published by Futurice and its the developers under the respective open source component's license. In addition to code, the work to be published may include documentation, tests, graphics or other deliverables required to make an acceptable open source contribution. When publishing material Futurice and its developers will ensure that no functionality or information that is considered customer’s trade secret will be published.
 
-_By publishing the fixes and enhancements Futurice will ensure that these changes may become a part of any future releases of the component. This will make upgrades easier and reduce the cost of maintaining the solution. The effort required to publish the change is considered normal project work and prioritized like any other tasks in the project._
+> By publishing the fixes and enhancements Futurice will ensure that these changes may become a part of any future releases of the component. This will make upgrades easier and reduce the cost of maintaining the solution. The effort required to publish the change is considered normal project work and prioritized like any other tasks in the project.
 
 I am happy with this and so are the others in our small task force. Yeah!
 
 The next step was to present this to a few select people heavily involved in customer work... account management... business proposals. I try to dance around and avoid saying sales, but that is precisely what I am talking about. 
+
+Reaction of sales
+-----------------
+
+This wasn't really a hurdle at all, at least not yet. Perhaps not so surprising considering I and Mikko both have done a lot of it in the past. We sent the fifth draft to two guys, and they both said let's run with it.
+
+
+
+
+
 
 
 
