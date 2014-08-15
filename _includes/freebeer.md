@@ -114,6 +114,13 @@ After nine days the bottles (of which none had exploded, which is a very good th
 
 Then we opened some and had a taste! 
 
-[ kuva missä maistellaan bissee ]
+<div class="row text-center">
+    <div class="col-sm-7">
+        <img class="padded-img" src="/assets/img/tastings.jpg" />
+    </div>
+</div>
+<div class="col-xs-12 visible-xs caption text-center">
+    Caption?
+</div>
 
 Great victory! Our beer is actually pretty good. Since some people use Untappd, you can also find it there: [Free Beer 4.0.1](https://untappd.com/b/spicebrew-free-beer-4-0-1/642919 "Free Beer 4.0.1")
