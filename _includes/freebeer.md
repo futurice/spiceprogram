@@ -1,6 +1,6 @@
 Brewing Beer
 ================
-_by Teemu Turunen on 15th of Sep 2014_
+_by Teemu Turunen on 15th of Oct 2014_
 
 
 
