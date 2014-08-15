@@ -1,6 +1,6 @@
 Brewing Beer
 ================
-_by Teemu Turunen on 20th of May 2014_
+_by Teemu Turunen on 15th of Sep 2014_
 
 
 
@@ -39,11 +39,11 @@ Here’s what the fundamental components look like:
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/equipment.jpg" />
+        <img class="padded-img" src="/assets/img/setti.jpg" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
-    Caption?
+    Brewferm Electric beginner set, we can recommend this
 </div>
 
 Upon receiving the kit we had no idea on how to use them; fortunately they came with good instructions.
@@ -63,9 +63,6 @@ resulting in the yeast failing to activate. This caused us some unnecessary dist
 
 We started the actual brewing by grinding the various malts with the hand grinder. Kind of hard work, even with the modest amount that we are making. For larger batches or frequent use, it might make sense to integrate an electric drill with the grinder, as Rauli suggested. 
 
-<div class="col-sm-2 col-sm-pull-2 hidden-xs caption text-right">
-    At first the grinding was captivating and fun. But there was a lot of things to grind..
-</div>
 <div class="row text-center">
     <div class="col-sm-7">
         <img class="padded-img" src="/assets/img/photo_1.jpg" />
@@ -113,11 +110,29 @@ A week later the bin was silent again, and it was time for bottling! We had coll
 
 Bottling turned out to be very easy as well. We added 90 grams of sugar into the wort… wait… just now that I am writing this I realize that we should have used less; the recipe had 90 grams for 22.7 liters, whereas we only had 14 liters! /_\
 
-Anyway, we added 90 grams of sugar into the wort and then siphoned it straight from the fermenting bin into the bottles and sealed them with the crown corks that came with the kit. We were careful to leave the sediment into the fermenting bin. 
+Anyway, we added 90 grams of sugar into the wort and then siphoned it straight from the fermenting bin into the bottles and sealed them with the crown corks that came with the kit. We were careful to leave the sediment into the fermenting bin.
+
+<div class="row text-center">
+    <div class="col-sm-7">
+        <img class="padded-img" src="/assets/img/bottling.jpg" />
+    </div>
+</div>
+<div class="col-xs-12 visible-xs caption text-center">
+    A serious man, a serious business
+</div>
 
 The bottles were then left into room temperature for nine days, the idea being that the additional sugar re-activates the yeast and while we get more alcohol, the beer also gets carbonated. The option here would be to use a keg and so called force carbonation, but we’re not that pro yet. 
 
-After nine days the bottles (of which none had exploded, which is a very good thing) were moved into the refrigerator and kept there for three weeks. 
+<div class="row text-center">
+    <div class="col-sm-7">
+        <img class="padded-img" src="/assets/img/bottles.jpg" />
+    </div>
+</div>
+<div class="col-xs-12 visible-xs caption text-center">
+    That beautiful thing is my bike. 
+</div>
+
+After nine days the bottles (of which none had exploded, which was a very good thing) were moved into the refrigerator and kept there for three weeks. 
 
 Then we opened some and had a taste! 
 
