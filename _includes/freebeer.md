@@ -68,8 +68,9 @@ We started the actual brewing by grinding the various malts with the hand grinde
         <img class="padded-img" src="/assets/img/photo_1.jpg" />
     </div>
 </div>
+
 <div class="col-xs-12 visible-xs caption text-center">
-    At first the grinding was captivating and fun. But there was a lot of things to grind..
+    At first the grinding was captivating and fun. But there was a lot to grind..
 </div>
 
 While the grinding was commencing, 13.5 liters of water was added into brew kettle and the heater was turned on. When the water appeared to be at 66 degrees Celcius, we added the ground malts and tried to keep it at that exact temperature for a full hour. This required almost constant stirring with the hilariously large spoon that came with the kit. 
