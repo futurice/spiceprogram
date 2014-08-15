@@ -83,9 +83,9 @@ This discussion lead to the next version.
 Fourth draft
 ------------
 
-Mikko and Olli were happy with this, so on to the next challenge. A big one! The Legal. 
+Mikko and Olli were happy with this, so on to the next challenge. A big one! The Legal. Here we get help from Jorma Vartia, a Futurice board member. Pretty awesome to have someone with so much experience to weigh in, without having to actually pay for it!
 
-Here's what I sent:
+Here's what I sent to Jorma:
 
 > Fixes and enhancements to any open source components used in the project, created as part of the project work, can be published by the developers under the component's license
 
@@ -100,7 +100,7 @@ Here's what I sent:
 Fifth draft
 -----------
 
-Here's how Jorma countered:
+Mr. Vartia responded delightfully soon with a new version:
 
 > Where the Parties have agreed that open source components can be used in the project, all fixes and functional enhancements to any such open source components created as part of the project work can be published by Futurice and its the developers under the respective open source component's license. In addition to code, the work to be published may include documentation, tests, graphics or other deliverables required to make an acceptable open source contribution. When publishing material Futurice and its developers will ensure that no functionality or information that is considered customer’s trade secret will be published.
 
@@ -110,8 +110,8 @@ I am happy with this and so are the others in our small task force. Yeah!
 
 The next step was to present this to a few select people heavily involved in customer work... account management... business proposals. I try to dance around and avoid saying sales, but that is precisely what I am talking about. 
 
-Reaction of sales
------------------
+Sales reaction
+--------------
 
 This wasn't really a hurdle at all, at least not yet. Perhaps not so surprising considering I and Mikko both have done a lot of it in the past. We sent the fifth draft to two guys, and they both said let's run with it.
 
