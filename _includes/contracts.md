@@ -1,7 +1,9 @@
+For the impatient: If you just want to see the contract terms we have created, you can find them at [LINK]
+
 The mission
 -----------
 
-The world should work like this: When in customer project context we make fixes and enhancements to open sourced components, libraries and frameworks, we are allowed to commit our work to those projects.
+The world should work like this: When in customer project context we make fixes and enhancements to open sourced components, libraries and frameworks, we are allowed to commit our work to those projects, to improve their quality.
  
 However, usually we have an umbrella clause in our contracts stating that all IPR belongs to the customer. Publishing anything would go against this. It is done in some projects, sometimes suggested by our wonderful customers, but overall it seems rare. It is safe to assume this is the case with most companies designing, developing and maintaining digital services for others. 
  
@@ -10,35 +12,35 @@ Thus, to accomplish a better world, we need well written contractual terms that 
 Some considerations
 -------------------
  
-The contractual terms should withstand juridically. For this we will need to have a lawyer review. 
+The contractual terms must hold legally. For this we will need to have a lawyer review. 
 
-However, they must also be clear and intuitive enough for the commoners to understand. If the text reads like scary legalese, no customer will sign. This was confirmed by our colleague Olli-Pekka Saksa, a salesman by trade and inclination, while we briefly discussed this subject with him.
+However, they must be clear and intuitive enough for the commoner to understand. If the text reads scary legalese, no customer will sign. This was confirmed by our colleague Olli-Pekka Saksa, a salesman by trade and inclination, while we briefly discussed this subject with him.
 
-Our juridically inclined colleague Olli Jarva suggested that we could perhaps have a wider term and a narrower term. This seems reasonable; if the customer has doubts about the wider term, we can fallback on the narrower and still accomplish some things of wonder. 
+Our juridically un-challenged colleague Olli Jarva suggested that we could perhaps have a wider term and a narrower term. This seems reasonable; if the customer has doubts about the wider term, we can fallback on the narrower and still accomplish some things of wonder. 
 
 What we create, we will share with the world - that goes without saying. But I do like saying it. The licensing term probably has to be CC0, or "No Rights Reserved", since we can't really assume that other companies in our line of business could give us appropriate credit on their contracts... We sure don't mind if you do!
 
 Pre-study
 ---------
  
-An extensive study (Google and two pints of beer) suggests that good contractual terms for this purpose are not easily available in the internet. In fact we didn't really find anything that would work. We kind of assumed this might be the case in Finnish, but could not find any in English either. That's all the more reason to create something ourselves. 
+An extensive study (Google and two pints of beer) suggests that good contractual terms for this purpose are not easily available in the internet. In fact we didn't really find anything that would work. We kind of assumed this might be the case in Finnish, but could not find any in English either. All the more reason to create something ourselves. 
 
 First draft
 -----------
 
-Here goes, version point one!
+Here goes, version point one! 
 
 > Fixes and enhancements to any open sourced components used by the project and created as part of the project work, can be published under the same license by the developers, to ascertain the changes will be merged to any future versions of the component. This will make subcomponent upgrades easier and reduce the cost of maintaining the solution. The act of publishing the fix or enhancement is considered normal project work.
 
 > This includes potential changes to the fix or enhancement requested by the maintainers of the open sourced component, prior to accepting and merging the contribution.
 
-Well that wasn't so hard. Thirty minutes by one uni-drop-out That's a pretty solid contract term, right? 
+Well that wasn't so hard. Thirty minutes by a layman. That's a pretty solid contract term, right? 
 
-WRONG. It is THE WORST. Well maybe not the worst, but perhaps I should have stayed in the university. 
+WRONG. It is THE WORST. Well maybe not the worst, but perhaps I shouldn't have dropped out of the university. 
 
 Let's dissect, shall we...
 
-Review started with our contributor extraordinary, Mr Jarva, M.Sc. (Tech.).
+Review started with our already introduced contributor extraordinaire, Mr Jarva, M.Sc. (Tech.).
 
 * First chapter is confusing, it gives the impression that everything is included
 * Upstream is a common term, should maybe be used
@@ -46,7 +48,7 @@ Review started with our contributor extraordinary, Mr Jarva, M.Sc. (Tech.).
 * Open source, not open sourced
 * "Under the same license" is too vague
 
-Needs work!
+Needs work! 
 
 Second draft
 ------------
@@ -108,22 +110,20 @@ Mr. Vartia responded delightfully soon with a new version:
 
 I am happy with this and so are the others in our small task force. Yeah!
 
-The next step was to present this to a few select people heavily involved in customer work... account management... business proposals. I try to dance around and avoid saying sales, but that is precisely what I am talking about. 
+The next step was to present this to a few select people heavily involved in customer work... account management... business proposals. For some reason I try to dance around saying sales, but that is precisely what I am talking about. 
 
 Sales reaction and the Finnish translation
 ------------------------------------------
 
-This wasn't really a hurdle at all, at least not yet. Perhaps not so surprising considering I and Mikko both have done a lot of it in the past. We sent the fifth draft to two guys, and they both said let's run with it.
+This wasn't really a hurdle at all, at least not yet. We sent the fifth draft to two guys, and they both agreed to run with it.
 
-They did point out that we need a version in Finnish, since their customers are here and the contracts are in our language mainly. So I translated, Jorma corrected it a bit, and Bob's your uncle:
+They did point out that we need a version in Finnish, since their customers are here and the contracts are mainly in our local exotic language. So I translated, Jorma corrected it a bit, and Bob's your uncle:
 
 > Niissä hankkeissa, joissa käytetään avoimen lähdekoodin komponentteja, kaikki tällaisessa hankkeessa laaditut korjaukset ja toiminnalliset parannukset avoimen lähdekoodin komponentteihin voidaan julkistaa Futuricen ja sen kehittäjien toimesta kyseisen komponentin lisenssiehtojen mukaisesti. Ohjelmakoodin lisäksi julkaistava työ voi sisältää dokumentaatiota, testejä, graafikkaa tai muita tuotoksia, jotka vaaditaan hyväksyttävään kontribuutioon. Futurice varmistaa ennen julkaisujen tekemistä, ettei asiakkaan liikesalaisuuksiksi luokiteltavaa toiminnallisuutta tai tietoa paljasteta julkaisun yhteydessä.
 
 > Korjaukset ja toiminnalliset parannukset julkaisemalla Futurice pyrkii varmistamaan, että nämä muutokset löytyvät myös kyseisten komponenttien uusista versioista. Tämä tekee päivitykset helpommaksi ja madaltaa kokonaisratkaisun ylläpitokustannuksia. Julkaisuun vaadittava työ katsotaan normaaliksi projektityöksi ja se priorisoidaan kuten muukin projektissa tehtävä työ.
 
-
-
-
+This was presented to two of our customers. 
 
 
 
