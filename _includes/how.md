@@ -78,7 +78,14 @@ We combined this with the forms of communication. While I (Teemu) sit alone in a
 
 In addition it is necessary to have someone with credibility and enthusiasm for the company strategy invested in the program.
 
-KUVA
+<div class="row text-center">
+    <div class="col-sm-7">
+        <img class="padded-img" src="/assets/img/team-png" />
+    </div>
+</div>
+<div class="col-xs-12 visible-xs caption text-center">
+    SPICE program kickoff team
+</div>
 
 Our initial line-up, taken from our official internal program presentation
 
@@ -112,7 +119,14 @@ The program can have a fancy concept and an idealistic manifesto but it will not
 
 It’s been easy to think of stuff to do. Quite quickly we realized that it’s a good idea to categorize our activities; the categories being such that they reflect the program goals. Using the color coding in Trello we can then see at a glance what we suspect deep within – we are mainly concentrating on the Fun Stuff, and making much less headway with the Soul-wrenchingly Difficult Stuff. Our categories look like this, they haven’t changed since we first defined them:
 
-KUVA
+<div class="row text-center">
+    <div class="col-sm-7">
+        <img class="padded-img" src="/assets/img/activities.png" />
+    </div>
+</div>
+<div class="col-xs-12 visible-xs caption text-center">
+    Base categories for all program activities
+</div>
 
 The categories are perhaps not self-evident, so here goes, with actual example activities. Check the program timeline to get an understanding on the whole.
 
