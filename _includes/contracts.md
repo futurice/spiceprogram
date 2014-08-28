@@ -1,4 +1,28 @@
-For the impatient: If you just want to see the contract terms we have created, you can find them at [LINK]
+The latest versions of the contract terms in English and Finnish. See the article below for more information on what we are talking about here. Note that we have waived the copyright for these license terms. Please feel free to make use of them, no need to mention us. 
+
+> Where the Parties have agreed that open source components can be used in the project, all fixes and functional enhancements to any such open source components created as part of the project work can be published by [YOUR COMPANY] and its the developers under the respective open source component's license. In addition to code, the work to be published may include documentation, tests, graphics or other deliverables required to make an acceptable open source contribution. When publishing material [YOUR COMPANY] and its developers will ensure that no functionality or information that is considered customer’s trade secret will be published.
+
+> By publishing the fixes and enhancements [YOUR COMPANY] will ensure that these changes may become a part of any future releases of the component. This will make upgrades easier and reduce the cost of maintaining the solution. The effort required to publish the change is considered normal project work and prioritized like any other tasks in the project.
+
+And in Finnish:
+
+> Niissä hankkeissa, joissa käytetään avoimen lähdekoodin komponentteja, kaikki tällaisessa hankkeessa laaditut korjaukset ja toiminnalliset parannukset avoimen lähdekoodin komponentteihin voidaan julkistaa [YRITYKSESI] ja sen kehittäjien toimesta kyseisen komponentin lisenssiehtojen mukaisesti. Ohjelmakoodin lisäksi julkaistava työ voi sisältää dokumentaatiota, testejä, graafikkaa tai muita tuotoksia, jotka vaaditaan hyväksyttävään kontribuutioon. [YRITYKSESI] varmistaa ennen julkaisujen tekemistä, ettei asiakkaan liikesalaisuuksiksi luokiteltavaa toiminnallisuutta tai tietoa paljasteta julkaisun yhteydessä.
+
+> Korjaukset ja toiminnalliset parannukset julkaisemalla [YRITYKSESI] pyrkii varmistamaan, että nämä muutokset löytyvät myös kyseisten komponenttien uusista versioista. Tämä tekee päivitykset helpommaksi ja madaltaa kokonaisratkaisun ylläpitokustannuksia. Julkaisuun vaadittava työ katsotaan normaaliksi projektityöksi ja se priorisoidaan kuten muukin projektissa tehtävä työ.
+
+The following waiving of copyright covers only the above contract terms in English and Finnish. 
+
+<p xmlns:dct="http://purl.org/dc/terms/">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <span rel="dct:publisher" resource="[_:publisher]">the person who associated CC0</span>
+  with this work has waived all copyright and related or neighboring
+  rights to this work.
+</p>
 
 The mission
 -----------
