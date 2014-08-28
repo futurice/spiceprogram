@@ -132,26 +132,33 @@ The categories are perhaps not self-evident, so here goes, with actual example a
 
 **Social Impact**
 
-Summer of Love
+Summer of Love was our sub-program for publishing our fancy internal tools and services. Futurice has done quite a bit of internal development to make working efficient and fun. These we want to share. You can read more on Summer of Love at [LINK]
 
 **Fun and games**
 
-Free Beer
+We brewed a Free Beer variant. That's a beer with an open source recipe. The original Free Beer initiative can be found at [LINK]. Our endeavour has been documented at [LINK].
 
 **Education**
 
-Ruisrock Hackathon
+Some time ago Futurice created apps for Ruisrock, a large rock festival held annually in Finland. They were paid for by Fonecta Oy, a Finnish online media company. Fonecta kindly allowed us to open source the apps. We arranged a hackathon where students from several universities helped us transform the apps to be fit for publishing. More information can be found at [LINK]
 
-Site materials
+Creating this site might count as an education activity, at least we educate ourselves. Hopefully there's useful information for others as well!
 
 **Networking and Collaboration**
 
-Not much yet…
+We suck! We haven't really done anything here, even though it's supposed to be in the core of our program. 
 
 **Guidelines and Policy**
 
-Discussions, but no real progress
+We have been dancing around this stuff because it's hard. But finally we're making progress! Right now we're attempting to establish several things:
+
+* People need to feel safe publishing OSS that they have worked on company time
+* Guidelines on spending working hours on OSS projects
+* Ways to encourage people to work on OSS on their free time, company compensation?
+
+There will be a proper article on these as soon as we have something concrete. 
 
 **Accounts and Sales**
 
-The contract clausules, materials need to be drafted asap!
+We have created contract clausules allowing us to contribute fixed and enhancements to OSS projects that we use in our customer projects. Several of our wonderful customers have already accepted these terms! You can find the clausules (please make use of them!) and more information at [LINK]
+
