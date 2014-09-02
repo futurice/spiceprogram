@@ -3,14 +3,25 @@ Summer of Love
 _by Teemu Turunen on 30th of Aug 2014_
 
 What?
-------
-It would be embarrassing to make noise about open source software, had we not published anything. Since we want to make noise; this happened:
+-----
+A sub-program (or a project?) to publish our internal systems.
+
+Why?
+----
+The usual (right thing to do, etc). Also it would be embarrassing to make noise about open source software, had we not published anything much of value. 
+
+How?
+----
+First we agreed that we can do this, by ensuring the budget for the summer. No problem. 
+
+Communication
+-------------
+The mail I sent to Futurice people (all of them) on Apr 15 2014 sums it up:
 
 <pre>
 So the other day we were at Kaunis Kampela discussing open source. I had been reading on Google's Summer of Code and how we missed this year's application period... and how that doesn't really matter, since we haven't yet open sourced much, as a company, so our application would likely have been rejected. Brooding and shaking of heads ensued.
 
-Then Olli Jarva pointed out that we have a number of neat support systems developed by IT that could be published - perhaps we should assign someone to do just that? Perhaps a summer 
-employee?
+Then Olli Jarva pointed out that we have a number of neat support systems developed by IT that could be published - perhaps we should assign someone to do just that? Perhaps a summer employee?
 
 O_o 
 
@@ -44,16 +55,6 @@ For our OSS program (see www.spiceprogram.org for a sneak peek) this is a good o
 
 </pre>
 
-> **Fun fact 1**
->
-
-<div class="row text-center">
-    <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/flindat.jpg" />
-    </div>
-</div>
-<div class="col-xs-12 visible-xs caption text-center">
-    That beautiful thing is my bike. 
-</div>
-
-Placeholder picture!
+Reception
+---------
+The internal reception was delightfully positive. I received about a dozen mail replies (the mail had ~200 recipients) that all applauded the initiative. More people gave thumbs up on Flowdock or live. Warm and fluffy indeed!
