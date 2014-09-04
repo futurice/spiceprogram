@@ -5,11 +5,11 @@ Summer of Love is a sub-program (or a project? Initiative?) to publish our inter
 
 Why do such a thing?
 --------------------
-It would be embarrassing to make noise about open source software, had we not published anything much of value. Also these systems are pretty damn neat, a lot of thought has been put to them. It would feel good to see others make use of them.
+It would be embarrassing to make noise about open source software, had we not published anything much of value. These systems are pretty damn neat, a lot of thought has been put to them. It would feel good to see others make use of them.
 
 What does it entail?
 --------------------
-Well, first we agreed that we can publish the systems (sure!) and ensuring the budget for the summer, circa 10000 euros (no problem). Then we set into finding a suitable person to do the actual work. Struck luck there, a good match was identified immediately and agreed to take up this gig. 
+Well, first we agreed that we can publish the systems (sure!) and ensuring the budget for the summer, circa 10000 euros (no problem). Then we set into finding a suitable person to do the actual work. We struck luck there, a good match was identified immediately and he agreed to take up this gig. 
 
 Introducing the initiative 
 --------------------------
@@ -26,13 +26,13 @@ Why yes... yes we should! If only we could find a damn nice sourcerer for the jo
 
 [a surprisingly short period of time passes]
 
-_Hi!
+Hi!
 
 I'm Ville Tainio and I will be joining Futurice this summer. I'm currently studying Computer Science at Aalto University and mainly focusing on web software.  I'm also currently the Master of Corporate Relationships at the Computer Science guild.  My passion is to create cool things and help other people with technology. I want to be really proud of my work and I believe that our summer project is something that makes not just me, but everyone really proud of working for Futurice.
 
 I've been programming since I was 14 years old and I love learning new stuff about it every day. During my free time, besides programming, I play synth/french horn in a band called Blind Architect (https://www.youtube.com/watch?v=o1Gux8GWkHI check it out!). I also enjoy running and an occasional round of disc golf.
 
-I can't wait to get started and to meet all of you!_
+I can't wait to get started and to meet all of you!
 
 :D Success!
 
@@ -52,7 +52,7 @@ For our OSS program (see www.spiceprogram.org for a sneak peek) this is a good o
 
 </pre>
 
-PS. Kaunis Kampela is a local pub.
+PS. [Kaunis Kampela](http://www.kalaravintolat.fi/kauniskampela "Kaunis Kampela") is a local pub.
 
 Internal reception
 ------------------
@@ -60,10 +60,9 @@ The internal reception was delightfully positive. I received about a dozen mail 
 
 External reception
 ------------------
-So far there's been some interest towards the released systems and solutions, but nothing major yet. That's okay and precisely what we expected. We plan to look into how to promote the systems (and the initiative) next. That's a company advantage; an actual marketing organization and a lot of corporate contacts. 
+So far there's been some interest towards the released systems and solutions, but nothing that exciting yet. That's okay and precisely what we expected. We plan to look into how to promote the systems (and the initiative) next. That's a company advantage; an actual marketing organization and a lot of contacts. 
 
 Next steps
 ----------
-Ville continues the work and will help with other Spice Program activities as well. We will talk internally to find out, if our people would be interested in promoting some of the systems to our customers. 
-
+Ville continues the work and he will help with other Spice Program activities as well. We will talk internally to find out if our people would be interested in promoting some of the systems to our customers. Things of value have already been achieved, so it is all pretty laid back now. 
 
