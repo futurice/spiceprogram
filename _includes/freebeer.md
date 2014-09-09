@@ -99,14 +99,6 @@ A day later there was no sign of fermentation. Or two days. At this point we wer
 
 So we waited, and the fermentation began.
 
-> **Fun fact 1**
->
-> Fun fact 2
->
-> Fun fact 3
->
-> Fun fact 4
-
 A week later the bin was silent again, and it was time for bottling! We had collected suitable bottles, quite a lot of them, considering we didn’t get enough wort. Not sure how we managed to miss the fact that we only had maybe 14 liters of liquid - especially since I spent hours washing and disinfecting way too many bottles...
 
 Bottling turned out to be very easy as well. We added 90 grams of sugar into the wort… wait… just now that I am writing this I realize that we should have used less; the recipe had 90 grams for 22.7 liters, whereas we only had 14 liters! /_\
