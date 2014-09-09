@@ -1,6 +1,3 @@
-Brewing Beer
-============
-
 Richard Stallman's famous quote about Free Software in contrast to Free Beer inevitably resulted in an open source beer recipe and several derivatives of it - see [http://freebeer.org](http://freebeer.org/ "Freebeer"). 
 
 <div class="col-sm-2 col-sm-pull-2 hidden-xs caption text-right">
