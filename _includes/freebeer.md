@@ -22,7 +22,7 @@ We decided to make a derivative work and document the actual brewing process a b
 So we studied the recipes and settled for the most recent one published on the site, the [SKANDS](http://freebeer.org/blog/recipe "SKANDS"). It is probably not the last one made in the world, since the site seems inactive nowadays. No matter; the recipe looks interesting enough. Adding guarana is a bit weird... o_O
 
 Our planned approach
-====================
+--------------------
 
 1. We make a homebrew version of the SKANDS version. It will actually be a derivative work, since we can't easily get all the ingredients, but it will be close. 
 2. We drink some and see how we like it. Offer some for people who know about beers and ask their opinion. This will probably get us some ideas on how to develop the recipe. 
@@ -31,7 +31,7 @@ Our planned approach
 We ordered the relevant homebrew equipment, the malts, the hops and the yeast. We got a Brewferm expert starting kit called Superior Electric. 
 
 Fundamental components
-======================
+----------------------
 
 Here's how the set looks like. I really dig the spoon.
 
@@ -47,7 +47,7 @@ Here's how the set looks like. I really dig the spoon.
 Upon receiving the kit we had no idea on how to use them; fortunately they came with good enough instructions.
 
 Trouble brewing
-===============
+---------------
 
 So on February 26th 2014 we gathered to our Designated Brewing Laboratory, aka an office kitchen, located at Rikhardinkatu in Helsinki. The brewforce extraordinaire: Rauli, Jetro, Matias and Teemu. 
 
@@ -96,7 +96,7 @@ So we added the yeast, sealed the fermentation bin, found a spot for it where th
 > Now I can have a beer instead. Oatmeal, you are a prince among men! 
 
 The aftermath
-=============
+-------------
 
 A day later there was no sign of fermentation. 
 
@@ -135,7 +135,7 @@ The bottles then remained in room temperature for nine days, the idea being that
 After nine days the bottles (of which none had exploded, which was a relief) were moved into the refrigerator and kept there for three weeks. 
 
 Happy ending
-============
+------------
 
 Then we opened some and had a taste! 
 
