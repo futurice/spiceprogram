@@ -19,7 +19,7 @@ Facegame
 Facegame is a simple game made for learning the faces and names of fellow employees. The game will give you a picture of an employee and you have to select the corresponding name from a few choices. Essentially Facegame is a great game for all kinds of organizations where it’s becoming increasingly harder to get to know your colleagues.
 
 <div class="screenshot">
-	<img src="http://blog.futurice.com/wp-content/uploads/2014/06/image001.jpg" alt="Screenshot of Facegame" />
+	<img src="http://flockler.com/thumbs/1992/image001_s830x0_q80_noupscale.jpg" alt="Screenshot of Facegame" />
 </div>
 
 [Summer of Love blog post](http://blog.futurice.com/facegame)
@@ -32,7 +32,7 @@ VPN Management
 VPN Management is a self-service tool for your employees to handle their OpenVPN certificates. The tool consists of two parts, the server and the installation wizard. VPN Management Server provides the backend and a web interface and VPN Configuration Wizard provides the native application for setting up your configurations. The server is integrated into LDAP (Lightweight Directory Access Protocol) for authentication and the keys are stored in a Git repository.
 
 <div class="screenshot">
-	<img src="http://blog.futurice.com/wp-content/uploads/2014/08/form-screenshot.png" alt="Screenshot of VPN Configuration Wizard" />
+	<img src="http://flockler.com/thumbs/1992/form-screenshot_s830x0_q80_noupscale.png" alt="Screenshot of VPN Configuration Wizard" />
 </div>
 
 [Summer of Love blog post](http://blog.futurice.com/vpn-management-self-provisioning-and-more)
@@ -47,7 +47,7 @@ FUM
 FUM is an user management system for LDAP. FUM makes it easy to handle information about your employees, their projects and servers they have access to. LDAP is a good protocol for user management, but it needs an user-friendly layer on top of it. One of the strengths of FUM is that it gives the users a lot of freedom over their data.
 
 <div class="screenshot">
-	<img src="http://blog.futurice.com/wp-content/uploads/2014/09/Screenshot-2014-09-02-12.37.18.png" alt="Screenshot of FUM" />
+	<img src="http://flockler.com/thumbs/1992/screenshot-2014-09-02-12-37-18_s830x0_q80_noupscale.png" alt="Screenshot of FUM" />
 </div>
 
 [Summer of Love blog post](http://blog.futurice.com/user-friendly-web-ui-for-ldap)
