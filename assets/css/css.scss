@@ -30,7 +30,12 @@ html, body {
 }
 
 .first {
-    background: transparent url('/assets/img/landing.jpg') center center no-repeat;
+    background: transparent url('/assets/img/landing2.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: brightness(130%);
 }
 
 .second {
