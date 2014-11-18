@@ -126,9 +126,9 @@ Future plans
 
 So what are we really sponsoring here? Let’s distill it into haiku form!
 
-   people practising
-   skills valuable at work
-   awesoming the world
+   _people practising_<br/>
+   _skills valuable at work_<br/>
+   _awesoming the world_
 
 Open Source is one approach to that, but there are certainly others! Our people are already participating in comparable activities, such as [code schools for kids](http://futurice.com/blog/introducing-children-to-the-joy-of-programming) and other voluntary work.
 
