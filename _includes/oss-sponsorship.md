@@ -97,6 +97,23 @@ Based on the reactions so far, we can encourage other companies to consider this
 
 Please feel free to copy our implementation — you can find all the details at our open source program site. If you make improvements, it would be awesome to share!
 
+Background
+----------
+
+Me, Matias and some Indian Pale Ale hatched the idea when we were planning this Open Source Program back in late 2013. It was a part of our program road map right from the start, and we first pitched it to our executive sponsor Mikko, who liked it. We included it in our brief program presentation at our Tampere site, and people seemed interested. Our irreplaceable in-house critic Olli outlined us how the system should work; that's what he does. I invited a dozen developers to a two-week chat to refine the idea further. Mikko negotiated the executive approval, with some figures and limits. I again invited a dozen developers to get the finer details locked down. 
+
+The execution required more HR effort than I had estimated and that delayed the launch for about 6 weeks. I don't mean bureaucratic delays within Futurice, no, Emilia and Isabell were really helpful! Instead we had to consult with external experts on German and Swiss law, taxes etc. Not sure how Really Big Companies can get anything done :-o
+
+Communications
+--------------
+
+Since I know Futurice company culture is of interest to some people, I will include some internal communication since I believe it brings substance to the ideology.
+
+* Initial invitation to developers (email)
+* A few slides for the steering group (PDF)
+* Key points from the internal flows (text)
+* The internal announcement (email)
+
 Known challenges
 ----------------
 
