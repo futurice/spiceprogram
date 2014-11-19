@@ -10,7 +10,7 @@ Why do this?
 
 There are ideological and socio-economical arguments both for and against Open Source. The arguments against, we see both by parties supporting proprietary software with strong copyrights, and organizations such as FSF. The latter see Open Source as inadequate, or [missing the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html).
 
-While this debate is interesting and worth consideration, I prefer a pragmatic approach.
+While this debate is interesting and worth consideration, we prefer a pragmatic approach.
 
 Reasons to establish this benefit:
 
@@ -30,7 +30,7 @@ Some collateral good:
 * While our skilled employees contribute, the Open Source projects benefit
 * Our example hopefully encourages other companies to do the same
 
-We wanted to keep both the guidelines and the process as simple as possible. I think this is a borderline success, since there have still been some misunderstandings internally while communicating this. 
+We wanted to keep both the guidelines and the process as simple as possible. We think this is a borderline success, since there have still been some misunderstandings internally while communicating this. 
 
 Acceptable contributions
 ------------------------
@@ -80,7 +80,7 @@ We use the Flowdock tags; #contribution identifies that this is indeed a contrib
 Other considerations
 --------------------
 
-The experts in Germany and Switzerland told us it would be a good idea to create a simple one page agreement for people to sign, before they are eligible for this sponsorship. I guess the rationale is to get proof that people understand this is not work, but sponsorship for beneficial and strictly voluntary hobby activities. Here's a vanilla copy of [the agreement](http://www.spiceprogram.org/assets/docs/ODT-sponsorship-agreement-vanilla.odt) you can make use of. 
+The experts in Germany and Switzerland told us it would be a good idea to create a simple one page agreement for people to sign, before they are eligible for this sponsorship. Supposedly the rationale is to get proof that people understand this is not work, but sponsorship for beneficial and strictly voluntary hobby activities. Here's a vanilla copy of [the agreement](http://www.spiceprogram.org/assets/docs/ODT-sponsorship-agreement-vanilla.odt) you can make use of. 
 
 Initial reception
 -----------------
@@ -100,14 +100,14 @@ Please feel free to copy our implementation — you can find all the details at 
 Background
 ----------
 
-Me, Matias and some Indian Pale Ale hatched the idea when we were planning this Open Source Program back in late 2013. It was a part of our program road map right from the start, and we first pitched it to our executive sponsor Mikko, who liked it. We included it in our brief program presentation at our Tampere site, and people seemed interested. Our irreplaceable in-house critic Olli outlined us how the system should work; that's what he does. I invited a dozen developers to a two-week chat to refine the idea further. Mikko negotiated the executive approval, with some figures and limits. I again invited a dozen developers to get the finer details locked down. 
+Me, Matias and some Indian Pale Ale hatched the idea when we were planning this Open Source Program back in late 2013. It was a part of our program road map right from the start, and we first pitched it to our executive sponsor Mikko, who liked it. We included it in our brief program presentation at our Tampere site, and people seemed interested. Our irreplaceable in-house critic Olli outlined us how the system should work; that's what he does. We invited a dozen developers to a two-week chat to refine the idea further. Mikko negotiated the executive approval, with some figures and limits. We again invited a dozen developers to get the finer details locked down. 
 
-The execution required more HR effort than I had estimated and that delayed the launch for about 6 weeks. I don't mean bureaucratic delays within Futurice, no, Emilia and Isabell were really helpful! Instead we had to consult with external experts on German and Swiss law, taxes etc. Not sure how Really Big Companies can get anything done :-o
+The execution required more HR effort than we had estimated and that delayed the launch for about 6 weeks. That doesn't mean bureaucratic delays within Futurice, no, Emilia and Isabell were really helpful! Instead we had to consult with external experts on German and Swiss law, taxes etc. Not sure how Really Big Companies can get anything done :-o
 
 Communications
 --------------
 
-Since I know Futurice company culture is of interest to some people, I will include some internal communication since I believe it brings substance to the ideology.
+Since we know Futurice company culture is of interest to some people, we will include some internal communication. 
 
 * Initial invitation to developers (email)
 * A few slides for the steering group (PDF)
@@ -117,7 +117,7 @@ Since I know Futurice company culture is of interest to some people, I will incl
 Known challenges
 ----------------
 
-Currently this benefit is limited to our full-time employees. I am not happy about that and neither are our part-time employees. There are reasons for the limitation, but I hope we soon find a better solution.
+Currently this benefit is limited to our full-time employees. We are not happy about that and neither are our part-time employees. There are reasons for the limitation, but we hope we will soon find a better solution.
 
 This also easily becomes a benefit solely for the technically oriented. It does not need to, but that’s how the open source scene is — the entry barrier for people who don't code is high. People with other competence areas and interests will require support, specifically for selecting projects and finding ways to contribute. We are working on that. For the academically inclined, [legitimate peripheral participation](http://en.wikipedia.org/wiki/Legitimate_peripheral_participation) is a good starting point.
 
