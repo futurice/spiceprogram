@@ -109,7 +109,7 @@ Since we know Futurice company culture is of interest to some people, we will in
 
 * [Initial invitation to developers](/assets/docs/invitation-quicksand.txt) (email)
 * [A few slides for the steering group](/assets/docs/mgmt-slides.odp) (ODP)
-* [The internal announcement](assets/docs/internal-announcement.txt) (email)
+* [The internal announcement](/assets/docs/internal-announcement.txt) (email)
 
 Known challenges
 ----------------
