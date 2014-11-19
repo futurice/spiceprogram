@@ -80,12 +80,12 @@ We use the Flowdock tags; #contribution identifies that this is indeed a contrib
 Other considerations
 --------------------
 
-The experts in Germany and Switzerland told us it would be a good idea to create a simple one page agreement for people to sign, before they are eligible for this sponsorship. Supposedly the rationale is to get proof that people understand this is not work, but sponsorship for beneficial and strictly voluntary hobby activities. Here's a vanilla copy of [the agreement](http://www.spiceprogram.org/assets/docs/ODT-sponsorship-agreement-vanilla.odt) you can make use of. 
+The experts in Germany and Switzerland told us it would be a good idea to create a simple one page agreement for people to sign, before they are eligible for this sponsorship. Supposedly the rationale is to get proof that people understand this is not work, but sponsorship for beneficial and strictly voluntary hobby activities. Find here a vanilla copy of [the agreement](http://www.spiceprogram.org/assets/docs/ODT-sponsorship-agreement-vanilla.odt) you can make use of. It is CC0 so you can use it without mentioning us.  
 
 Initial reception
 -----------------
 
-Offering people money, for something they have been doing for fun, can be a risky endeavour. We will know more in a few months, but the initial reception has been very positive across the board.
+Offering people money, for something they have been doing for fun, can be a [risky endeavour](#motivation). We will know more in a few months, but the initial reception has been very positive across the board.
 
 <div class="row text-center">
     <div class="col-sm-7">
@@ -94,8 +94,6 @@ Offering people money, for something they have been doing for fun, can be a risk
 </div>
 
 Based on the reactions so far, we can encourage other companies to consider this type of arrangement as well.
-
-Please feel free to copy our implementation — you can find all the details at our open source program site. If you make improvements, it would be awesome to share!
 
 Background
 ----------
@@ -109,10 +107,9 @@ Communications
 
 Since we know Futurice company culture is of interest to some people, we will include some internal communication. 
 
-* Initial invitation to developers (email)
-* A few slides for the steering group (PDF)
-* Key points from the internal flows (text)
-* The internal announcement (email)
+* [Initial invitation to developers](/assets/docs/invitation-quicksand.txt) (email)
+* [A few slides for the steering group](/assets/docs/mgmt-slides.odp) (ODP)
+* [The internal announcement](assets/docs/internal-announcement.txt) (email)
 
 Known challenges
 ----------------
@@ -120,6 +117,23 @@ Known challenges
 Currently this benefit is limited to our full-time employees. We are not happy about that and neither are our part-time employees. There are reasons for the limitation, but we hope we will soon find a better solution.
 
 This also easily becomes a benefit solely for the technically oriented. It does not need to, but that’s how the open source scene is — the entry barrier for people who don't code is high. People with other competence areas and interests will require support, specifically for selecting projects and finding ways to contribute. We are working on that. For the academically inclined, [legitimate peripheral participation](http://en.wikipedia.org/wiki/Legitimate_peripheral_participation) is a good starting point.
+
+
+Motivating people<a name="motivation"></a>
+-----------------
+
+There are many studies on rewards and motivation. The majority of them suggest that (especially financial and performance related) rewarding might not have the desired results; it can turn out to be a demotivator instead, as people easily perceive them controlling. Usually these studies are related to salary levels, but they can certainly also be applied to this type of hobby sponsorship. If you want to read more on this subject, take a look at these:
+
+* [Effects of Extrinsic Rewards on Intrinsic Motivation](http://www.rug.nl/gmw/psychology/research/onderzoek_summerschool/firststep/content/papers/4.4.pdf) (PDF)
+* [Intrinsic Motivation and Employee Attitudes](http://intl-rop.sagepub.com/content/early/2011/10/19/0734371X11421495) (paywalled)
+* [Pervasive negative effects of rewards on intrinsic motivation](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2731358/) (web article)
+
+Having studied this subject, and having no reason to disregard these findings (they are both convincing and interesting), why do we insist on trying this?
+
+Simply put; this is just one thing we want to try and doing this makes others a bit easier. Activities outside of work hours are a sensitive topic. What right does the company have to try to promote uses of your free time? None, really, but sponsoring it in an 'absolutely-voluntary-no-strings-attached' manner is hopefully not considered an intrusion. It also shows that we are serious and willing to give, not just take. 
+
+With that foundation in place, we can proceed to figure out how to _really_ motivate people to pick up Open Source contributions as a hobby - or other activities that combine a positive social impact with some relevant personal learning. We will get back to that when we have something to share! 
+
 
 Future plans
 ------------
@@ -131,5 +145,9 @@ So what are we really sponsoring here? Let’s distill it into haiku form!
    _awesoming the world_
 
 Open Source is one approach to that, but there are certainly others! Our people are already participating in comparable activities, such as [code schools for kids](http://futurice.com/blog/introducing-children-to-the-joy-of-programming) and other voluntary work.
+
+Learning while doing good should be an integral part of our company culture. Limiting it to Open Source is suboptimization. We want to generalise, zoom out, identify the patterns and establish the relevant laws governing the intrinsic motivation in our environment. This will lead, amongst other good things, to increased Open Source activity. 
+
+That's right, we want to _grothendieck_ this shit up.
 
 If the results from this pilot are promising, the sponsorship should definitely be extended to cover other activities. For instance, we are currently reviewing the [OpenIDEO platform](https://openideo.com/) to decide whether their challenges should be included.

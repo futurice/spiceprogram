@@ -1,0 +1,88 @@
+Hello!
+
+TL;DR-haiku
+
+  Open source contribs
+  On your time? You get money!
+  Details: out of space:(
+
+---
+
+Futurice will start incenvi... intenciviz... sponsoring free time open source contributions by 
+full-time employees (*). Like the sports vouchers, but open source, and without the stupid vouchers.
+
+Why would the company do this?
+
+  By being active in the open source scene, people improve their skills at an alarming pace.
+  Being a rare benefit, it should give us some recruitment edge. 
+  It's the right thing to do, as Futurice benefits greatly from OSS.
+
+Why should you participate?
+
+  Open source gives you a chance to improve your skills (at an alarming pace).
+  While you get wicked good, you are marketing your skills at the same time.
+  Now you can also make some extra cheddar by doing so. It's a sweet deal!
+
+Is this only for programmers?
+
+  No, open source needs more than code, design being obvious, but there’s more!  
+  Providing some pointers on how to get started is in the works; not limited to just coding. 
+
+The compensation is a flat €15 (or local currency equivalent) for an hour spent. A maximum of 30 
+hours per calendar month is compensated to an individual. 
+
+The trial period for this incentive is 20141101-20150331 (retroactive, yes). There's a budget cap 
+for the trial period. That's €45000, which equals 3000 hours of total contributions. If it runs 
+out we'll see what happens. This is a trial, which means the initiative might cease to exist after 
+March, or the specifics may change. 
+
+Any open source contributions are acceptable, including both the existing and new projects. They 
+don't need to be related to Futurice. This is not work, so Futurice has no IPR claim whatsoever. 
+
+To be eligible you'll simply report the contributions by sending an email to a dedicated Flow 
+([email address omitted]). Please also join the flow!
+
+In the email you name the project, hours you have spent and a link to the relevant commit/PR/whatever. 
+
+Example:
+
+  mail [email address omitted]
+
+  _viewports.scss, 4 hours, https://github.com/jareware/viewports/commit/e8319216bb2f261ad83aa112333a3a2c8bb530ca
+
+The Clerk will collect these from the Flow and send to the payroll monthly. 
+
+The Clerk will also report the usage/remaining budget to the flow. 
+
+For now, I am The Clerk. 
+
+We might want to list the “sponsored projects” on the company open source program site 
+(http://www.spiceprogram.org), please let us know if that's not cool. It's not mandatory to include yours.
+
+A quick recap, in solid monospace! Details also available in Confluence.
+
+- open source contributions on your own time will be sponsored
+- any project is fine
+- 15 euros per hour
+- max 30 hours a month
+- only full-timers can get it (except in Germany and Switzerland)
+- just send a mail to [email address omitted]
+- include the project, hours and links to PR/commit
+- no other hour reporting needed
+
+(*) Why full-time only? That sucks.
+
+Yes, it kind of does. It would be awesome to find a model where this works for part-time employees as well. 
+Being able to work a 4-day week is in itself a benefit, considering our business model. Combining That with 
+This would currently make an unrealistic benefit. I'll be more than happy to discuss this.
+
+Note that in Germany and Switzerland the regulations are such that the full-time limitation cannot apply. 
+Hence, in those countries, the mostly imaginary part-time employees get this benefit pro rata.
+
+Greetz: mkir & vtai (this is what we should do), ojar (this is how we should do it), lsnj & mvii (let’s do 
+this!), amed & ilau & jkro & jara & jvah & kpup & oaho & ogre & tpaa & ykar (yes, we should, but do consider 
+these), mgmt & HR (ok, let’s), epan & ipor (how to navigate the regulations) and shus (your haiku is broken 
+and allow me to fix some grammar).
+
+BR
+Teemu

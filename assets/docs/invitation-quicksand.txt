@@ -1,0 +1,47 @@
+Hello!
+
+There is an invitation to a flow at the end of this mail. 
+
+We are working on the Futurice open source (and social impact) program, SPICE. 
+
+The primary goal of the program is to be an attraction factor for Futurice employees. 
+The secondary goal is to attract interesting people to become Futurice employees. 
+The rest of the goals... don't matter now. 
+
+The program consists of various initiatives, such as the ongoing Summer of Love, where 
+we publish our own systems like FUM, Facegame etc. There's fun stuff like Free Beer 
+(CC licensed beer, hopefully soon available. It has guarana!). There's hackathons, web 
+stuff, etc. Getting OSS friendly clausules to our customer contracts. Easy potatoes.
+
+Then there's the difficult stuff, like this: "How could Futurice support employee OSS 
+contributions?" 
+
+The current idea for piloting this is that we could have sponsored OSS projects. Each 
+site gets to choose one.  I don't see why such a project would need to be "owned" or 
+"managed" by us, it could be something else as well, something that already has momentum 
+and someone else is driving it. Even a competitor. 
+
+Could be a new one, old one, whatever. How to choose then? Let's not go there yet.
+
+Futurice could then actively promote these projects, internally and externally. So that 
+we'd make use of them ourselves, where feasible, and there'd be an increased chance that 
+others would.  
+
+This might be considered a benefit in itself, but now we get to the BEEF!
+
+Let's consider a highly unlikely scenario where Jareware, as a nocturnal creature, grows 
+tired of browsing Reddit and watching GoT re-runs. Instead he wants to contribute to some 
+OSS project, on his free time. 
+
+-- If he picks one of the company sponsored projects, should he receive a compensation? 
+-- What kind of compensation could he receive?
+
+Have tried to come up with a reasonable suggestion; fail.
+
+Need ideas. Please share yours by joining the flow: "Quicksand". 
+
+If there are ideas, sweet, if not, sadpanda, in either way the flow will be closed in a 
+week or so.  Act fast!
+
+Thanks
+Teemu
