@@ -122,17 +122,21 @@ This also easily becomes a benefit solely for the technically oriented. It does 
 Motivating people<a name="motivation"></a>
 -----------------
 
-There are many studies on rewards and motivation. The majority of them suggest that (especially financial and performance related) rewarding might not have the desired results; it can turn out to be a demotivator instead, as people easily perceive them controlling. Usually these studies are related to salary levels, but they can certainly also be applied to this type of hobby sponsorship. If you want to read more on this subject, take a look at these:
+There are many studies on rewards and motivation. The majority of them suggest that (especially financial and performance related) rewarding might not have the desired results; it can turn out to be a demotivator instead, as people easily perceive it as controlling. 
+
+Attempts at control generally diminish the motivation. Usually these studies are related to salary levels, but they can certainly be applied to this type of hobby sponsorship. If you want to read more on this subject, some recommended reading:
 
 * [Effects of Extrinsic Rewards on Intrinsic Motivation](http://www.rug.nl/gmw/psychology/research/onderzoek_summerschool/firststep/content/papers/4.4.pdf) (PDF)
 * [Intrinsic Motivation and Employee Attitudes](http://intl-rop.sagepub.com/content/early/2011/10/19/0734371X11421495) (paywalled)
 * [Pervasive negative effects of rewards on intrinsic motivation](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2731358/) (web article)
 
-Having studied this subject, and having no reason to disregard these findings (they are both convincing and interesting), why do we insist on trying this?
+Having studied this subject, and having absolutely no reason to disregard these findings that are both convincing and interesting, why do we still insist on trying this?
 
-Simply put; this is just one thing we want to try and doing this makes others a bit easier. Activities outside of work hours are a sensitive topic. What right does the company have to try to promote uses of your free time? None, really, but sponsoring it in an 'absolutely-voluntary-no-strings-attached' manner is hopefully not considered an intrusion. It also shows that we are serious and willing to give, not just take. 
+Simply put; this is just one thing we want to try and doing this should make the others easier. 
 
-With that foundation in place, we can proceed to figure out how to _really_ motivate people to pick up Open Source contributions as a hobby - or other activities that combine a positive social impact with some relevant personal learning. We will get back to that when we have something to share! 
+Activities outside of work hours are a sensitive topic. What right does the company have to try to promote uses of your free time? None, really, but sponsoring it in an 'absolutely-voluntary-no-strings-attached' manner is hopefully not considered an intrusion. It also shows that the company is willing to give, not just take. 
+
+With that foundation in place, we can proceed to figure out how to _really_ motivate people to pick up Open Source contributions as a hobby - or other activities that combine a positive social impact with some relevant personal learning. 
 
 
 Future plans
