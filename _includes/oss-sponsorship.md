@@ -152,6 +152,6 @@ Open Source is one approach to that, but there are certainly others! Our people 
 
 Learning while doing good should be an integral part of our company culture. Limiting it to Open Source is suboptimization. We want to generalise, zoom out, identify the patterns and establish the relevant laws governing the intrinsic motivation in our environment. This will lead, amongst other good things, to increased Open Source activity. 
 
-That's right, we want to _grothendieck_ this shit up.
+We want to _grothendieck_ this shit up.
 
 If the results from this pilot are promising, the sponsorship should definitely be extended to cover other activities. For instance, we are currently reviewing the [OpenIDEO platform](https://openideo.com/) to decide whether their challenges should be included.
