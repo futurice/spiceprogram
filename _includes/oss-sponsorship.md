@@ -80,7 +80,7 @@ We use the Flowdock tags; #contribution identifies that this is indeed a contrib
 Other considerations
 --------------------
 
-The experts in Germany and Switzerland told us it would be a good idea to create a simple one page agreement for people to sign, before they are eligible for this sponsorship. Supposedly the rationale is to get proof that people understand this is not work, but sponsorship for beneficial and strictly voluntary hobby activities. Find here a vanilla copy of [the agreement](http://www.spiceprogram.org/assets/docs/ODT-sponsorship-agreement-vanilla.odt) you can make use of. It is CC0 so you can use it without mentioning us.  
+The experts in Germany and Switzerland told us it would be a good idea to create a simple one page agreement for people to sign, before they are eligible for this sponsorship. Supposedly the rationale is to get proof that people understand this is not work, but sponsorship for beneficial and strictly voluntary hobby activities. Find here a vanilla copy of [the agreement](http://www.spiceprogram.org/assets/docs/OSS-sponsorship-agreement-vanilla.odt) you can make use of. It is CC0 so you can use it without mentioning us.  
 
 Initial reception
 -----------------
