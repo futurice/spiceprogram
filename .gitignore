@@ -27,3 +27,5 @@ node_modules
 .tmp
 _harp/www
 _site
+.DS_STORE
+.DS_STORE?
