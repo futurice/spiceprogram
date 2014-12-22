@@ -5,7 +5,7 @@ Richard Stallman's famous quote about Free Software in contrast to Free Beer ine
 </div>
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/FREEBEER3.2_label.png" />
+        <img class="padded-img" src="/assets/img/FREEBEER3.2_label.png" alt="FREE BEER (version 3.2)" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -34,7 +34,7 @@ Here's how the set looks like. I really dig the spoon.
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/setti.jpg" />
+        <img class="padded-img" src="/assets/img/setti.jpg" alt="Homebrew equipment"/>
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -54,7 +54,7 @@ We started the actual brewing by grinding the various malts with the hand grinde
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/photo_1.jpg" />
+        <img class="padded-img" src="/assets/img/photo_1.jpg" alt="Grinding the various malts" />
     </div>
 </div>
 
@@ -111,7 +111,7 @@ Nonetheless, we added 90 grams of sugar into the wort and then siphoned it strai
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/bottling.jpg" />
+        <img class="padded-img" src="/assets/img/bottling.jpg" alt="Bottling the beer" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -122,7 +122,7 @@ The bottles then remained in room temperature for nine days, the idea being that
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/flindat.jpg" />
+        <img class="padded-img" src="/assets/img/flindat.jpg" alt="Bottles of beer" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -138,7 +138,7 @@ Then we opened some and had a taste!
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/tastings.jpg" />
+        <img class="padded-img" src="/assets/img/tastings.jpg" alt="Beer tasting party" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">

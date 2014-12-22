@@ -80,7 +80,7 @@ In addition it is necessary to have someone with credibility and enthusiasm for 
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/team.png" />
+        <img class="padded-img" src="/assets/img/team.png" alt="Spice Program team members" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -122,7 +122,7 @@ Our categories look like this. They haven't changed since we first defined them:
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/activities.png" />
+        <img class="padded-img" src="/assets/img/activities.png" alt="Spice Program activities" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
