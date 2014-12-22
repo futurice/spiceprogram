@@ -71,7 +71,7 @@ Check out this actual report by Oleg:
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/contr.png" />
+        <img class="padded-img" src="/assets/img/contr.png" alt="Example of an open source contribution report" />
     </div>
 </div>
 
@@ -89,7 +89,7 @@ Offering people money, for something they have been doing for fun, can be a [ris
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/twitter.png" />
+        <img class="padded-img" src="/assets/img/twitter.png" alt="Response to sponsoring open source contributions at twitter" />
     </div>
 </div>
 
