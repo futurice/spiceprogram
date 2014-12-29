@@ -1,4 +1,5 @@
 markdown:      kramdown
+url: http://spiceprogram.org
 sass:
      style: compressed
 gems:
