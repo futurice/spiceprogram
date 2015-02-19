@@ -415,6 +415,13 @@ footer {
   padding-bottom: 20px;
 }
 
+.page-img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* For IE8 */
+  box-shadow: 0px 0px 4px #DDDDDD;
+}
+
 .screenshot {
   img {
     max-width: 100%;
