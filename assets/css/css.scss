@@ -410,6 +410,10 @@ footer {
   text-align: center;
 }
 
+.cover-img {
+  margin: 0 auto;
+}
+
 .padded-img {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -419,7 +423,6 @@ footer {
   max-width: 100%;
   height: auto;
   width: auto\9; /* For IE8 */
-  box-shadow: 0px 0px 4px #DDDDDD;
 }
 
 .screenshot {
