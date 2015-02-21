@@ -1,13 +1,20 @@
 Which license to choose?
 ------------------------
 
-Creative Commons organization has released copyright licenses to allow you to easily define how people can make use of your creative work. CC is split into multiple licenses based on what you want to permit. It is widely used for pictures, music, videos and academic material and has been dubbed as 'some rights reserved' copyrights.
+Our advice here applies primarily to software. If you have something else in mind, such as pictures, music or such, please check out the [Creative Commons](/creative-commons) section.
+
+This may be a good starting point, but you really want to read a bit about the licenses before making any final decisions. Some good resources for that include:
+
+* [GitHub's license choosing site](http://choosealicense.com/)
+* [Licenses that comply with the Open Source Definition](http://opensource.org/licenses)
+
+Here's how we roll:
 
 ![Choosing an open source license](/assets/img/choosinglicence.png "Choose")
 
 Can I use this work?
 --------------------
 
-Creative Commons organization has released copyright licenses to allow you to easily define how people can make use of your creative work. CC is split into multiple licenses based on what you want to permit. It is widely used for pictures, music, videos and academic material and has been dubbed as 'some rights reserved' copyrights.
+It is very important to know if you can use some work. Please consider at least these points:
 
 ![Using creative work](/assets/img/using.png "Use")
