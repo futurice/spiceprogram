@@ -7,6 +7,7 @@ This may be a good starting point, but you really want to read a bit about the l
 
 * [GitHub's license choosing site](http://choosealicense.com/)
 * [Licenses that comply with the Open Source Definition](http://opensource.org/licenses)
+* [Our take on popular licenses](/licenses)
 
 Here's how we roll:
 
