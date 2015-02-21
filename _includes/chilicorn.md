@@ -24,7 +24,7 @@ Here's how it came to be summarized in one pic:
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <img class="padded-img page-img" src="/assets/img/chilicorn-birth.png" alt="Our new logo" />
+        <img class="padded-img page-img" src="/assets/img/photos/chilicorn-birth.png" alt="Our new logo" />
     </div>
 </div>
 
@@ -34,7 +34,7 @@ That escalated quickly and in three days we had physical manifestations around t
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <img class="padded-img page-img" src="/assets/img/chilicorn-mug.jpg" alt="Our new logo" />
+        <img class="padded-img page-img" src="/assets/img/photos/chilicorn-mug.jpg" alt="Our new logo" />
     </div>
 </div>
 

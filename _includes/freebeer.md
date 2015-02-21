@@ -5,12 +5,14 @@ Richard Stallman's famous quote about Free Software in contrast to Free Beer ine
 </div>
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/FREEBEER3.2_label.png" alt="FREE BEER (version 3.2)" />
+        <img class="padded-img" src="/assets/img/freebeer/FREEBEER3.2_label.png" alt="FREE BEER (version 3.2)" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
     This is the official Freebeer etiquette from a previous version.
 </div>
+
+"FREEBEER3.2_label" by [The Free Beer Foundation](http://freebeer.org/blog/label) is licensed under [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 Since we have been studying the free software culture, while kickstarting our related program, and beer makes everything a bit easier, this certainly caught our attention.
 
@@ -34,12 +36,14 @@ Here's how the set looks like. I really dig the spoon.
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/setti.jpg" alt="Homebrew equipment"/>
+        <img class="padded-img" src="/assets/img/photos/setti.jpg" alt="Homebrew equipment"/>
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
     Brewferm Electric beginner set, we can recommend this
 </div>
+
+"Brewferm beginner set" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Upon receiving the kit we had no idea on how to use them; fortunately they came with good enough instructions.
 
@@ -54,13 +58,15 @@ We started the actual brewing by grinding the various malts with the hand grinde
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/photo_1.jpg" alt="Grinding the various malts" />
+        <img class="padded-img" src="/assets/img/photos/photo_1.jpg" alt="Grinding the various malts" />
     </div>
 </div>
 
 <div class="col-xs-12 visible-xs caption text-center">
     At first the grinding was captivating and fun. But there was a lot to grind..
 </div>
+
+"Grinding away" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 While the grinding was commencing, 13.5 liters of water was added into brew kettle and the heater was turned on. When the water appeared to be at 66 degrees Celcius, we added the ground malts and tried to keep it at that exact temperature for a full hour. This required almost constant stirring with the hilariously large spoon that came with the kit. 
 
@@ -111,23 +117,27 @@ Nonetheless, we added 90 grams of sugar into the wort and then siphoned it strai
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/bottling.jpg" alt="Bottling the beer" />
+        <img class="padded-img" src="/assets/img/photos/bottling.jpg" alt="Bottling the beer" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
     A serious man, a serious business
 </div>
 
+"Bottling" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
 The bottles then remained in room temperature for nine days, the idea being that the additional sugar re-activates the yeast and while we get more alcohol, the beer also gets carbonated. The alternative here would be to use a keg and so called force carbonation, but we're not that pro yet. Next time, sure.
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/flindat.jpg" alt="Bottles of beer" />
+        <img class="padded-img" src="/assets/img/photos/flindat.jpg" alt="Bottles of beer" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
     That beautiful thing is my bike. 
 </div>
+
+"Bottles of beer" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 After nine days the bottles (of which none had exploded, which was a relief) were moved into the refrigerator and kept there for three weeks. 
 
@@ -138,11 +148,13 @@ Then we opened some and had a taste!
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/tastings.jpg" alt="Beer tasting party" />
+        <img class="padded-img" src="/assets/img/photos/tastings.jpg" alt="Beer tasting party" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
     Caption?
 </div>
+
+"Beer tasting" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Great victory! Our beer is actually pretty good. Since some people use Untappd, you can also find it there: [Free Beer 4.0.1](https://untappd.com/b/spicebrew-free-beer-4-0-1/642919 "Free Beer 4.0.1")
