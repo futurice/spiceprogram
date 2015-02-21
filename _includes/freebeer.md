@@ -43,6 +43,8 @@ Here's how the set looks like. I really dig the spoon.
     Brewferm Electric beginner set, we can recommend this
 </div>
 
+"Brewferm beginner set" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
 Upon receiving the kit we had no idea on how to use them; fortunately they came with good enough instructions.
 
 Trouble brewing
@@ -63,6 +65,8 @@ We started the actual brewing by grinding the various malts with the hand grinde
 <div class="col-xs-12 visible-xs caption text-center">
     At first the grinding was captivating and fun. But there was a lot to grind..
 </div>
+
+"Grinding away" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 While the grinding was commencing, 13.5 liters of water was added into brew kettle and the heater was turned on. When the water appeared to be at 66 degrees Celcius, we added the ground malts and tried to keep it at that exact temperature for a full hour. This required almost constant stirring with the hilariously large spoon that came with the kit. 
 
@@ -120,6 +124,8 @@ Nonetheless, we added 90 grams of sugar into the wort and then siphoned it strai
     A serious man, a serious business
 </div>
 
+"Bottling" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
 The bottles then remained in room temperature for nine days, the idea being that the additional sugar re-activates the yeast and while we get more alcohol, the beer also gets carbonated. The alternative here would be to use a keg and so called force carbonation, but we're not that pro yet. Next time, sure.
 
 <div class="row text-center">
@@ -130,6 +136,8 @@ The bottles then remained in room temperature for nine days, the idea being that
 <div class="col-xs-12 visible-xs caption text-center">
     That beautiful thing is my bike. 
 </div>
+
+"Bottles of beer" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 After nine days the bottles (of which none had exploded, which was a relief) were moved into the refrigerator and kept there for three weeks. 
 
@@ -146,5 +154,7 @@ Then we opened some and had a taste!
 <div class="col-xs-12 visible-xs caption text-center">
     Caption?
 </div>
+
+"Beer tasting" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Great victory! Our beer is actually pretty good. Since some people use Untappd, you can also find it there: [Free Beer 4.0.1](https://untappd.com/b/spicebrew-free-beer-4-0-1/642919 "Free Beer 4.0.1")
