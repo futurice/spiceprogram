@@ -6,7 +6,27 @@ Our developers found it amusing, so we decided to share.
 
 You can download the original BMP from [here](/assets/img/realm-of-the-chilicorn.bmp), or a larger PNG from [here](/assets/img/realm-of-the-chilicorn.png).
 
-Now what the hell is a Chilicorn? It's our Open Source program temporary logo. Spice Program. Chili? Yeah!
+... the hell is a Chilicorn? 
+----------------------------
+
+It's our Open Source program's mascot. The program is called Spice Program. Chili is a spice? Get it? Harrr!
+
+Originally I made a version with MS Paint (you can find that below) to put pressure on our designers to create a proper one. Sure enough, [Pekka](http://futurice.com/people/pekka-pulli) cracked, and this wondrous thing came to be!
+
+<div class="row text-center">
+    <div class="col-md-8 col-md-offset-2">
+        <img class="padded-img page-img" src="/assets/img/logo/chilicorn_no_text-512.png" alt="Spice Program logo" />
+    </div>
+</div>
+
+"Spice Program logo" by [Futurice](http://www.futurice.com) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+You can find various versions [in GitHub](https://github.com/futurice/spiceprogram/tree/gh-pages/assets/img/logo).
+
+The original
+------------
+
+Here's the original MS Paint version: 
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
@@ -18,9 +38,10 @@ Now what the hell is a Chilicorn? It's our Open Source program temporary logo. S
 
 Original available [here](/assets/img/chilicorn.png).
 
-A trustworthy designer is working hard on a version that is.. well.. a bit less ghetto :)
+History
+-------
 
-Here's how it came to be summarized in one pic:
+Here's how that came to be, summarized in one pic:
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
@@ -38,4 +59,19 @@ That escalated quickly and in three days we had physical manifestations around t
     </div>
 </div>
 
-"Chilicorn mug" by [@susannehusebo](https://twitter.com/susannehusebo) is licensed under [CC BY-SA 4.0](hrttps://creativecommons.org/licenses/by-sa/4.0/)
+"Chilicorn mug" by [@susannehusebo](https://twitter.com/susannehusebo) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+To conclude this story, here's the unofficial publishing of the new logo:
+
+<div class="row text-center">
+    <div class="col-md-8 col-md-offset-2">
+        <img class="padded-img page-img" src="/assets/img/photos/logo-launch.png" alt="Logo launched" />
+    </div>
+</div>
+
+"Shit got real" by [ttur](https://github.com/ttur) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Usage
+-----
+
+You are free to use the logo (a lot of files [available here](https://github.com/futurice/spiceprogram/tree/gh-pages/assets/img/logo)) and modify it, just remember to publish your remix under [Creative Commons Attribute-ShareAlike 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/) and give us some credit! 
