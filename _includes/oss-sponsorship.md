@@ -42,7 +42,7 @@ The numbers
 
 The sponsorship for any individual is limited to a maximum of 30 hours per month. With our compensation of €15 per hour (or equivalent local currency) that means a maximum of €450 monthly on top of your salary. This hour limitation is to protect the limited budget, not to discourage people of spending more time coding. However, we do have a budget, and it would be better to get many people to contribute some, than a few people to contribute a lot. The 30 hours is not cumulative.
 
-The trial period for this sponsorship is Nov 2014 to Mar 2015. Our budget for this trial period is €45000. This equals 3000 hours of sponsored contributions, or 600 hours per month. In other words, 20 people could make the full use of this sponsorship for the five months - or 40 people could code 15 hours per month for the same period of time. Futurice has about 200 employees at this point.
+The trial period for this sponsorship is Nov 2014 to Mar 2015. Our budget for this trial period is €45000. This equals 3000 hours of sponsored contributions, or 600 hours per month. In other words, 20 people could make the full use of this sponsorship for the five months - or 40 people could make contributions for 15 hours per month for the same period of time. Futurice has about 200 employees at this point.
 
 Full-time limitation
 --------------------
@@ -116,7 +116,7 @@ Known challenges
 
 Currently this benefit is limited to our full-time employees. We are not happy about that and neither are our part-time employees. There are reasons for the limitation, but we hope we will soon find a better solution.
 
-This also easily becomes a benefit solely for the technically oriented. It does not need to, but that’s how the open source scene is — the entry barrier for people who don't code is high. People with other competence areas and interests will require support, specifically for selecting projects and finding ways to contribute. We are working on that. For the academically inclined, [legitimate peripheral participation](http://en.wikipedia.org/wiki/Legitimate_peripheral_participation) is a good starting point.
+This also easily becomes a benefit solely for the technically oriented. It does not need to, but that’s how the open source scene is — the entry barrier for people who don't code is high. Artists, designers or analytics experts for example may never have even heard of Git or Github. People with other competence areas and interests will require support, specifically for selecting projects and finding ways to contribute. We are working on that. For the academically inclined, [legitimate peripheral participation](http://en.wikipedia.org/wiki/Legitimate_peripheral_participation) is a good starting point.
 
 
 Motivating people<a name="motivation"></a>
