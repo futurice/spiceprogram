@@ -42,7 +42,17 @@ The numbers
 
 The sponsorship for any individual is limited to a maximum of 30 hours per month. With our compensation of €15 per hour (or equivalent local currency) that means a maximum of €450 monthly on top of your salary. This hour limitation is to protect the limited budget, not to discourage people of spending more time coding. However, we do have a budget, and it would be better to get many people to contribute some, than a few people to contribute a lot. The 30 hours is not cumulative.
 
-The trial period for this sponsorship is Nov 2014 to Mar 2015. Our budget for this trial period is €45000. This equals 3000 hours of sponsored contributions, or 600 hours per month. In other words, 20 people could make the full use of this sponsorship for the five months - or 40 people could make contributions for 15 hours per month for the same period of time. Futurice has about 200 employees at this point.
+The pilot
+---------
+
+The trial period for this sponsorship was Nov 2014 to Mar 2015. Our budget for this trial period was €45000. This equals 3000 hours of sponsored contributions, or 600 hours per month. In other words, 20 people could make the full use of this sponsorship for the five months - or 40 people could make contributions for 15 hours per month for the same period of time. Futurice had about 200 employees at this point.
+
+At the end of the pilot we had only spent a third of our budget! However, even the people who had "not yet had the time to participate" were speaking so highly of the benefit, the decision to continue was obvious.
+
+Post-pilot
+----------
+
+We have sponsored hundreds (soon thousands) of Open Source contributions. Currently we are working on better metrics to measure the produced value (for the individual, the company, and the society), and also finding new ways to get people to contribute.
 
 Full-time limitation
 --------------------
@@ -138,7 +148,6 @@ Activities outside of work hours are a sensitive topic. What right does the comp
 
 With that foundation in place, we can proceed to figure out how to _really_ motivate people to pick up Open Source contributions as a hobby - or other activities that combine a positive social impact with some relevant personal learning. 
 
-
 Future plans
 ------------
 
@@ -148,10 +157,6 @@ So what are we really sponsoring here? Let’s distill it into haiku form!
    _skills valuable at work_<br/>
    _awesoming the world_
 
-Open Source is one approach to that, but there are certainly others! Our people are already participating in comparable activities, such as [code schools for kids](http://futurice.com/blog/introducing-children-to-the-joy-of-programming) and other voluntary work.
+Open Source is one approach to that, but there are certainly others! Our people are already participating in comparable activities, such as [code schools for kids](http://futurice.com/blog/introducing-children-to-the-joy-of-programming) and other voluntary work. 
 
-Learning while doing good should be an integral part of our company culture. Limiting it to Open Source is suboptimization. We want to generalise, zoom out, identify the patterns and establish the relevant laws governing the intrinsic motivation in our environment. This will lead, amongst other good things, to increased Open Source activity. 
-
-We want to _grothendieck_ this shit up.
-
-If the results from this pilot are promising, the sponsorship should definitely be extended to cover other activities. For instance, we are currently reviewing the [OpenIDEO platform](https://openideo.com/) to decide whether their challenges should be included.
+Learning while doing good is now becoming an integral part of our company culture. It will soon no longer be limited to the Open Source domain, but Open Source will pave the way for other activities, while we research methods, metrics and best practises to make this work. 
