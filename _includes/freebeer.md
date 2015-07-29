@@ -5,7 +5,7 @@ Richard Stallman's famous quote about Free Software in contrast to Free Beer ine
 </div>
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/freebeer/FREEBEER3.2_label.png" alt="FREE BEER (version 3.2)" />
+        <img class="padded-img" src="{{ site.baseurl }}/assets/img/freebeer/FREEBEER3.2_label.png" alt="FREE BEER (version 3.2)" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -36,7 +36,7 @@ Here's how the set looks like. I really dig the spoon.
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/photos/setti.jpg" alt="Homebrew equipment"/>
+        <img class="padded-img" src="{{ site.baseurl }}/assets/img/photos/setti.jpg" alt="Homebrew equipment"/>
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -58,7 +58,7 @@ We started the actual brewing by grinding the various malts with the hand grinde
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/photos/photo_1.jpg" alt="Grinding the various malts" />
+        <img class="padded-img" src="{{ site.baseurl }}/assets/img/photos/photo_1.jpg" alt="Grinding the various malts" />
     </div>
 </div>
 
@@ -117,7 +117,7 @@ Nonetheless, we added 90 grams of sugar into the wort and then siphoned it strai
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/photos/bottling.jpg" alt="Bottling the beer" />
+        <img class="padded-img" src="{{ site.baseurl }}/assets/img/photos/bottling.jpg" alt="Bottling the beer" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -130,7 +130,7 @@ The bottles then remained in room temperature for nine days, the idea being that
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/photos/flindat.jpg" alt="Bottles of beer" />
+        <img class="padded-img" src="{{ site.baseurl }}/assets/img/photos/flindat.jpg" alt="Bottles of beer" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">
@@ -148,7 +148,7 @@ Then we opened some and had a taste!
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/photos/tastings.jpg" alt="Beer tasting party" />
+        <img class="padded-img" src="{{ site.baseurl }}/assets/img/photos/tastings.jpg" alt="Beer tasting party" />
     </div>
 </div>
 <div class="col-xs-12 visible-xs caption text-center">

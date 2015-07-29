@@ -11,7 +11,7 @@ This may be a good starting point, but you really want to read a bit about the l
 
 Here's how we roll:
 
-![Choosing an open source license](/assets/img/choosinglicence.png "Choose")
+![Choosing an open source license]({{ site.baseurl }}/assets/img/choosinglicence.png "Choose")
 
 Can I use this work?
 --------------------
@@ -22,4 +22,4 @@ If you want to possibly ruin your perfectly good browsing & coffee break, [this 
 
 Again, as far as the licenses go, this should be pretty solid:
 
-![Using creative work](/assets/img/using.png "Use")
+![Using creative work]({{ site.baseurl }}/assets/img/using.png "Use")
