@@ -81,7 +81,7 @@ Check out this actual report by Oleg:
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/contr.png" alt="Example of an open source contribution report" />
+        <img class="padded-img" src="{{ site.baseurl }}/assets/img/contr.png" alt="Example of an open source contribution report" />
     </div>
 </div>
 
@@ -90,7 +90,7 @@ We use the Flowdock tags; #contribution identifies that this is indeed a contrib
 Other considerations
 --------------------
 
-The experts in Germany and Switzerland told us it would be a good idea to create a simple one page agreement for people to sign, before they are eligible for this sponsorship. Supposedly the rationale is to get proof that people understand this is not work, but sponsorship for beneficial and strictly voluntary hobby activities. Find here a vanilla copy of [the agreement](http://www.spiceprogram.org/assets/docs/OSS-sponsorship-agreement-vanilla.odt) you can make use of. It is CC0 so you can use it without mentioning us.  
+The experts in Germany and Switzerland told us it would be a good idea to create a simple one page agreement for people to sign, before they are eligible for this sponsorship. Supposedly the rationale is to get proof that people understand this is not work, but sponsorship for beneficial and strictly voluntary hobby activities. Find here a vanilla copy of [the agreement]({{ site.baseurl }}/assets/docs/OSS-sponsorship-agreement-vanilla.odt) you can make use of. It is CC0 so you can use it without mentioning us.  
 
 Initial reception
 -----------------
@@ -99,7 +99,7 @@ Offering people money, for something they have been doing for fun, can be a [ris
 
 <div class="row text-center">
     <div class="col-sm-7">
-        <img class="padded-img" src="/assets/img/twitter.png" alt="Response to sponsoring open source contributions at twitter" />
+        <img class="padded-img" src="{{ site.baseurl }}/assets/img/twitter.png" alt="Response to sponsoring open source contributions at twitter" />
     </div>
 </div>
 
@@ -117,9 +117,9 @@ Communications
 
 Since we know Futurice company culture is of interest to some people, we will include some internal communication. 
 
-* [Initial invitation to developers](/assets/docs/invitation-quicksand.txt) (email)
-* [A few slides for the steering group](/assets/docs/mgmt-slides.odp) (ODP)
-* [The internal announcement](/assets/docs/internal-announcement.txt) (email)
+* [Initial invitation to developers]({{ site.baseurl }}/assets/docs/invitation-quicksand.txt) (email)
+* [A few slides for the steering group]({{ site.baseurl }}/assets/docs/mgmt-slides.odp) (ODP)
+* [The internal announcement]({{ site.baseurl }}/assets/docs/internal-announcement.txt) (email)
 
 Known challenges
 ----------------

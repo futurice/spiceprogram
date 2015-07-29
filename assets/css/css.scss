@@ -30,7 +30,7 @@ html, body {
 }
 
 .first {
-    background: transparent url('/assets/img/landing2.jpg') center center no-repeat;
+    background: transparent url('{{ site.baseurl }}/assets/img/landing2.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,15 +39,15 @@ html, body {
 }
 
 .second {
-    background: transparent url('/assets/img/ships.jpg') center center no-repeat;
+    background: transparent url('{{ site.baseurl }}/assets/img/ships.jpg') center center no-repeat;
 }
 
 .third {
-    background: transparent url('/assets/img/history.jpg') center center no-repeat;
+    background: transparent url('{{ site.baseurl }}/assets/img/history.jpg') center center no-repeat;
 }
 
 .fourth {
-    background: transparent url('/assets/img/why.jpg') center center no-repeat;
+    background: transparent url('{{ site.baseurl }}/assets/img/why.jpg') center center no-repeat;
 
 }
 
@@ -66,7 +66,7 @@ a:hover {
 }
 
 .box {
-  
+
   img {
     width: 85%;
   }
@@ -92,7 +92,7 @@ a:hover {
   }
   .orange {
     p {
-      color: #8e98a7; 
+      color: #8e98a7;
     }
 
     h3 {
@@ -438,6 +438,6 @@ footer {
   font-size: 1.2em;
   padding-top: 40px;
 }
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   h1 { font-size: 3em; }
 }

@@ -1,10 +1,10 @@
 "The Realm of the Chilicorn" by [ttur](https://github.com/ttur) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-There has been talk about getting some statistics out regarding our [sponsored open source contributions](/oss-sponsorship). Since I find both pie charts and the most pies disgusting, I wanted to try something different. A map! Since making one properly (automatic generation, good look and feel, maybe some interaction magic on top of it) sounds like a lot of work, a proof of concept was in order. It's lovingly drawn with the most powerful proprietary tool of them all, MS Paint.
+There has been talk about getting some statistics out regarding our [sponsored open source contributions]({{ site.baseurl }}/oss-sponsorship). Since I find both pie charts and the most pies disgusting, I wanted to try something different. A map! Since making one properly (automatic generation, good look and feel, maybe some interaction magic on top of it) sounds like a lot of work, a proof of concept was in order. It's lovingly drawn with the most powerful proprietary tool of them all, MS Paint.
 
 Our developers found it amusing, so we decided to share.
 
-You can download the original BMP from [here](/assets/img/realm-of-the-chilicorn.bmp), or a larger PNG from [here](/assets/img/realm-of-the-chilicorn.png).
+You can download the original BMP from [here]({{ site.baseurl }}/assets/img/realm-of-the-chilicorn.bmp), or a larger PNG from [here]({{ site.baseurl }}/assets/img/realm-of-the-chilicorn.png).
 
 ... the hell is a Chilicorn? 
 ----------------------------
@@ -15,7 +15,7 @@ Originally I made a version with MS Paint (you can find that below) to put press
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <img class="padded-img page-img" src="/assets/img/logo/chilicorn_no_text-512.png" alt="Spice Program logo" />
+        <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/logo/chilicorn_no_text-512.png" alt="Spice Program logo" />
     </div>
 </div>
 
@@ -30,13 +30,13 @@ Here's the original MS Paint version:
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <img class="padded-img page-img" src="/assets/img/chilicorn.png" alt="Chilicorn" />
+        <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/chilicorn.png" alt="Chilicorn" />
     </div>
 </div>
 
 "Chilicorn" by [ttur](https://github.com/ttur) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Original available [here](/assets/img/chilicorn.png).
+Original available [here]({{ site.baseurl }}/assets/img/chilicorn.png).
 
 History
 -------
@@ -45,7 +45,7 @@ Here's how that came to be, summarized in one pic:
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <img class="padded-img page-img" src="/assets/img/photos/chilicorn-birth.png" alt="Our new logo" />
+        <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/photos/chilicorn-birth.png" alt="Our new logo" />
     </div>
 </div>
 
@@ -55,7 +55,7 @@ That escalated quickly and in three days we had physical manifestations around t
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <img class="padded-img page-img" src="/assets/img/photos/chilicorn-mug.jpg" alt="Our new logo" />
+        <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/photos/chilicorn-mug.jpg" alt="Our new logo" />
     </div>
 </div>
 
@@ -65,7 +65,7 @@ To conclude this story, here's the unofficial publishing of the new logo:
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <img class="padded-img page-img" src="/assets/img/photos/logo-launch.png" alt="Logo launched" />
+        <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/photos/logo-launch.png" alt="Logo launched" />
     </div>
 </div>
 
