@@ -1,9 +1,7 @@
 ---
 ---
-
+/*
 html, body {
-    /* any div up to fullscreen-cont must have this
-    in this case html and body */
     height: 100%;
     min-height: 100%;
     font-family:'Open Sans',sans-serif;
@@ -181,7 +179,6 @@ div.burger {
 
       &:hover {
         color: #d78227;
-        /*background: rgba(255,255,255,0.2);*/
         text-decoration: none;
       }
 
@@ -267,7 +264,6 @@ a {
 }
 
 }
-*/
 
 .arrow-box {
   h3 {
@@ -422,14 +418,14 @@ footer {
 .page-img {
   max-width: 100%;
   height: auto;
-  width: auto\9; /* For IE8 */
+  width: auto\9;
 }
 
 .screenshot {
   img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* For IE8 */
+    width: auto\9;
     box-shadow: 0px 0px 4px #DDDDDD;
   }
 }
@@ -440,4 +436,51 @@ footer {
 }
 @media (max-width: 768px) {
   h1 { font-size: 3em; }
+}
+*/
+/* Created after cleanup */
+
+/*
+ *  NAVIGATION BAR
+ */
+
+#topnav {
+  width: 100%;
+  line-height: 40px;
+  border-bottom: 4px solid red;
+  outline: 4px solid orange;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  #nav-logo {
+    width: 35px;
+    vertical-align: middle;
+    padding: 5px 0px;
+    margin-left: 10px;
+  }
+
+  #nav-title {
+    font-size: 20px;
+    vertical-align: middle;
+  }
+
+  #nav-github-link {
+    float: right;
+    vertical-align: middle;
+    border: 1px solid #000;
+    margin-right: 10px;
+    margin-top: 1px;
+
+    #github-icon {
+      vertical-align: middle;
+      margin-right: 10px;
+      margin-left: 5px;
+    }
+    #github-box-title {
+      margin-right: 20px;
+    }
+  }
 }
