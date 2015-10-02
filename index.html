@@ -17,9 +17,8 @@ title: Spice Program - Futurice Social Impact Program
   <div class="row-fluid index-activities">
     <a href="/open-source">
       <div class="col-md-6 index-activity">
-        <div class="activity-title">
-          <h2>Open Source</h2>
-        </div>
+
+        <h2 class="activity-title">Open Source</h2>
         <div class="activity-description">
           <p class="lead">Spice is a company sponsored open source and social impact program. Our goal is to make Futurice a better company and the world a better place.</p>
         </div>
@@ -28,9 +27,8 @@ title: Spice Program - Futurice Social Impact Program
 
     <a href="/education">
       <div class="col-md-6 index-activity pull-right">
-        <div class="activity-title">
-          <h2>Education</h2>
-        </div>
+
+        <h2 class="activity-title">Education</h2>
         <div class="activity-description">
           <p class="lead">Spice is a company sponsored open source and social impact program. Our goal is to make Futurice a better company and the world a better place.</p>
         </div>
@@ -38,4 +36,59 @@ title: Spice Program - Futurice Social Impact Program
     </a>
 
   </div>
+
+  <div class="row">
+    <div class="col-md-2 col-md-offset-5">
+      <h3 class="blog-section-title">Blog</h3>
+    </div>
+  </div>
+
+
+  {% for blog in site.data.index-blogs %}
+    {% assign loopindex = forloop.index | modulo: 3 %}
+
+    {% if loopindex == 1 %}
+      <div class="row blog-row">
+        <div class="col-md-4 blog">
+          <div class="img-container">
+            <img src="{{ blog.img_link }}" class="blog-img">
+          </div>
+          <a href="{{ blog.link }}" class="blog-link">
+            <h3 class="blog-title">{{ blog.title }}</h3>
+            <p class="blog-description">{{ blog.description }}</p>
+          </a>
+        </div>
+    {% endif %}
+
+    {% if loopindex == 2 %}
+        <div class="col-md-4 blog">
+          <div class="img-container">
+            <img src="{{ blog.img_link }}" class="blog-img">
+          </div>
+          <a href="{{ blog.link }}" class="blog-link">
+            <h3 class="blog-title">{{ blog.title }}</h3>
+            <p class="blog-description">{{ blog.description }}</p>
+          </a>
+        </div>
+    {% endif %}
+
+    {% if loopindex == 0 %}
+        <div class="col-md-4 blog">
+          <div class="img-container">
+            <img src="{{ blog.img_link }}" class="blog-img">
+          </div>
+          <a href="{{ blog.link }}" class="blog-link">
+            <h3 class="blog-title">{{ blog.title }}</h3>
+            <p class="blog-description">{{ blog.description }}</p>
+          </a>
+        </div>
+      </div>
+    {% endif %}
+
+    {% if forloop.last == true %}
+      {% if loopindex != 0 %}
+      </div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </div>
