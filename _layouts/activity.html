@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+
+    <body>
+      {% include nav-bar.html %}
+            <div class="container">
+        <div class="row-fluid index-header">
+          <div class="col-md-12 title">
+            <h1 class="title">{{ page.header }}</h1>
+          </div>
+
+          <div class="col-md-6 col-md-offset-3 description">
+            <p class="lead">{{ page.description }}</p>
+          </div>
+        </div>
+
+        {{ content }}
+      </div>
+    </body>
+</html>
