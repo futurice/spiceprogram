@@ -591,6 +591,40 @@ footer {
   }
 }
 
+.project-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.project {
+  width: 31.6%;
+  margin-left: 15px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .img-container {
+    width: 60px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .project-information {
+    display: inline;
+
+    .project-title {
+
+    }
+  }
+}
+
 #sidebar-wrapper {
   margin-left: -250px;
   left: 250px;
@@ -656,4 +690,12 @@ footer {
     display: table-cell;
     vertical-align: middle;
   }
+}
+
+.no-line-break {
+  display: inline;
+}
+
+.section-title {
+  margin-top: 40px;
 }

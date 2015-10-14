@@ -42,7 +42,85 @@ description: It's time to give back to the community.
   <div class="col-md-4 guide-box">
     <div class="guide-information">
       <h3>Ultimate guide to open source licenses</h3>
-      <p>Puzzled by GPL-DADF-ADFASDF? Look no further.</p>
+      <p>Puzzled by GPL? Look no further.</p>
     </div>
   </div>
 </div>
+
+<div class="row">
+  <div class="col-md-12 center">
+    <h3>Projects</h3>
+    <a href="/projects">See all projects</a>
+  </div>
+</div>
+
+<div class="row section-title">
+  <h4>FUTURICE</h4>
+</div>
+
+<!-- COMPANY PROJECTS -->
+{% for project in site.data.futurice-opensource-projects %}
+  {% assign loopindex = forloop.index | modulo: 3 %}
+
+  {% if loopindex == 1 %}
+  <div class="row project-row">
+  {% endif %}
+    <div class="col-md-4 project">
+      <div class="img-container no-line-break">
+        <img src="{{ project.img_link }}" class="project-img">
+      </div>
+
+      <div class="project-information">
+        <a href="{{ project.github }}">
+          <h3 class="project-title">{{ project.title }}</h3>
+        </a>
+        <span class="contribution-information">12 commits - 5 starts</span>
+      </div>
+    </div>
+  {% if loopindex == 0 %}
+  </div>
+  {% endif %}
+
+  {% if forloop.last == true %}
+    {% if loopindex != 0 %}
+    </div>
+    {% endif %}
+  {% endif %}
+
+{% endfor %}
+
+<div class="row section-title">
+  <h4>PERSONAL PROJECTS</h4>
+</div>
+
+<!-- PERSONAL PROJECTS -->
+{% for project in site.data.personal-opensource-projects %}
+  {% assign loopindex = forloop.index | modulo: 3 %}
+
+  {% if loopindex == 1 %}
+  <div class="row project-row">
+  {% endif %}
+    <div class="col-md-4 project">
+      <div class="img-container no-line-break">
+        <img src="{{ project.img_link }}" class="project-img">
+      </div>
+
+      <div class="project-information">
+        <a href="{{ project.github }}">
+          <h3 class="project-title">{{ project.title }}</h3>
+        </a>
+        <span class="contribution-information">12 commits - 5 starts</span>
+      </div>
+
+    </div>
+  {% if loopindex == 0 %}
+  </div>
+  {% endif %}
+
+  {% if forloop.last == true %}
+    {% if loopindex != 0 %}
+    </div>
+    {% endif %}
+  {% endif %}
+
+{% endfor %}

@@ -49,6 +49,7 @@ title: Spice Program - Futurice Social Impact Program
 
     {% if loopindex == 1 %}
       <div class="row blog-row">
+    {% endif %}
         <div class="col-md-4 blog">
           <div class="img-container">
             <img src="{{ blog.img_link }}" class="blog-img">
@@ -58,30 +59,7 @@ title: Spice Program - Futurice Social Impact Program
             <p class="blog-description">{{ blog.description }}</p>
           </a>
         </div>
-    {% endif %}
-
-    {% if loopindex == 2 %}
-        <div class="col-md-4 blog">
-          <div class="img-container">
-            <img src="{{ blog.img_link }}" class="blog-img">
-          </div>
-          <a href="{{ blog.link }}" class="blog-link">
-            <h3 class="blog-title">{{ blog.title }}</h3>
-            <p class="blog-description">{{ blog.description }}</p>
-          </a>
-        </div>
-    {% endif %}
-
     {% if loopindex == 0 %}
-        <div class="col-md-4 blog">
-          <div class="img-container">
-            <img src="{{ blog.img_link }}" class="blog-img">
-          </div>
-          <a href="{{ blog.link }}" class="blog-link">
-            <h3 class="blog-title">{{ blog.title }}</h3>
-            <p class="blog-description">{{ blog.description }}</p>
-          </a>
-        </div>
       </div>
     {% endif %}
 
