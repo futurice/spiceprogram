@@ -133,11 +133,11 @@ The categories are perhaps not self-evident so here goes, with actual example ac
 
 **Social Impact**
 
-Summer of Love was our sub-program for publishing our fancy internal tools and services. Futurice has done quite a bit of internal development to make working efficient and fun. These we want to share. You can read more on Summer of Love at [http://www.spiceprogram.org/opensource/summer-of-love/](http://www.spiceprogram.org/opensource/summer-of-love/ "Summer of Love"). 
+Summer of Love was our sub-program for publishing our fancy internal tools and services. Futurice has done quite a bit of internal development to make working efficient and fun. These we want to share. You can read more on Summer of Love at [http://www.spiceprogram.org/open-source/summer-of-love/](/open-source/summer-of-love/). 
 
 **Fun and games**
 
-We brewed a Free Beer variant. That's a beer with an open source recipe. The original Free Beer initiative can be found at [LINK]. Our endeavour has been documented at [http://www.spiceprogram.org/opensource/freebeer/](http://www.spiceprogram.org/opensource/freebeer/ "Free Beer").
+We brewed a Free Beer variant. That's a beer with an open source recipe. The original Free Beer initiative can be found at [LINK]. Our endeavour has been documented at [http://www.spiceprogram.org/open-source/freebeer/](/open-source/freebeer/).
 
 **Education**
 
@@ -162,5 +162,5 @@ There will be a proper article on these as soon as we have something concrete.
 
 **Accounts and Sales**
 
-We have created contract clausules allowing us to contribute fixed and enhancements to OSS projects that we use in our customer projects. Several of our wonderful customers have already accepted these terms! You can find the clausules (please make use of them!) and more information at [http://www.spiceprogram.org/opensource/contracts/](http://www.spiceprogram.org/opensource/contracts/ "OSS contract terms").
+We have created contract clausules allowing us to contribute fixed and enhancements to OSS projects that we use in our customer projects. Several of our wonderful customers have already accepted these terms! You can find the clausules (please make use of them!) and more information at [http://www.spiceprogram.org/open-source/contracts/](/open-source/contracts/).
 

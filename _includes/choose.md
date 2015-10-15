@@ -1,7 +1,7 @@
 Which license to choose?
 ------------------------
 
-Our advice here applies primarily to software. If you have something else in mind, such as pictures, music or such, please check out the [Creative Commons](/opensource/creative-commons) section.
+Our advice here applies primarily to software. If you have something else in mind, such as pictures, music or such, please check out the [Creative Commons](/open-source/creative-commons) section.
 
 This may be a good starting point, but you really want to read a bit about the licenses before making any final decisions. Some good resources for that include:
 
