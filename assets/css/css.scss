@@ -440,6 +440,14 @@ footer {
 */
 /* Created after cleanup */
 
+html, body {
+  font-family:'Open Sans',sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0,0,0,0.8);
+}
+
 /*
  *  NAVIGATION BAR
  */
@@ -746,7 +754,7 @@ p.quote {
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 .caption {
@@ -758,4 +766,14 @@ p.quote {
 .padded-img {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.cover-img {
+  margin: 0 auto;
+}
+
+.page-img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
