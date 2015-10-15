@@ -1,13 +1,13 @@
 Which license to choose?
 ------------------------
 
-Our advice here applies primarily to software. If you have something else in mind, such as pictures, music or such, please check out the [Creative Commons](/creative-commons) section.
+Our advice here applies primarily to software. If you have something else in mind, such as pictures, music or such, please check out the [Creative Commons](/opensource/creative-commons) section.
 
 This may be a good starting point, but you really want to read a bit about the licenses before making any final decisions. Some good resources for that include:
 
 * [GitHub's license choosing site](http://choosealicense.com/)
 * [Licenses that comply with the Open Source Definition](http://opensource.org/licenses)
-* [Our take on popular licenses](/licenses)
+* [Our take on popular licenses](/opensource/licenses)
 
 Here's how we roll:
 
