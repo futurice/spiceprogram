@@ -1,0 +1,25 @@
+---
+layout: post
+title: Spice Program - Brief History of Open Source
+description: A brief history of Free and open-source software. How did the free and open-source movements come to life and what has happened during the years.
+---
+
+<div class="container content centered">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 top-level">
+      <h1>Brief history of Open Source</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <p class="quote">"'Free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,' not as in 'free beer'."<br />&mdash;Richard M. Stallman</p>
+    </div>
+    <div class="col-md-8 col-md-offset-2 article">
+      {% capture licenses %}{% include history-present-future.md %}{% endcapture %}
+      {{ licenses | markdownify }}
+    </div>
+  </div>
+</div>
