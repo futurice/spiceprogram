@@ -1,0 +1,86 @@
+---
+layout: activity
+title: Spice Program - Education
+header: Education
+description: Supporting the digital skills of this age.
+---
+
+<div class="row">
+  <div class="col-md-8 center">
+    <h3>Recent posts</h3>
+    <a href="/posts/education">See all posts</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4 post-box">
+
+  </div>
+
+  <div class="col-md-4 post-box">
+  </div>
+
+  <div class="col-md-4 guide-box">
+    <div class="guide-information">
+      <h3 class="guide-title">Organise your own code school</h3>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4 post-box">
+
+  </div>
+
+  <div class="col-md-4 post-box">
+  </div>
+
+  <div class="col-md-4 guide-box">
+    <div class="guide-information">
+      <h3>Would you be up to mentor a teacher?</h3>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 center">
+    <h3>Events &amp; projects</h3>
+    <a href="/projects">See all education related projects</a>
+  </div>
+</div>
+
+<div class="row section-title">
+  <h4>FUTURICE</h4>
+</div>
+
+<!-- COMPANY EVENTS -->
+{% for project in site.data.futurice-education-events %}
+  {% assign loopindex = forloop.index | modulo: 3 %}
+
+  {% if loopindex == 1 %}
+  <div class="row project-row">
+  {% endif %}
+    <div class="col-md-4 project">
+      <div class="img-container no-line-break">
+        <img src="{{ project.img_link }}" class="project-img">
+      </div>
+
+      <div class="project-information">
+        <a href="http://koodikoulu.fi">
+          <h3 class="project-title">{{ project.title }}</h3>
+          <p>{{ project.date }}</p>
+          <p>{{ project.location }}</p>
+        </a>
+      </div>
+    </div>
+  {% if loopindex == 0 %}
+  </div>
+  {% endif %}
+
+  {% if forloop.last == true %}
+    {% if loopindex != 0 %}
+    </div>
+    {% endif %}
+  {% endif %}
+
+{% endfor %}
