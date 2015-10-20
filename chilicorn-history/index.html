@@ -1,0 +1,15 @@
+---
+layout: default
+title: Spice Program - History of the Chilicorn
+description: There's a program logo! And it's fabulous. 
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 article">
+            {% capture chilicornhistory %}{% include chilicorn-history.md %}{% endcapture %}
+            {{ chilicornhistory | markdownify }}
+        </div>
+    </div>
+</div>
+

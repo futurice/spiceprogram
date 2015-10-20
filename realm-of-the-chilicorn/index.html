@@ -1,0 +1,18 @@
+---
+layout: default
+title: Spice Program - Realm of the Chilicorn
+description: A map of our sponsored OSS contributions.
+---
+
+<img class="img-responsive cover-img" src="{{ site.baseurl }}/assets/img/realm-of-the-chilicorn-midsize.png" alt="Map showing the OSS projects we have sponsored contributions to" />
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 article">
+            {% capture realmofthechilicorn %}{% include realm-of-the-chilicorn.md %}{% endcapture %}
+            {{ realmofthechilicorn | markdownify }}
+        </div>
+    </div>
+</div>
+
