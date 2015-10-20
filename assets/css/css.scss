@@ -51,6 +51,18 @@ html, body {
 
 }
 
+.chilicorn {
+    background: transparent url('{{ site.baseurl }}/assets/img/chilicornbg.jpg') center center no-repeat;
+    background-size: contain;
+    background-position:center;
+
+}
+
+.manycorn {
+    background: transparent url('{{ site.baseurl }}/assets/img/manycorn.jpg') center center no-repeat;
+
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -185,6 +197,12 @@ div.burger {
         text-decoration: none;
       }
 
+      .chilicorn {
+        &:hover {
+          color: #349C4A;
+        }
+      }
+
       &:active,
       &:focus {
         text-decoration: none;
@@ -283,6 +301,11 @@ a {
 .boxed:hover * {
   color: #d78227;
 border-left-color: #d78227;
+}
+
+.chilihover:hover * {
+  color: #349C4A;
+  border-left-color: #349C4A;
 }
 
 .body {
