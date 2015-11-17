@@ -3,7 +3,7 @@ What is the Chilicorn?
 
 It's our Open Source program's mascot. The program is called Spice Program. Chili is a spice? Get it? Harrr!
 
-Originally I made a version with MS Paint (you can find that below) to put pressure on our designers to create a proper one. Sure enough, [Pekka](http://futurice.com/people/pekka-pulli) cracked, and this wondrous thing came to be!
+Originally I made a version with MS Paint (you can find that below) to put pressure on our designers to create a proper one. Sure enough, [Pekka](http://pekkapulli.com) cracked, and this wondrous thing came to be!
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
