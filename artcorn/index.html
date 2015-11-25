@@ -1,0 +1,15 @@
+---
+layout: default
+title: Making of the Artcorn
+description: Applying neural-style algorithm implementation on the program logo.
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 article">
+            {% capture artcorn %}{% include artcorn.md %}{% endcapture %}
+            {{ artcorn | markdownify }}
+        </div>
+    </div>
+</div>
+
