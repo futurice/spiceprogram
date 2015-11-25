@@ -9,7 +9,6 @@ $(function() {
     });
 
     function onFinish(id) {
-        console.log(id);
         var finishedIframe = $('#' + id)[0];
         var finishedPlayer = $f(finishedIframe);
         finishedPlayer.element.src = finishedPlayer.element.src;
