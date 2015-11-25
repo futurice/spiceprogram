@@ -99,7 +99,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146779497" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146779497?api=1&player_id=player1" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player1" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -117,7 +117,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146779499" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146779499?api=1&player_id=player2" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player2" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -135,7 +135,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146782286" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146782286?api=1&player_id=player3" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player3" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -153,7 +153,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146779496" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146779496?api=1&player_id=player4" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player4" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -171,7 +171,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146779498" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146779498?api=1&player_id=player5" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player5" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -189,7 +189,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146779494" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146779494?api=1&player_id=player6" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player6" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -235,7 +235,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146791236" width="500" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146791236?api=1&player_id=player7" width="500" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player7" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -251,7 +251,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146791235" width="500" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146791235?api=1&player_id=player8" width="500" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player8" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -267,7 +267,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146791234" width="500" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146791234?api=1&player_id=player9" width="500" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player9" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -283,7 +283,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146791233" width="500" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146791233?api=1&player_id=player10" width="500" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player10" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -327,7 +327,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146913769" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146913769?api=1&player_id=player11" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player11" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -339,7 +339,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146913771" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146913771?api=1&player_id=player12" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player12" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -349,7 +349,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146913770" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146913770?api=1&player_id=player13" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player13" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -489,7 +489,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146791231" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146791231?api=1&player_id=player14" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player14" class="vimeoplayer"></iframe>
     </div>
 </div>
 
@@ -509,7 +509,7 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-        <iframe src="https://player.vimeo.com/video/146791232" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/146791232?api=1&player_id=player15" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player15" class="vimeoplayer"></iframe>
     </div>
 </div>
 
