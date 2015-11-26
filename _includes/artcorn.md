@@ -328,7 +328,7 @@ This Awesome Moss Growing On My Backyard by Teemu Turunen <small>[[CC BY-SA 4.0]
 
 The second style brings strong shapes that overlap the people in the office pic.
 
-It is important to note that if I understood the workings of this algorithm correctly, the fact that the spirals overlap people has no relevanca, since the algorithm separates the style from the content.
+It is important to note that if I understood the workings of this algorithm correctly, the fact that the spirals overlap people has no relevance, since the algorithm separates the style from the content.
 
 Freehand Golden Spirals in MS Paint Like a Boss by Teemu Turunen <small>[[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)]</small>
 
