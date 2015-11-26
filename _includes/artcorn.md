@@ -2,19 +2,33 @@
 
 This post is a study on how *quickly trying out a cool thing* so easily gets out of hand, or as we Finns say, slips away from a woollen glove.
 
-My colleague [Ville](http://futurice.com/people/ville-tainio) showed me a small picture he had made with [neural-style](https://github.com/jcjohnson/neural-style), a [torch](http://torch.ch) implementation of the paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576) by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. He had used it on our Social Responsibility Program logo. I saw potential and decided to just *quickly try*. It's been three weeks now and not nearly enough sleep.
+My colleague [Ville Tainio](http://futurice.com/people/ville-tainio) showed me a small picture he had made with [neural-style](https://github.com/jcjohnson/neural-style), a [torch](http://torch.ch) implementation of the paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576) by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. He had used it on our Social Responsibility Program logo. I saw potential and decided to just *quickly try*. It's been three weeks now and not nearly enough sleep.
+
+There are a lot of pictures after the next wall of text. Moving pictures! For the impatient, here's a two minute video demonstration with music.
+
+"Making of the Artcorn" by Teemu Turunen <small>[[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)]</small> 
+
+<div class="row text-center">
+    <div class="col-md-8 col-md-offset-2">
+        <iframe src="https://player.vimeo.com/video/147019606?api=1&player_id=player_musicvid" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="player_musicvid" class="vimeoplayer"></iframe>
+    </div>
+</div>
+
+The music composed by [Markus Koskinen](http://www.markuskoskinen.com).
 
 ## The sciencey stuff
 
 The algorithm implementation (written in [Lua](http://www.lua.org) and well documented by [jcjohnson](https://github.com/jcjohnson)) uses neural representations to first separate, then recombine the content and style of different images, to create a new image. The neural network tries to work out what is unique in the artist's style, then use that style on the provided content.
 
-It uses a convolutional neural network, a feed-forward neural network inspired by biological processes, in which the neurons respond to overlapping regions in the visual field. The network consists of multiple layers of small neuron collections called receptive fields. When doing propagation, the momentum and weight decay values are chosen to reduce oscillation during stochastic gradient descent. I have, at this point, no idea what that last sentence means.
+It uses a convolutional neural network, a feed-forward neural network inspired by biological processes, in which the neurons respond to overlapping regions in the visual field. The network consists of multiple layers of small neuron collections called receptive fields. When doing propagation, the momentum and weight decay values are chosen to reduce oscillation during stochastic gradient descent. I have, at this point, or any future point in time, no idea what that last sentence means.
 
-This algorithm is, however, pretty well explained in the paper. These neurons are computational units working as a collection of image filters, extracting a certain feature from the input image, each. Each layer produces a differently filtered version of the image. Through the processing hierarchy the input image is transformed into representations that care about the actual content of the image, not just pixel values. High-level content representation is in terms of objects and their arrangement.
+This algorithm is, however, pretty well explained in the paper. These neurons are computational units working as a collection of image filters, extracting a certain feature from the input image. Each layer produces a differently filtered version of the image. Through the processing hierarchy the input image is transformed into representations of the actual content of the image, not just pixel values. High-level content representation is in terms of objects and their arrangement.
 
 For the style image texture information is captured, but the content is not relevant. As a result we have separate content and style, and they can be used to produce new imagery that still makes sense.
 
 Read the [paper](http://arxiv.org/abs/1508.06576) for more information. I am just a random guy who wants to make Artcorns.
+
+## Artcorns?
 
 I am going to use this marvel of modern science to create surreal versions of our logo. These images will be used to print promotional beverage coasters! We can then sneak some of them into random bars, and... that's about as far as I've planned this.
 
@@ -26,6 +40,7 @@ I am going to use this marvel of modern science to create surreal versions of ou
     </div>
 </div>
 
+Is that a fat cat under the prototypes? Why yes, yes it is.
 
 Here's the logo original by [Pekka Pulli](http://pekkapulli.com), the [Chilicorn](http://spiceprogram.org/chilicorn/) <small>[copyright [Futurice](http://www.futurice.com), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)]</small>
 
@@ -47,11 +62,15 @@ There are plenty of parameters you can tweak in the algorithm. I get into some o
 	-output_image starrycorn.png (name of the output image)
 	-gpu -1 (use CPU instead of GPU even if the latter is available)
 
-The algorithm is run with 1000-2000 iterations. I want to print 200 versions of the developing output while it churns away, to study them and so I can combine them into a video. There seems to be some variance on how frequently the algorithm implementation allows you to save the output, using a number as low as five may cause it to decline service and exit. Or not. If that happens, I then try save_iter 6 and num_iters 1200, or save_iter 7 and num_iters 1400... I'll see if I can disable that particular check at some point, it does not make sense to me.
+The algorithm is run with 1000-2000 iterations. I want to print 200 versions of the developing output while it churns away, to study them and so I can combine them into a video. There seems to be some variance on how frequently the algorithm implementation allows you to save the output, using a number as low as five may cause it to decline service and exit. 
+
+If that happens, I then try save_iter 6 and num_iters 1200, or save_iter 7 and num_iters 1400. I'll see if I can disable that particular check at some point, it does not make sense to me.
 
 The resulting two hundred PNG images are combined into an mp4 encoded video using ffmpeg. I created 20 second long videos. 
 
 ## Environments
+
+I created a [GitHub Gist](https://gist.github.com/ttur/63490729532ceb81bee7) with the installation and operation procedures.
 
 Installing the dependencies for the neural-style algorithm was quite straightforward. I started by running it on a virtualized CentOS server, for which I allocated 10GB of memory, assuming it to be plenty.
 
@@ -81,7 +100,7 @@ All videos on this site have been created on the CentOS server at 1024px size ut
 
 If you can get a GPU with 8GB or more memory, I highly recommend it... this is excruciatingly slow! A thousand iterations is a lot though - you can see at around 250-300 whether the result will be interesting. On AWS with smaller images that's just 10 minutes each.
 
-## The Artcorns
+## Artcorns!
 
 I picked some well known paintings for the algorithm to learn the style of. They are also old enough to fall into the Public Domain. I assume that using a style of a copyrighted work should not be an infringement, but I have zero interest in becoming the precedent in court.
 
@@ -515,7 +534,9 @@ The video <small>[copyright Teemu Turunen, [CC BY-SA 4.0](https://creativecommon
 
 That is actually pretty cool example of the texture transfer. 
 
-This neural-style stuff is highly addictive, so I warn you against trying. 
+This neural-style stuff is highly addictive, so I warn you against trying. It is a horrible time sink. 
+
+If you disregard my advice, you can find the instructions in my [GitHub Gist](https://gist.github.com/ttur/63490729532ceb81bee7).
 
 Thanks for reading!
 
