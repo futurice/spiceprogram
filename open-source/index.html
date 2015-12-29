@@ -6,56 +6,72 @@ description: It's time to give back to the community.
 ---
 
 <div class="row">
-  <div class="col-md-8 center">
-    <h3>Recent posts</h3>
-    <a href="/posts/open-source">See all posts</a>
-  </div>
-  <div class="col-md-4 center">
-    <h3>Guides</h3>
-  </div>
-</div>
 
-<div class="row">
-  <div class="col-md-4 post-box">
+  <div class="col-sm-12 col-md-8">
+    <div class="row">
+      <div class="col-sm-12 center col-header">
+        <h2>Recent posts</h2>
+        <a href="/posts/open-source">See all posts</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 post-box">
 
-  </div>
+      </div>
 
-  <div class="col-md-4 post-box">
-  </div>
+      <div class="col-xs-12 col-sm-6 post-box">
+      </div>
+      <div class="col-xs-12 col-sm-6 post-box">
 
-  <div class="col-md-4 guide-box">
-    <div class="guide-information">
-      <h3 class="guide-title">Getting started with open source</h3>
-      <p>Developers, designers, everyone!</p>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 post-box">
+      </div>
+
+     
     </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="col-md-4 post-box">
-
-  </div>
-
-  <div class="col-md-4 post-box">
-  </div>
-
-  <div class="col-md-4 guide-box">
-    <div class="guide-information">
-      <h3>Ultimate guide to open source licenses</h3>
-      <p>Puzzled by GPL? Look no further.</p>
+  <div class="col-sm-12 col-md-4">
+    <div class="row">
+      <div class="col-sm-12 center col-header">
+        <h2>Guides</h2>
+      </div>
+    </div>
+    <div class="row">
+       <div class="col-xs-12 col-sm-6 col-md-12 guide-box">
+        <div class="guide-information">
+          <h3 class="guide-title">Getting started with open source</h3>
+          <p>Developers, designers, everyone!</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-12 guide-box">
+        <div class="guide-information">
+          <h3>Ultimate guide to open source licenses</h3>
+          <p>Puzzled by GPL? Look no further.</p>
+        </div>
+      </div>
     </div>
   </div>
+
+
 </div>
+  
+
+
+
 
 <div class="row">
-  <div class="col-md-12 center">
-    <h3>Projects</h3>
+  <div class="col-sm-12 center col-header">
+    <h2>Projects</h2>
     <a href="/projects">See all projects</a>
   </div>
 </div>
 
 <div class="row section-title">
-  <h4>FUTURICE</h4>
+  <div class="col-sm-12">
+    <h4 class="underlined">FUTURICE</h4>
+  </div>
 </div>
 
 <!-- COMPANY PROJECTS -->
@@ -65,16 +81,32 @@ description: It's time to give back to the community.
   {% if loopindex == 1 %}
   <div class="row project-row">
   {% endif %}
-    <div class="col-md-4 project">
-      <div class="img-container no-line-break">
-        <img src="{{ project.img_link }}" class="project-img">
-      </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 project">
+      <div class="project-box">
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="img-container">
+              <img src="{{ project.img_link }}" class="project-img">
+            </div>
+          </div>
+          <div class="col-xs-8">
+            <div class="project-information">
+              <a href="{{ project.github }}">
+                <h3 class="project-title">{{ project.title }}</h3>
+              </a>
+              <span class="contribution-information">12 commits - 5 starts</span>
+            </div>
+          </div>
+        </div>
+        <div class="row project-box-footer">
+          <div class="col-xs-6">
+            <a href="{{ project.github }}">Github</a>
+          </div>
+          <div class="col-xs-6">
+            <a href="/#">Project page</a>
+          </div>
 
-      <div class="project-information">
-        <a href="{{ project.github }}">
-          <h3 class="project-title">{{ project.title }}</h3>
-        </a>
-        <span class="contribution-information">12 commits - 5 starts</span>
+        </div>
       </div>
     </div>
   {% if loopindex == 0 %}
@@ -90,7 +122,9 @@ description: It's time to give back to the community.
 {% endfor %}
 
 <div class="row section-title">
-  <h4>PERSONAL PROJECTS</h4>
+  <div class="col-sm-12">
+    <h4 class="underlined">PERSONAL PROJECTS</h4>
+  </div>
 </div>
 
 <!-- PERSONAL PROJECTS -->
@@ -100,18 +134,33 @@ description: It's time to give back to the community.
   {% if loopindex == 1 %}
   <div class="row project-row">
   {% endif %}
-    <div class="col-md-4 project">
-      <div class="img-container no-line-break">
-        <img src="{{ project.img_link }}" class="project-img">
-      </div>
+    <div class="col-sm-12 col-sm-6 col-md-4 project">
+      <div class="project-box">
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="img-container">
+              <img src="{{ project.img_link }}" class="project-img">
+            </div>
+          </div>
+          <div class="col-xs-8">
+            <div class="project-information">
+              <a href="{{ project.github }}">
+                <h3 class="project-title">{{ project.title }}</h3>
+              </a>
+              <span class="contribution-information">12 commits - 5 starts</span>
+            </div>
+          </div>
+        </div>
+        <div class="row project-box-footer">
+          <div class="col-xs-6">
+            <a href="{{ project.github }}">Github</a>
+          </div>
+          <div class="col-xs-6">
+            <a href="/#">Project page</a>
+          </div>
 
-      <div class="project-information">
-        <a href="{{ project.github }}">
-          <h3 class="project-title">{{ project.title }}</h3>
-        </a>
-        <span class="contribution-information">12 commits - 5 starts</span>
+        </div>
       </div>
-
     </div>
   {% if loopindex == 0 %}
   </div>
@@ -124,3 +173,4 @@ description: It's time to give back to the community.
   {% endif %}
 
 {% endfor %}
+

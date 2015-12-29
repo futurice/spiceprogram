@@ -448,6 +448,30 @@ html, body {
   color: rgba(0,0,0,0.8);
 }
 
+/* Fonts */
+
+h3 {
+  
+}
+h4.underlined {
+  border-bottom: 6px solid #ddd;
+}
+
+.index-page {
+  h2 {
+    font-size: 1.6em;
+    margin-top: 0;
+  }
+}
+/* Layout */
+.col-header {
+  margin: 2em 0;
+  min-height: 4em;
+}
+
+@mixin shadowed {
+  box-shadow: 0 0px 3px #ccc;
+}
 /*
  *  NAVIGATION BAR
  */
@@ -519,13 +543,15 @@ html, body {
 /* Index header */
 .index-header {
   text-align: center;
-
-  .title {
-    margin-top: 40px;
+  padding: 4em 2em;
+  overflow: hidden;
+  h1 {
+    margin-top: 0;
+    font-weight: bold;
   }
-
-  .description {
-    margin-top: 20px;
+  .lead {
+    margin-bottom: 0;
+    font-weight: 400;
   }
 }
 
@@ -546,6 +572,17 @@ html, body {
   }
 }
 
+.row.hero {
+  background: url(/assets/img/background-sky.jpg) center 0;
+  &.dark {
+    h1 {
+      color: #fff;
+    }
+    .lead {
+      color: #fff;
+    }
+  }
+}
 .index-activity {
   background-color: #EEE;
   width: 49%;
@@ -623,15 +660,34 @@ html, body {
 }
 
 .project-row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+  //display: -webkit-box;
+  //display: -webkit-flex;
+  //display: -ms-flexbox;
+  //display:         flex;
+  margin-bottom: 1em;
+}
+
+.project-box {
+  @include shadowed;
+  margin-bottom: 1em;
+}
+.project-box-footer { 
+  background: #333;
+  margin: 0;
+  text-align: center;
+  a {
+    color: #fff;
+    display: block;
+    padding: 0.5em;
+  }
+  .col-sm-6 {
+    border-right: 1px solid #555;
+  }
 }
 
 .project {
-  width: 31.6%;
-  margin-left: 15px;
+  // width: 31.6%;
+  // margin-left: 15px;
 
   a {
     text-decoration: none;
@@ -651,7 +707,14 @@ html, body {
     display: inline;
 
     .project-title {
-
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+    }
+    .contribution-information {
+      font-size: 1em;
     }
   }
 }
@@ -702,19 +765,20 @@ html, body {
 }
 
 .post-box {
+  @include shadowed;
   height: 250px;
   background-color: #ddd;
-  width: 31.6%;
-  margin-left: 15px;
-  margin-bottom: 15px;
+  //width: 31.6%;
+  //margin-left: 15px;
+  //margin-bottom: 15px;
 }
 
 .guide-box {
+  @include shadowed;
   height: 250px;
   background-color: #eee;
-  width: 31.6%;
-  margin-left: 15px;
-  display: table;
+  //width: 31.6%;
+  //margin-left: 15px;
   overflow: hidden;
 
   .guide-information {
@@ -728,7 +792,7 @@ html, body {
 }
 
 .section-title {
-  margin-top: 40px;
+  
 }
 
 .top-level {
