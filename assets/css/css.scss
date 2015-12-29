@@ -454,20 +454,40 @@ html, body {
 
 #topnav {
   width: 100%;
-  line-height: 40px;
   border-bottom: 4px solid red;
   outline: 4px solid orange;
+  overflow: hidden;
 
   a {
     text-decoration: none;
     color: #000;
   }
-
+  #logo {
+    float: left;
+    margin: 0.5em;
+  }
+  .right-col {
+    float: right;
+  }
+  #mainnav {
+    float: left;
+    list-style-type: none;
+    margin: 0; padding: 0;
+    
+    li {
+      float: left;
+      a {
+        padding: 1em;
+        display: block;
+        &:hover {
+          background: #eee;
+        }
+      }
+    }
+  }
   #nav-logo {
     width: 35px;
     vertical-align: middle;
-    padding: 5px 0px;
-    margin-left: 10px;
   }
 
   #nav-title {
@@ -476,19 +496,22 @@ html, body {
   }
 
   #nav-github-link {
-    float: right;
+    float: left;
     vertical-align: middle;
-    border: 1px solid #000;
-    margin-right: 10px;
-    margin-top: 1px;
+    border: 2px solid #000;
+    margin: 0.5em;
+    padding: 0.25em;
 
     #github-icon {
       vertical-align: middle;
       margin-right: 10px;
       margin-left: 5px;
+      font-size: 25px;
     }
     #github-box-title {
-      margin-right: 20px;
+      margin-right: 1em;
+      position: relative;
+      top: 0.1em;
     }
   }
 }
