@@ -8,7 +8,7 @@
       {% include nav-bar.html %}
       <div class="row hero dark">
         <div class="container">
-          <div class="row-fluid index-header">
+          <div class="row-fluid activity-header">
             <div class="col-md-12 title">
               <h1 class="title">{{ page.header }}</h1>
             </div>
@@ -21,7 +21,12 @@
       </div>
       <div class="row">
         <div class="container index-page">
-          {{ content }}
+          <div class="col-md-3">
+            {% include menu.html %}
+          </div>
+          <div class="col-md-9">
+            {{ content }}
+          </div>
         </div>
       </div>
     </body>

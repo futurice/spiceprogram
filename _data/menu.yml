@@ -1,0 +1,34 @@
+- title: "Home"
+  href: "/"
+
+- title: "Open Source"
+  href: "/open-source/"
+  subcategories:
+    - subtitle: "Lisences"
+      subhref: "/lisences/"
+    - subtitle: "Learning topic 2"
+      subhref: "/learn2/"
+    - subtitle: "Learning topic 3"
+      subhref: "/learn3/"
+
+- title: "Tools"
+  subcategories:
+    - subtitle: "Tools1"
+      subhref: "/tools1/"
+    - subtitle: "Tools2"
+      subhref: "/tools2/"
+
+- title: "Login"
+  href: "/login/"
+
+
+- title: "SIGNUP"
+  href: "/signup/"
+
+
+- title: "Support"
+  href: "/support/"
+
+
+- title: "About Us"
+  href: "/about-us/"
