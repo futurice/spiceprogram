@@ -1,18 +1,9 @@
-{% assign url_parts = page.url | split: '/' %}
-{% assign url_parts_size = url_parts | size %}
-{% assign rm = url_parts | last %}
-{% assign base_url = page.url | replace: rm %}
-
-<ul id="sidenav">
-{% for node in site.pages %}
-<!--<p>{{node.url}}</p>-->
-  {% if node.url contains base_url %}
-    {% assign node_url_parts = node.url | split: '/' %}
-    {% assign node_url_parts_size = node_url_parts | size %}
-    {% assign filename = node_url_parts | last %}
-    {% if url_parts_size == node_url_parts_size != 'index.html'%}
-    	<li><a href='{{node.url}}'>{{node.title}}</a></li>
-    {% endif %}
-  {% endif %}
+{% for dale in site.data.menu %}
+{% if dale.title == "About" %}
+<ul class="" id="sidenav">
+{% for subpage in dale.subpages %}
+    <li><a href="{{ site.url }}{{ subpage.subhref }}" {% if page.url == subpage.subhref %}class="active"{% endif %}>{{ subpage.subtitle }}</a></li>
 {% endfor %}
 </ul>
+{% endif %}
+{% endfor %}

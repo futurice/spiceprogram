@@ -1,0 +1,11 @@
+---
+layout: page-simple
+title: Why are we doing this?
+header: Why are we doing this?
+description: See why we started our open source program, Spice Program, at Futurice and why you should consider starting a similar open source program at your company.
+---
+<!--
+<div class="beef">Our company both advocates and benefits from making use of open source software when we build software solutions for our customers. It is the one ideology that the majority of our people subscribe to.</div>
+-->
+{% capture why %}{% include why-bother.md %}{% endcapture %}
+{{ why | markdownify }}

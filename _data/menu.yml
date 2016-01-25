@@ -1,34 +1,36 @@
 - title: "Home"
   href: "/"
 
+- title: "About"
+  href: "/about/"
+  subpages:
+    - subtitle: "About Spice Program"
+      subhref: "/about/index.html"
+    - subtitle: "Why are we doing this?"
+      subhref: "/about/why.html"
+    - subtitle: "Chilicorn"
+      subhref: "/about/chilicorn.html"
+
 - title: "Open Source"
   href: "/open-source/"
-  subcategories:
+  subpages:
     - subtitle: "Lisences"
       subhref: "/lisences/"
-    - subtitle: "Learning topic 2"
+    - subtitle: "History"
       subhref: "/learn2/"
-    - subtitle: "Learning topic 3"
+    - subtitle: "Chilicorn"
       subhref: "/learn3/"
 
-- title: "Tools"
-  subcategories:
+- title: "Education"
+  href: "/education/"
+  subpages:
     - subtitle: "Tools1"
       subhref: "/tools1/"
     - subtitle: "Tools2"
       subhref: "/tools2/"
 
-- title: "Login"
-  href: "/login/"
+- title: "Blog"
+  href: "/blog/"
 
-
-- title: "SIGNUP"
-  href: "/signup/"
-
-
-- title: "Support"
-  href: "/support/"
-
-
-- title: "About Us"
-  href: "/about-us/"
+- title: "People"
+  href: "/people/"

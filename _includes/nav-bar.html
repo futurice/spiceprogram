@@ -9,21 +9,11 @@
   <div class="right-col">
 
     <ul id="mainnav">
-      <!--<li>
-        <a href="/about-spice">About Spice</a>
-      </li>-->
+      {% for dale in site.data.menu %}
       <li>
-        <a href="/open-source">Open source</a>
+        <a href="{{ site.url }}{{ dale.href }}" {% if page.url == dale.href %}class="active"{% endif %}>{{ dale.title}}</a>
       </li>
-      <li>
-        <a href="/education">Education</a>
-      </li>
-      <!--<li>
-        <a href="/blog">Blog</a>
-      </li>
-      <li>
-        <a href="/people">People</a>
-      </li>-->
+      {% endfor %}
     </ul>
 
     <a href="https://github.com/futurice">

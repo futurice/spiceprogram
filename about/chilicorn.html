@@ -1,0 +1,13 @@
+---
+layout: page-simple
+title: Realm of the Chilicorn
+
+description: There's a program logo! And it's fabulous. Also a map of our sponsored OSS contributions.
+
+background-image: /assets/img/realm-of-the-chilicorn-midsize.png
+---
+
+<img class="img-responsive" src="{{ site.baseurl }}/assets/img/realm-of-the-chilicorn-midsize.png" alt="Map showing the OSS projects we have sponsored contributions to" />
+
+{% capture chilicorn %}{% include chilicorn.md %}{% endcapture %}
+{{ chilicorn | markdownify }}

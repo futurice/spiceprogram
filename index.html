@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Spice Program - Futurice Social Impact Program
 ---
 
@@ -48,7 +48,7 @@ title: Spice Program - Futurice Social Impact Program
       </div>
 
 
-      {% for blog in site.data.index-blogs %}
+      {% for blog in site.data.blogs limit:6 %}
         {% assign loopindex = forloop.index | modulo: 3 %}
 
         {% if loopindex == 1 %}

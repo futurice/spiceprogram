@@ -16,18 +16,24 @@ description: Supporting the digital skills of this age.
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 post-box">
+      {% for blog in site.data.blogs limit:4 %}
+        {% if blog.tag == "education" %}
+          <div class="col-xs-12 col-sm-6 post-box">
+     
+            <div class="img-container">
+              <img src="{{ blog.img_link }}" class="blog-img">
+            </div>
+            <div class="blog-info">
+              <a href="{{ blog.link }}" class="blog-link">
+                <h3 class="blog-title">{{ blog.title }}</h3>
+                <p class="blog-description">{{ blog.description }}</p>
+              </a>
+            </div>
+          </div>
+        {% endif %}
+ 
+      {% endfor %}
 
-      </div>
-
-      <div class="col-xs-12 col-sm-6 post-box">
-      </div>
-      <div class="col-xs-12 col-sm-6 post-box">
-
-      </div>
-
-      <div class="col-xs-12 col-sm-6 post-box">
-      </div>
 
      
     </div>
