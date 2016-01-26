@@ -1,3 +1,8 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+{% assign rm = url_parts | last %}
+{% assign base_url = page.url | replace: rm %}
+
 <div id="topnav">
   <div class="left-col">
     <a href="/" id="logo">
@@ -9,9 +14,9 @@
   <div class="right-col">
 
     <ul id="mainnav">
-      {% for dale in site.data.menu %}
+      {% for node in site.data.menu %}
       <li>
-        <a href="{{ site.url }}{{ dale.href }}" {% if page.url == dale.href %}class="active"{% endif %}>{{ dale.title}}</a>
+        <a href="{{ site.url }}{{ node.href }}" {% if node.href == base_url %}class="active"{% endif %}>{{ node.title}}</a> 
       </li>
       {% endfor %}
     </ul>

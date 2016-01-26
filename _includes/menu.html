@@ -1,7 +1,9 @@
-{% for dale in site.data.menu %}
-{% if dale.title == "About" %}
+
+
+{% for node in site.data.menu %}
+{% if node.title == "About" %}
 <ul class="" id="sidenav">
-{% for subpage in dale.subpages %}
+{% for subpage in node.subpages %}
     <li><a href="{{ site.url }}{{ subpage.subhref }}" {% if page.url == subpage.subhref %}class="active"{% endif %}>{{ subpage.subtitle }}</a></li>
 {% endfor %}
 </ul>

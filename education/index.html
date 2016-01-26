@@ -3,6 +3,7 @@ layout: activity
 title: Spice Program - Education
 header: Education
 description: Supporting the digital skills of this age.
+background-image: /assets/img/bg-open-source.jpg
 ---
 
 
@@ -12,11 +13,11 @@ description: Supporting the digital skills of this age.
     <div class="row">
       <div class="col-sm-12 center col-header">
         <h2>Recent posts</h2>
-        <a href="/posts/open-source">See all posts</a>
+        <a href="/blog">See all posts</a>
       </div>
     </div>
     <div class="row">
-      {% for blog in site.data.blogs limit:4 %}
+      {% for blog in site.data.blogs limit:5 %}
         {% if blog.tag == "education" %}
           <div class="col-xs-12 col-sm-6 post-box">
      
@@ -67,12 +68,12 @@ description: Supporting the digital skills of this age.
 
 <div class="row">
   <div class="col-md-12 center">
-    <h3>Events &amp; projects</h3>
+    <h2 class="section-title no-padding">Events &amp; projects</h2>
     <a href="/projects">See all education related projects</a>
   </div>
 </div>
 
-<div class="row section-title">
+<div class="row">
   <div class="col-xs-12">
     <h4 class="underlined">FUTURICE</h4>
   </div>

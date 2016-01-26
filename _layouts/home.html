@@ -4,8 +4,9 @@
         {% include head.html %}
     </head>
 
-    <body>
+    <body id="page-home" {% if page.background-image != %} style="background-image: url({{ page.background-image }});" {% endif %}>
       {% include nav-bar.html %}
       {{ content }}
+      {% include footer.html %}
     </body>
 </html>

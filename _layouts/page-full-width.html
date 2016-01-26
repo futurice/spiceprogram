@@ -4,11 +4,11 @@
         {% include head.html %}
     </head>
 
-    <body>
+    <body id="page-{{ page.pageclass }}" {% if page.background-image != %} style="background-image: url({{ page.background-image }});" {% endif %}>
 
-    {% include nav-bar.html %}
+        {% include nav-bar.html %}
 
-        <div class="hero dark" {% if page.background-image != %} style="background-image: url({{ page.background-image }});" {% endif %}>
+        <div class="hero dark">
             <div class="container">
                 <div class="row-fluid activity-header">
                     <div class="col-md-12 title">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="page-bg">
             <div class="container page">
                 <div class="row">
                 	<div class="col-sm-12">
@@ -30,5 +30,6 @@
                 </div>
             </div>
         </div>
+        {% include footer.html %}
     </body>
 </html>

@@ -4,7 +4,7 @@
         {% include head.html %}
     </head>
 
-    <body>
+    <body id="page-{{ page.pageclass }}" {% if page.background-image != %} style="background-image: url({{ page.background-image }});" {% endif %}>
       {% include nav-bar.html %}
       <div class="hero dark">
         <div class="container">
@@ -19,14 +19,16 @@
           </div>
         </div>
       </div>
- 
-      <div class="container index-page">
-        <div class="row">
-          <div class="col-md-12">
-            {{ content }}
+      
+      <div class="page-bg">
+        <div class="container index-page">
+          <div class="row">
+            <div class="col-md-12">
+              {{ content }}
+            </div>
           </div>
         </div>
+        {% include footer.html %}
       </div>
-
     </body>
 </html>
