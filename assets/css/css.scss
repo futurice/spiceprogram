@@ -449,6 +449,10 @@ html, body {
   color: rgba(0,0,0,0.8);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background: url(/assets/img/background-sky.jpg) center 0 fixed;
 }
@@ -475,6 +479,9 @@ h4.underlined {
     padding-top: 2em;
   }
 
+}
+.flex-container {
+  display: flex;
 }
 
 .centered {
@@ -576,18 +583,18 @@ h1.page {
  *  NAVIGATION BAR
  */
 
-#topnav {
+#topbar.navbar {
   position: relative;
   width: 100%;
   border-bottom: 4px solid red;
   outline: 4px solid orange;
   overflow: hidden;
-  background: rgba(255,255,255,0.95);
+  background: rgba(255,255,255,1);
   z-index: 100;
 
   a {
     text-decoration: none;
-    color: #000;
+    color: #777; // Overriding bootstrap
   }
   #logo {
     float: left;
@@ -598,22 +605,19 @@ h1.page {
   }
   #mainnav {
     float: left;
-    list-style-type: none;
-    margin: 0; padding: 0;
     
     li {
       float: left;
       a {
-        padding: 1em;
-        display: block;
         &.active {
           font-weight: bold;
+          color: #000;
           &:hover {
-            padding-top: 1em;
+            
           }
         }
         &:hover {
-          padding-top: 0.9em;
+          color: #000;
         }
 
       }
@@ -621,21 +625,19 @@ h1.page {
   }
 
   #nav-logo {
-    width: 35px;
+    width: 22px;
     vertical-align: middle;
+    position: relative;
+    top: -2px;
   }
 
-  #nav-title {
-    font-size: 20px;
-    vertical-align: middle;
-  }
 
   #nav-github-link {
     float: left;
     vertical-align: middle;
     border: 1px solid #D8D8D8;
-    margin: 0.5em;
     padding: 0.25em;
+    margin-top: 0.4em;
     box-shadow: 0 1px 3px #aaa;
 
     #github-icon {
@@ -696,38 +698,46 @@ h1.page {
 .content {
   max-width: 650px;
   padding-bottom: 4em;
+  float: none;
+  margin: 0 auto;
 }
 
 .index-activities {
-  
+
   > a:first-child {
-    border-right: 1px solid #eee;
-  } 
-  a {
+
+    border-bottom: 1px solid #eee;
+
+    @media (min-width: 767px) {
+      border-bottom: 0;
+      border-right: 1px solid #eee;
+    }
+  }
+
+  .index-activity {
+    padding: 60px 60px;
     text-decoration: none;
 
     &:hover {
-        text-decoration: none;
+      text-decoration: none !important;
+      .icon {
+        left: 5px;
       }
+    }
 
-      &:active,
-      &:focus {
-        text-decoration: none;
-      }
-  }
-  .index-activity {
-    padding: 60px 60px;
-    
+    &:active,
+    &:focus {
+      text-decoration: none;
+    }
 
     .activity-title {
       font-weight: bold;
-      padding-left: 20px;
       color: #444;
       margin-top: 0;
     }
     .activity-description {
-      padding-left: 20px;
       color: #444;
+
       .lead {
         text-align: left;
         color: #444;
@@ -736,6 +746,10 @@ h1.page {
       @media (min-width: 1200px) {
         width: 80%;
       }
+    }
+    .icon {
+      margin: auto;
+      text-align: center;
     }
   }
 
@@ -764,8 +778,6 @@ h1.page {
   }
 }
 
-.blog-row {
-}
 
 .blog-box {
   @include shadowed;
@@ -782,6 +794,7 @@ h1.page {
     overflow: hidden;
   }
   .blog-info {
+    background: #fff;
     padding: 1em;
   }
   .blog-img {
@@ -956,6 +969,7 @@ h1.page {
   overflow: hidden;
   cursor: pointer;
   display: flex;
+  color: #444;
 
   &:hover {
     text-decoration: none;
@@ -1005,13 +1019,6 @@ h1.page {
   }
   li:last-child {
     a {border-bottom: 0;}
-  }
-}
-.top-level {
-  padding-top: 5%;
-
-  h1 {
-    padding-bottom: 1%;
   }
 }
 
