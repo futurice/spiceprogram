@@ -492,7 +492,8 @@ h4.underlined {
 .floating-chilicorn {
   position: absolute;
   width: 200px;
-
+  -webkit-filter: drop-shadow(0 0 3px rgba(0,0,0,0.5)); 
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
   //box-shadow: 0 0 4px #eee;
 }
 
@@ -511,6 +512,15 @@ h1.page {
 .col-header {
   margin: 2em 0;
   min-height: 4em;
+  display: flex;
+  div {
+    margin: auto;
+    text-align: center;
+  }
+  h2 {
+    margin-top: 0;
+  }
+
 }
 
 @mixin shadowed {
@@ -749,6 +759,9 @@ h1.page {
     padding-top: 0;
     padding-bottom: 0;
   }
+  &.no-padding-bottom {
+    padding-bottom: 0;
+  }
 }
 
 .blog-row {
@@ -937,14 +950,21 @@ h1.page {
   @include shadowed;
   box-shadow: 0 0px 3px #BDBDBD;
   height: 250px;
-  background-color: #eee;
+  background-color: #fff;
   //width: 31.6%;
   //margin-left: 15px;
   overflow: hidden;
+  cursor: pointer;
+  display: flex;
+
+  &:hover {
+    text-decoration: none;
+  }
+
 
   .guide-information {
-    display: table-cell;
-    vertical-align: middle;
+    text-align: center;
+    margin: auto;
   }
 }
 

@@ -11,25 +11,25 @@ background-image: /assets/img/bg-open-source.jpg
   <div class="col-sm-12 col-md-8">
     <div class="row">
       <div class="col-sm-12 center col-header">
-        <h2>Recent posts</h2>
-        <a href="/blog">See all posts</a>
+        <div>
+          <h2>Recent posts</h2>
+          <a href="/blog">See all posts</a>
+        </div>
       </div>
     </div>
     <div class="row">
       {% for blog in site.data.blogs limit:4 %}
         {% if blog.tag == "open source" %}
-          <div class="col-xs-12 col-sm-6 post-box">
+          <a href="{{ blog.link }}" class="col-xs-12 col-sm-6 post-box">
      
             <div class="img-container">
               <img src="{{ blog.img_link }}" class="blog-img">
             </div>
             <div class="blog-info">
-              <a href="{{ blog.link }}" class="blog-link">
                 <h3 class="blog-title">{{ blog.title }}</h3>
                 <p class="blog-description">{{ blog.description }}</p>
-              </a>
             </div>
-          </div>
+          </a>
         {% endif %}
  
       {% endfor %}
@@ -39,22 +39,24 @@ background-image: /assets/img/bg-open-source.jpg
   <div class="col-sm-12 col-md-4">
     <div class="row">
       <div class="col-sm-12 center col-header">
-        <h2>Guides</h2>
+        <div>
+          <h2>Guides</h2>
+        </div>
       </div>
     </div>
     <div class="row">
-       <div class="col-xs-12 col-sm-6 col-md-12 guide-box">
+       <a class="col-xs-12 col-sm-6 col-md-12 guide-box">
         <div class="guide-information">
           <h3 class="guide-title">Getting started with open source</h3>
           <p>Developers, designers, everyone!</p>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-12 guide-box">
+      </a>
+      <a class="col-xs-12 col-sm-6 col-md-12 guide-box">
         <div class="guide-information">
           <h3>Ultimate guide to open source licenses</h3>
           <p>Puzzled by GPL? Look no further.</p>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 
@@ -66,8 +68,8 @@ background-image: /assets/img/bg-open-source.jpg
 
 
 <div class="row">
-  <div class="col-sm-12 center col-header">
-    <h2 class="section-title no-padding">Projects</h2>
+  <div class="col-sm-12 center">
+    <h2 class="section-title no-padding-bottom">Projects</h2>
     <a href="/projects">See all projects</a>
   </div>
 </div>
