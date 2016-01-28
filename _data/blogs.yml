@@ -1,75 +1,51 @@
 - title: "Brewing a beer"
   link: "/posts/freebeer.html"
-  tag: "open source" 
+  tag: "opensource" 
   img_link: "/assets/img/freebeer/FREEBEER3.2_label.png"
   description: >
     Once we stumbled upon the old Free Beer initiative,
     we had no choice but to brew our own derivative work.
-
-- title: "Brewing a beer"
-  link: "/posts/freebeer.html"
-  tag: "open source" 
-  img_link: "/assets/img/freebeer/FREEBEER3.2_label.png"
-  description: >
-    Once we stumbled upon the old Free Beer initiative,
-    we had no choice but to brew our own derivative work.
-
-- title: "Brewing a beer"
-  link: "/posts/freebeer.html"
-  tag: "open source" 
-  img_link: "/assets/img/freebeer/FREEBEER3.2_label.png"
-  description: >
-    Once we stumbled upon the old Free Beer initiative,
-    we had no choice but to brew our own derivative work.
-
-- title: "Brewing a beer"
-  link: "/posts/freebeer.html"
-  tag: "open source" 
-  img_link: "/assets/img/freebeer/FREEBEER3.2_label.png"
-  description: >
-    Once we stumbled upon the old Free Beer initiative,
-    we had no choice but to brew our own derivative work.
-
-- title: "Brewing a beer"
-  link: "/posts/freebeer.html"
-  tag: "open source" 
-  img_link: "/assets/img/freebeer/FREEBEER3.2_label.png"
-  description: >
-    Once we stumbled upon the old Free Beer initiative,
-    we had no choice but to brew our own derivative work.
-
-- title: "Supporting the education of digital skills"
-  link: "http://futurice.com/blog/code-school-for-adults"
-  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
-  tag: "education"
-  description: >
-    Supporting the education of digital skills.
-
-- title: "Supporting the education of digital skills"
-  link: "http://futurice.com/blog/code-school-for-adults"
-  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
-  tag: "education"
-  description: >
-    Supporting the education of digital skills.
-
-- title: "Supporting the education of digital skills"
-  link: "http://futurice.com/blog/code-school-for-adults"
-  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
-  tag: "education"
-  description: >
-    Supporting the education of digital skills.
-
-- title: "Supporting the education of digital skills"
-  link: "http://futurice.com/blog/code-school-for-adults"
-  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
-  tag: "education"
-  description: >
-    Supporting the education of digital skills.
 
 - title: "Summer of Love initiative"
   link: "/posts/summer-of-love.html"
   img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
-  tag: "open source"
+  tag: "opensource"
   description: >
     Supporting the education of digital skills.
+
+- title: "1 Supporting the education of digital skills"
+  link: "http://futurice.com/blog/code-school-for-adults"
+  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
+  tag: "education"
+  description: >
+    Supporting the education of digital skills.
+
+- title: "2 Supporting the education of digital skills"
+  link: "http://futurice.com/blog/code-school-for-adults"
+  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
+  tag: "education"
+  description: >
+    Supporting the education of digital skills.
+
+- title: "3 Supporting the education of digital skills"
+  link: "http://futurice.com/blog/code-school-for-adults"
+  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
+  tag: "education"
+  description: >
+    Supporting the education of digital skills.
+
+- title: "4 Supporting the education of digital skills"
+  link: "http://futurice.com/blog/code-school-for-adults"
+  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
+  tag: "education"
+  description: >
+    Supporting the education of digital skills.
+
+- title: "5 Supporting the education of digital skills"
+  link: "http://futurice.com/blog/code-school-for-adults"
+  img_link: "https://flockler.com/thumbs/1992/codeschool--7yhe88g4if_s830x0_q80_noupscale.jpg"
+  tag: "education"
+  description: >
+    Supporting the education of digital skills.
+
 

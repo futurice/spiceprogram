@@ -5,7 +5,7 @@ header: Education
 description: Supporting the digital skills of this age.
 background-image: /assets/img/bg-open-source.jpg
 ---
-
+{% assign count = 0 %}
 
 <div class="row">
 
@@ -19,8 +19,11 @@ background-image: /assets/img/bg-open-source.jpg
       </div>
     </div>
     <div class="row">
-      {% for blog in site.data.blogs limit:5 %}
-        {% if blog.tag == "education" %}
+
+      {% for blog in site.data.blogs %}
+        {% if blog.tag == "education" and count <= 3 %}
+          {% assign count = count | plus:1 %}
+
           <a href="{{ blog.link }}" class="col-xs-12 col-sm-6 post-box">
      
             <div class="img-container">
@@ -46,23 +49,23 @@ background-image: /assets/img/bg-open-source.jpg
     <div class="row">
       <div class="col-sm-12 center col-header">
         <div>
-          <h2>Guides</h2>
+          <h2>Links</h2>
         </div>
       </div>
     </div>
     <div class="row">
-       <div class="col-xs-12 col-sm-6 col-md-12 guide-box">
+      <a class="col-xs-12 col-sm-6 col-md-12 guide-box" href="http://www.koodikoulu.fi">
         <div class="guide-information">
-          <h3 class="guide-title">Organise your own code school!</h3>
+          <h3 class="guide-title">Koodikoulu</h3>
+          <p>Organize a code school!</p>
+        </div>
+      </a>
+      <a class="col-xs-12 col-sm-6 col-md-12 guide-box" href="http://futurice.github.io/eduSpice/">
+        <div class="guide-information">
+          <h3>Eduspice</h3>
           <p>...</p>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-12 guide-box">
-        <div class="guide-information">
-          <h3>Would you be up to mentor a teacher?</h3>
-          <p>...</p>
-        </div>
-      </div>
+      </a>
     </div>
   </div>
 
@@ -73,7 +76,7 @@ background-image: /assets/img/bg-open-source.jpg
 <div class="row">
   <div class="col-md-12 center">
     <h2 class="section-title no-padding-bottom">Events &amp; projects</h2>
-    <a href="/projects">See all education related projects</a>
+    <!--<a href="/projects">See all education related projects</a>-->
   </div>
 </div>
 

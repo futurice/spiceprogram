@@ -6,6 +6,8 @@ description: It's time to give back to the community.
 background-image: /assets/img/bg-open-source.jpg
 ---
 
+{% assign count = 0 %}
+
 <div class="row">
 
   <div class="col-sm-12 col-md-8">
@@ -19,7 +21,8 @@ background-image: /assets/img/bg-open-source.jpg
     </div>
     <div class="row">
       {% for blog in site.data.blogs limit:4 %}
-        {% if blog.tag == "open source" %}
+        {% if blog.tag == "opensource" and count <= 3 %}
+          {% assign count = count | plus:1 %}
           <a href="{{ blog.link }}" class="col-xs-12 col-sm-6 post-box">
      
             <div class="img-container">
@@ -45,13 +48,20 @@ background-image: /assets/img/bg-open-source.jpg
       </div>
     </div>
     <div class="row">
-       <a class="col-xs-12 col-sm-6 col-md-12 guide-box">
+       <!--<a class="col-xs-12 col-sm-6 col-md-12 guide-box">
         <div class="guide-information">
           <h3 class="guide-title">Getting started with open source</h3>
           <p>Developers, designers, everyone!</p>
         </div>
+      </a>-->
+      <a class="col-xs-12 col-sm-6 col-md-12 guide-box" href="/open-source/contracts.html">
+        <div class="guide-information">
+          <h3 class="guide-title">Subcontractor contract terms for OSS contributions</h3>
+          <p>...</p>
+        </div>
       </a>
-      <a class="col-xs-12 col-sm-6 col-md-12 guide-box" href="/open-source/licenses/choose.html">
+
+      <a class="col-xs-12 col-sm-6 col-md-12 guide-box" href="/open-source/licenses/licenses.html">
         <div class="guide-information">
           <h3>Ultimate guide to open source licenses</h3>
           <p>Puzzled by GPL? Look no further.</p>
@@ -70,7 +80,7 @@ background-image: /assets/img/bg-open-source.jpg
 <div class="row">
   <div class="col-sm-12 center">
     <h2 class="section-title no-padding-bottom">Projects</h2>
-    <a href="/projects">See all projects</a>
+    <!--<a href="/projects">See all projects</a>-->
   </div>
 </div>
 
@@ -129,7 +139,7 @@ background-image: /assets/img/bg-open-source.jpg
 
 <div class="row">
   <div class="col-sm-12">
-    <h4 class="underlined">PERSONAL PROJECTS</h4>
+    <h4 class="underlined">SPONSORED PROJECTS <a href="/open-source/sponsorship.html">(what?)</a></h4>
   </div>
 </div>
 
@@ -153,7 +163,7 @@ background-image: /assets/img/bg-open-source.jpg
               <a href="{{ project.github }}">
                 <h3 class="project-title">{{ project.title }}</h3>
               </a>
-              <span class="contribution-information">12 commits - 5 starts</span>
+              <span class="contribution-information">12 commits - 5 stars</span>
             </div>
           </div>
         </div>

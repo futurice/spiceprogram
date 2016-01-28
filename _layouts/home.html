@@ -6,7 +6,19 @@
 
     <body id="page-home" {% if page.background-image != %} style="background-image: url({{ page.background-image }});" {% endif %}>
       {% include nav-bar.html %}
-      {{ content }}
-      {% include footer.html %}
+
+	  <!-- Chilicorns! -->
+	  <img class="floating-chilicorn" src="/assets/img/chilicorn_sticker.svg" style="top: -30%; left: -20%; transform: rotate(-15deg); width: 40%;">
+
+	  <img class="floating-chilicorn" src="/assets/img/chilicorn_sticker.svg" style="top: 120%; left: -15%; transform: rotate(-40deg); width: 20%">
+
+	  <img class="floating-chilicorn" src="/assets/img/chilicorn_sticker.svg" style="top: 5%; right: -15%; transform: rotate(10deg); width: 30%;">
+
+	  <img class="floating-chilicorn" src="/assets/img/chilicorn_sticker.svg" style="top: 700px; right: -15%; transform: rotate(65deg); width: 25%;">
+	  <!-- /chilicorns -->
+      <div class="container">
+	      {{ content }}
+	      {% include footer.html %}
+      </div>
     </body>
 </html>

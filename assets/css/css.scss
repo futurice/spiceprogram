@@ -439,7 +439,7 @@ footer {
 }
 */
 /* Created after cleanup */
-
+$breakpoint-medium : 767px;
 
 html, body {
   font-family:'Open Sans',sans-serif;
@@ -463,6 +463,10 @@ h1 {
 h2 {
   margin-top: 1.5em;
   font-size: 1.6em;
+  &.small {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
 }
 h3 {
   
@@ -486,6 +490,9 @@ h4.underlined {
 
 .centered {
   text-align: center;
+}
+.no-top-margin {
+  margin-top: 0;
 }
 .row-eq-height{
   display: -webkit-box;
@@ -708,7 +715,7 @@ h1.page {
 
     border-bottom: 1px solid #eee;
 
-    @media (min-width: 767px) {
+    @media (min-width: $breakpoint-medium) {
       border-bottom: 0;
       border-right: 1px solid #eee;
     }
@@ -783,6 +790,11 @@ h1.page {
   @include shadowed;
   //padding: 1em;
   margin-bottom: 1em;
+
+
+  @media (min-width: $breakpoint-medium) {
+    height: 330px;
+  }
 
   a {
     text-decoration: none;
@@ -1098,9 +1110,22 @@ ul.box-list {
     text-align: center;
   }
 }
-
+ul.person-list {
+  list-style: none;
+  padding: 0;
+  li {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+}
 #page-people {
-
+  .person-portrait {
+    width: 135px;
+  }
+  h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
 }
 #footer {
   text-align: center;
