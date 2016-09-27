@@ -1,0 +1,36 @@
+PRIVARY POLICY FOR PELASTAKAA LAPSET HEMMO - APP
+
+Hemmo is a feedback collecting app for children in foster families managed by the Save the Children Fund. The children leave feedback through the app for the authorised employees to read and listen to through a private backend service.
+
+The people using this app are already customers or employees of the Save the Children Fund and thus known to each others. Registration to use the app is always done together with the fund employee and with the approval of the legal guardian(s) of the children.
+
+The users of the app are not identifiable by purpose by anyone else, but the authorised employees of the fund. The data they submit is not available to anyone else, but the authorised employees of the fund.
+
+However, since we collect audio and free text feedback from children, there is always a chance they disclose sensitive information such as their full name, birthday or location. This potentially sensitive information is transferred to the service by applying the latest industry standards in data encryption.
+
+The data is temporarily stored in the private network of the Save the Children Fund. Once consumed by the employee, it will be deleted, either immediately by the employee, or automatically after a period of maximum of six months.
+
+PERSONAL INFORMATION
+
+We do not collect any personal information about the users of this app. The accounts created in the app do not ask for any sensitive or identifiable information. The registration process includes an optional photograph, but the picture is not transferred outside the app in any circumstances.
+
+GEO-LOCATION
+
+Our app does not collect information about the location of the mobile device.
+
+LINKS WITHIN
+
+We do not link to any external content in the app.
+
+IN-APP PURCHASES
+
+Our app does not contain any in-app purchases, it's free all the way.
+
+ADVERTISING
+
+Our app does not contain any kind of advertising.
+
+PRIVACY QUESTIONS
+
+If you have any questions about our apps or privacy policy please contact us at: sol@futurice.com
+
