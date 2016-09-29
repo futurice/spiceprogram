@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="34" cy="34" r="34"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait-Copy-6" transform="translate(-153.000000, -5207.000000)">
+            <g id="icon" transform="translate(153.000000, 5207.000000)">
+                <g id="Oval-4-Copy-2">
+                    <use fill="#333333" xlink:href="#path-2"></use>
+                    <use fill-opacity="0.199999988" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <g id="ui-24px-outline-2_chat-content" transform="translate(19.000000, 22.000000)" stroke-width="2.88000023" stroke="#FFFFFF">
+                    <g id="Group">
+                        <polygon id="Shape" points="31 0 0 0 0 21.75 9.86363636 21.75 15.5 29 21.1363636 21.75 31 21.75"></polygon>
+                        <path d="M8.45454545,7.25 L22.5454545,7.25" id="Shape"></path>
+                        <path d="M8.45454545,14.5 L16.9090909,14.5" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
