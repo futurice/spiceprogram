@@ -17,14 +17,20 @@ $susy: (
   max-width: 90%;
 }
 
+/* General Breakpoints */
+$mobile: 500px;
+
+/* General measures */
+$h-padding: 30px;
+
 /* Typographic scale. Only use these font-sizes */
 $size-tiny: 12px;
 $size-small: 14px;
 $size-base: 16px;
-$size-medium: 24px;
-$size-large: 28px;
-$size-xlarge: 36px;
-$size-huge: 56px;
+$size-medium: 22px;
+$size-large: 22px;
+$size-xlarge: 30px;
+$size-huge: 58px;
 
 * {
   margin: 0;
@@ -38,23 +44,40 @@ img {
 h1 {
   text-align: center;
   font-size: $size-huge;
+  font-weight: 500;
+  padding-bottom: $h-padding;
 }
 
 h2 {
   font-size: $size-xlarge;
+  font-weight: 500;
 }
 
 h3 {
   font-size: $size-large;
   padding-bottom: 10px;
+  font-weight: 500;
 }
 
 h4 {
   font-size: $size-medium;
 }
 
+h1, h2, h3, h4 {
+  line-height: 1.2;
+}
+
 a {
   color: #333;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin-left: 20px;
+  padding-bottom: 10px;
 }
 
 html, body {
@@ -71,7 +94,20 @@ html, body {
   background-color: #444;
   color: #fff;
   text-align: center;
-  padding: 80px 0;
+  padding: 120px 0;
+
+  p {
+    font-size: $size-xlarge;
+    font-weight: 300;
+    max-width: 600px;
+    margin: auto;
+    opacity: 0.7;
+  }
+
+  a, a:visited {
+    color: #fff;
+  }
+
 }
 
 section {
@@ -86,6 +122,12 @@ footer {
 .section-header {
   text-align: center;
   padding-bottom: 50px;
+  max-width: 500px;
+  margin: auto;
+
+  img {
+    padding-bottom: 10px;
+  }
 }
 
 .learn-more {
@@ -93,20 +135,73 @@ footer {
   color: white;
 }
 
-.track-block {
-  @include span(6);
+.track-block, .how, .contribute, .aim, .quote {
+  padding-bottom: $h-padding;
 }
 
-.half {
+.track-block {
   @include span(6);
+
+  img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: $mobile) {
+    @include span(full);
+  }
+}
+
+.track-block-txt {
+  padding: 0 30px;
+  margin-top: -50px;
+  background-color: #fff;
+}
+
+.how {
+  @include span(6);
+
+  @media screen and (max-width: $mobile) {
+    @include span(full);
+  }
+}
+
+.contribute {
+  @include span(full);
+
+  @media screen and (min-width: $mobile) {
+    @include span(4);
+    @include pre(1); 
+    @include post(1);
+  }
 }
 
 .aim {
   @include span(4);
   text-align: center;
+
+  @media screen and (max-width: $mobile) {
+    @include span(full);
+  }
 }
 
 .quote {
   @include span(6);
+
+  p {
+    font-size: $size-large;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+  }
+
+  img {
+    max-width: 75px;
+    margin: auto;
+    display: block;
+  }
+
+  @media screen and (max-width: $mobile) {
+    @include span(full);
+  }
 }
 
