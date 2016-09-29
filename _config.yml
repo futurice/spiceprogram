@@ -4,3 +4,4 @@ sass:
      style: compressed
 gems:
   - jekyll-sitemap
+  - 'susy'
