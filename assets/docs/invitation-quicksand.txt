@@ -33,7 +33,7 @@ Let's consider a highly unlikely scenario where Jareware, as a nocturnal creatur
 tired of browsing Reddit and watching GoT re-runs. Instead he wants to contribute to some 
 OSS project, on his free time. 
 
--- If he picks one of the company sponsored projects, should he receive a compensation? 
+-- If he picks one of the company-sponsored projects, should he receive a compensation? 
 -- What kind of compensation could he receive?
 
 Have tried to come up with a reasonable suggestion; fail.
