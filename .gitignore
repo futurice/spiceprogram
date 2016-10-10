@@ -29,3 +29,5 @@ _harp/www
 _site
 .DS_STORE
 .DS_STORE?
+
+*.scssc

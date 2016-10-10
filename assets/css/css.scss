@@ -13,7 +13,7 @@ $susy: (
 /* Grid cointainer */
 .container {
   @include container; 
-  width: 1100px;
+  width: 1200px;
   max-width: 90%;
 }
 
@@ -25,13 +25,20 @@ $h-padding: 30px;
 $section-padding: 60px;
 
 /* Typographic scale. Only use these font-sizes */
-$size-tiny: 12px;
+/*$size-tiny: 12px;
 $size-small: 14px;
 $size-base: 16px;
 $size-medium: 22px;
 $size-large: 30px;
-$size-huge: 58px;
+$size-huge: 58px;*/
 
+
+$size-tiny: 12px;
+$size-small: 14px;
+$size-base: 18px;
+$size-medium: 23px;
+$size-large: 38px;
+$size-huge: 53px;
 
 /* Colours */
 $body: #4A515E;
@@ -59,12 +66,13 @@ h1 {
 
 h2 {
   font-size: $size-large;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h3 {
   font-size: $size-medium;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   font-weight: 500;
 }
 
@@ -107,11 +115,10 @@ html, body {
 
 
 .hero {
-  background: #4164FF;
-  color: #fff;
+  color: #000;
   text-align: center;
-  padding: 120px 0;
-  margin-bottom: 40px;
+  padding: 120px 0 0px 0;
+  margin-bottom: 0px;
 
   p {
     font-size: $size-medium;
@@ -123,13 +130,20 @@ html, body {
   }
 
   a, a:visited {
-    color: #fff;
+    color: #000;
   }
 
   h1 {
-    color: #fff;
+    color: #000;
+  }
+
+  img.chilicorn {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
   }
 }
+
 
 p + ul {
   padding-top: 10px;
@@ -252,15 +266,20 @@ footer {
   }
 }
 
-.aim {
-  @include span(4);
-  //text-align: center;
+.aims {
+  text-align: center;
+  .aim {
+    @include span(4);
+    //text-align: center;
 
-  @media screen and (max-width: $mobile) {
-    @include span(full);
+    @media screen and (max-width: $mobile) {
+      @include span(full);
+    }
+    img {
+      margin-bottom: 10px;
+    }
   }
 }
-
 .quote {
   @include span(6);
 

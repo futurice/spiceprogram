@@ -5,3 +5,4 @@ sass:
 gems:
   - jekyll-sitemap
   - 'susy'
+port: 4001
