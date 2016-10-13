@@ -15,14 +15,16 @@ $susy: (
   @include container; 
   width: 1200px;
   max-width: 90%;
+  position: relative;
 }
 
 /* General Breakpoints */
 $mobile: 500px;
+$desktop: 1024px;
 
 /* General measures */
 $h-padding: 30px;
-$section-padding: 60px;
+$section-padding: 90px;
 
 /* Typographic scale. Only use these font-sizes */
 /*$size-tiny: 12px;
@@ -65,7 +67,7 @@ h1 {
 }
 
 h2 {
-  font-size: $size-large;
+  font-size: $size-huge;
   font-weight: 400;
 }
 
@@ -113,7 +115,10 @@ html, body {
   color: $body;
 }
 
+.sticker {
+  position: absolute;
 
+}
 .hero {
   color: #000;
   text-align: center;
@@ -172,15 +177,63 @@ footer {
   background-color: #333;
 }
 
+section.freetime {
+  margin-top: 150px;
+  color: rgba(255,255,255,0.9);
+
+  p {
+    padding-bottom: 0.5em;
+  }
+  strong {
+    color: #fff;
+  }
+
+  .section-header {
+    max-width: 600px;
+
+    h2 {
+      color: white;
+    }
+  }
+  background: url('../img/dj-back.jpg') 50% 40% no-repeat;
+  background-size: cover;
+
+
+/*    .sticker {
+    display: none;
+    }
+
+  @media screen and (min-width: $desktop) {
+    .sticker {
+      display: block;
+      position: absolute;
+      left: 90%;
+      width: 300px;
+      transform: rotate(-175deg);
+    }
+  }
+  */
+
+
+}
+
 .section-header {
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   max-width: 500px;
   margin: auto;
+  padding-bottom: $h-padding;
+
 
   img {
     padding-bottom: 15px;
   }
+}
+
+.shortphrase {
+  font-weight: normal;
+  font-size: $size-medium;
+  margin-top: 1em;
 }
 
 .learn-more {
@@ -203,6 +256,11 @@ footer {
   @media screen and (min-width: $mobile) {
     padding-bottom: 0;
   }
+}
+
+.centered {
+
+  text-align: center;
 }
 
 .track-block {
@@ -237,11 +295,11 @@ footer {
 
 .how {
   @include span(full);
-
   @media screen and (min-width: $mobile) {
-    @include span(5);
-    
+    @include span(5 of 12);
   }
+  padding-top: $h-padding;
+  margin-bottom: 1em;
 }
 
 .how-left {
@@ -267,6 +325,7 @@ footer {
 }
 
 .aims {
+  margin-top: 60px;
   text-align: center;
   .aim {
     @include span(4);
