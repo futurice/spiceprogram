@@ -25,7 +25,7 @@ $tablet: 800px;
 $desktop: 1024px;
 
 /* General measures */
-$h-padding: 30px;
+$h-padding: 10px;
 $section-padding: 90px;
 
 /* Typographic scale. Only use these font-sizes */
@@ -47,7 +47,7 @@ $size-huge: 53px;
 /* Colours */
 $body: #4A515E;
 $headlines: #303031;
-$blue: #0B52D6;
+$blue: #45A4FC;
 
 /* Resets */
 * {
@@ -71,6 +71,7 @@ h1 {
 h2 {
   font-size: $size-huge;
   font-weight: 400;
+  padding-bottom: 30px;
 }
 
 h3 {
@@ -93,6 +94,7 @@ p {
   max-width: 30em;
   margin: auto 0;
   text-align: center;
+  padding-bottom: 0.5em;
 }
 
 a {
@@ -184,6 +186,8 @@ footer {
   background-color: #333;
 }
 
+
+/*** Section Freetime ***/
 section.freetime {
   margin-top: 150px;
   color: rgba(255,255,255,0.9);
@@ -195,12 +199,6 @@ section.freetime {
     color: #fff;
   }
 
-  .section-header {
-
-    h2 {
-      color: white;
-    }
-  }
   background: url('../img/dj-back.jpg') 50% 40% no-repeat;
   background-size: cover;
 
@@ -224,6 +222,13 @@ section.freetime {
 }
 
 /**** PARTNERSHIPS ****/
+
+.partnerships {
+  background: url('../img/partnerships.jpg') 50% 20% no-repeat;
+  background-size: cover;
+}
+
+
 .partnerships .question {
 
 
@@ -231,7 +236,6 @@ section.freetime {
 
 .section-header {
   text-align: center;
-  margin-bottom: 50px;
   max-width: 600px;
   margin: auto;
   padding-bottom: $h-padding;
@@ -258,7 +262,6 @@ section.freetime {
 .shortphrase {
   font-weight: normal;
   font-size: $size-medium;
-  margin-top: 1em;
 }
 
 .probono p.shortphrase {
@@ -266,20 +269,14 @@ section.freetime {
 }
 
 .learn-more {
-  background: url('../img/bg-learn-more.jpeg');
-  background-size: cover;
-  color: white;
 
   h3 {
     padding-bottom: 50px;
   }
 
-  p, h2, h3 {
-    color: #fff;
-  }
 }
 
-.track-block, .how, .contribute, .aim, .quote {
+.track-block, .how, .contribute-column, .aim, .quote {
   padding-bottom: $h-padding;
 
   @media screen and (min-width: $mobile) {
@@ -350,15 +347,8 @@ section.probono {
   }
 }
 
-.contribute {
-  @include span(full);
 
-  @media screen and (min-width: $mobile) {
-    @include span(4);
-    @include pre(1); 
-    @include post(1);
-  }
-}
+/****** Further links *******/
 .links {
     @include span(12);
     text-align: center;
@@ -366,17 +356,60 @@ section.probono {
     margin: auto;
     padding-bottom: 30px;
     max-width: 100%;
+    padding-top: 10px;
     
     p {
       max-width: 100%;
     }
-    p:first-child {
-     margin-top: 60px;  
-    }
+}
 
-    a, a:hover, a:visited {
-      color: #FFF;
+section.freetime .links {
+  padding-top: 60px;
+}
+
+
+/******/
+
+/***** Contribute ******/
+
+section.contribute {
+    background: url('../img/bg-chilicorn-blur.jpg');
+    background-size: cover;
+
+  >.container {
+
+    ul, p {
+    text-align: left;
     }
+  }
+}
+
+.contribute-column {
+  @include span(full);
+
+  @media screen and (min-width: $mobile) {
+    @include span(4);
+    .sameheight {
+      min-height: 220px;
+    }
+    //@include pre(1); 
+    //@include post(1);
+  }
+}
+
+.white {
+  color: #FFF;
+
+  a, a:hover, a:visited, p, h1, h2, h3 {
+    color: #FFF;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+
+  a.btn, a.btn:hover, a.btn:visited {
+    text-shadow: none;
+    background-color: $blue;
+  }
+
 }
 
 .aims {
