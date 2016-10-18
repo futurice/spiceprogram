@@ -48,6 +48,8 @@ $size-huge: 53px;
 $body: #4A515E;
 $headlines: #303031;
 $blue: #45A4FC;
+$gray-text: #6b6b6b;
+$gray-text-lighter: #9c9c9c;
 
 /* Resets */
 * {
@@ -427,22 +429,57 @@ section.contribute {
     }
   }
 }
+
+/**** QUOTES ****/
+
+section#comments .section-header {
+  padding-bottom: 2em;
+}
+
 .quote {
   @include span(6);
 
-  p {
+  margin-bottom: 60px;
+
+  p, blockquote {
     font-size: $size-medium;
+    line-height: 1.2em;
+    //font-style: italic;
     text-align: center;
     margin: auto;
     max-width: 400px;
-    padding-bottom: 21px;
+    padding-bottom: 1em;
+    padding-top: 1.2em;
+  }
+
+  blockquote>span {
+    font-size: 3 * $size-medium;
+    font-family: arial;
+    opacity: .3;
+    display: block;
+    float: left;
+    padding-top: $size-base;
   }
 
   img {
     max-width: 75px;
     margin: auto;
     display: block;
-    float: left;
+    @media screen and (min-width: $mobile) {
+      max-width: 130px;
+    }
+  }
+
+  .name {
+    font-size: $size-base;
+    font-weight: bold;
+    margin-top: 0.2em;
+    color: $gray-text;    
+  }
+
+  .role {
+    color: $gray-text-lighter;
+    font-weight: normal;
   }
 
   @media screen and (max-width: $mobile) {
@@ -534,7 +571,75 @@ section.contribute {
 
 }
 
+/***  CONTACT ****/
+section.contact {
+  background-color: #EFEFEF;
+  
+  p, span, h3 {
+  text-align: left;
+  }
+
+  img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    max-width: 150px;
+    float: left;
+  }
+
+  .contact-block {
+    background-color: white;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+   @media screen and (min-width: $mobile) {
+      @include span(5 of 12);
+    } 
+  }
+
+  .left {
+    @media screen and (min-width: $mobile) {
+      @include pre(1);
+    }
+
+    }
+
+  .center {
+    @media screen and (min-width: $mobile) {
+      @include pre(4);
+    }
+
+  }
 
 
+/*  .right {
+    @media screen and (min-width: $mobile) {
+      @include post(1);
+    }
+  }
+*/
+
+  .contact-name {
+    padding-top: 20px;
+  } 
+  .contact-details {
+    margin-top: 10px;
+
+  }
+
+  .contact-position {
+
+  }
+
+  .contact-phone {
+
+  }
+
+  .contact-email {
+
+  }
+}
 
 
