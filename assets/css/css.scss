@@ -61,7 +61,7 @@ img {
   max-width: 100%;
 }
 
-/* Main styles */
+/**** Main styles ****/
 h1 {
   text-align: center;
   font-size: $size-huge;
@@ -94,7 +94,7 @@ h1, h2, h3, h4 {
 
 p {
   max-width: 30em;
-  margin: auto 0;
+  margin: auto auto;
   text-align: center;
   padding-bottom: 0.5em;
 }
@@ -126,14 +126,40 @@ html, body {
   color: $body;
 }
 
-.sticker {
-  position: absolute;
+  @media screen and (max-width: $mobile) {
+    h1 {
 
-}
+    }
+
+    h2 {
+
+    }
+
+    h3 {
+
+    }
+
+    h4 {
+
+    }
+    p {
+
+    }
+
+    li {
+
+    }
+  }
+
+/* Main styles mobile */
+
+
+/*** HERO ***/
+
 .hero {
   color: #000;
   text-align: center;
-  padding: 120px 0 0px 0;
+  padding: 40px 0 0px 0;
   margin-bottom: 0px;
 
   p {
@@ -154,10 +180,20 @@ html, body {
   }
 
   img.chilicorn {
-    width: 400px;
+    width: 40%;
+    max-width: 400px;
     height: auto;
     margin-bottom: 20px;
   }
+
+  @media screen and (min-width: $mobile) {
+    padding-top: 60px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 120px;
+  }
+
 }
 
 
@@ -203,6 +239,34 @@ section.freetime {
 
   background: url('../img/dj-back.jpg') 50% 40% no-repeat;
   background-size: cover;
+
+
+section.freetime .links {
+  padding-top: 60px;
+}
+
+
+.how {
+  @include span(full);
+  @media screen and (min-width: $tablet) {
+    @include span(5 of 12);
+  }
+  padding-top: $h-padding;
+  margin-bottom: 1em;
+}
+
+.how-left {
+  @media screen and (min-width: $tablet) {
+    @include pre(1);
+  }
+}
+
+.how-right {
+  @media screen and (min-width: $tablet) {
+    @include post(1);
+  }
+}
+
 
 
 /*    .sticker {
@@ -295,16 +359,14 @@ section.probono {
   text-align: center;
 }
 
+/**** OUR WORK  ****/
+
 .track-block {
-  @include span(6);
 
   img {
     width: 100%;
   }
   
-  @media screen and (max-width: $mobile) {
-    @include span(full);
-  }
 }
 .new-line {
   @include break;
@@ -328,24 +390,15 @@ section.probono {
   background-size: cover;
 }
 
-.how {
-  @include span(full);
-  @media screen and (min-width: $mobile) {
-    @include span(5 of 12);
-  }
-  padding-top: $h-padding;
-  margin-bottom: 1em;
-}
 
-.how-left {
-  @media screen and (min-width: $mobile) {
-    @include pre(1);
+@media screen and (min-width: $tablet) {
+  .track-block {
   }
 }
 
-.how-right {
-  @media screen and (min-width: $mobile) {
-    @include post(1);
+@media screen and (min-width: $desktop) {
+  .track-block {
+    @include span(6); 
   }
 }
 
@@ -365,9 +418,6 @@ section.probono {
     }
 }
 
-section.freetime .links {
-  padding-top: 60px;
-}
 
 
 /******/
@@ -379,26 +429,47 @@ section.contribute {
     background-size: cover;
 
   >.container {
-
     ul, p {
-    text-align: left;
+    text-align: center;
     }
   }
 }
 
-.contribute-column {
-  @include span(full);
+@media screen and (min-width: $tablet) {
+  .contribute-column {
+    @include span(6 of 12);
+    margin-top: 20px;
+    .sameheight {
+      min-height: 180px;
+    }    
 
-  @media screen and (min-width: $mobile) {
-    @include span(4);
+  }
+  .contribute-column.last {
+    @include pre(3);
+    @include post(3);
+    margin-top: 40px;
+  }
+
+}
+
+@media screen and (min-width: $desktop) {
+  .contribute-column {
+    @include span(4 of 12);
+    margin: auto;
     .sameheight {
       min-height: 220px;
-    }
-    //@include pre(1); 
-    //@include post(1);
+    }    
   }
+  .contribute-column.last {
+    @include pre(0);
+    @include post(0);
+    margin-top: 0px;
+  }
+ 
 }
 
+
+/*****/
 .white {
   color: #FFF;
 
@@ -414,20 +485,23 @@ section.contribute {
 
 }
 
+/*** AIMS ***/
+
 .aims {
+  
   margin-top: 60px;
   text-align: center;
-  .aim {
-    @include span(4);
-    //text-align: center;
-
-    @media screen and (max-width: $mobile) {
-      @include span(full);
-    }
-    img {
-      margin-bottom: 10px;
-    }
+  img {
+    margin-bottom: 10px;
   }
+
+  @media screen and (min-width: $tablet) {
+    .aim {
+    @include span(4);
+
+    }      
+  }
+
 }
 
 /**** QUOTES ****/
@@ -501,22 +575,6 @@ section#comments .section-header {
   padding: 8px 5px;
   text-align: left;
 
-  @media screen and (min-width: $mobile) {
-    max-width: 270px;
-  }
-  @media screen and (min-width: $tablet) {
-    max-width: 300px;    
-  }
-
- @media screen and (min-width: $desktop) {
-    @include span(4);
-    &:first-of-type {
-      @include pre(3);
-    }
-  } 
-
-
-
 
   .card__inner {
     background: #fff;
@@ -553,9 +611,9 @@ section#comments .section-header {
   .card__body {
     font-size: $size-base;
     padding: 20px;
-    height: 180px;
-    text-align: left;
     overflow: hidden;
+    overflow: hidden;
+    text-align: left;
   }
   .card__title {
     font-weight: 800;
@@ -568,8 +626,33 @@ section#comments .section-header {
     margin: 0;
   }
 
-
 }
+
+  @media screen and (max-width: $mobile) {
+    .card {
+      max-width: auto;
+    }
+  }
+
+  @media screen and (max-width: $tablet) {
+    .card {
+      max-width: 450px;
+    }
+  }
+
+  @media screen and (max-width: $desktop) {
+    .card {
+      .card__body {
+        height: 120px;
+      }
+    }
+  }
+   @media screen and (min-width: $desktop) {
+      .card__body {
+        height: 180px;
+      }
+    } 
+
 
 /***  CONTACT ****/
 section.contact {
