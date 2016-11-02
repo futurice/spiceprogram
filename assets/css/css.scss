@@ -126,30 +126,30 @@ html, body {
   color: $body;
 }
 
-  @media screen and (max-width: $mobile) {
-    h1 {
+@media screen and (max-width: $mobile) {
+  h1 {
 
-    }
-
-    h2 {
-
-    }
-
-    h3 {
-
-    }
-
-    h4 {
-
-    }
-    p {
-
-    }
-
-    li {
-
-    }
   }
+
+  h2 {
+
+  }
+
+  h3 {
+
+  }
+
+  h4 {
+
+  }
+  p {
+
+  }
+
+  li {
+
+  }
+}
 
 /* Main styles mobile */
 
@@ -197,6 +197,8 @@ html, body {
 }
 
 
+/***/
+
 p + ul {
   padding-top: 10px;
 }
@@ -240,33 +242,33 @@ section.freetime {
   background: url('../img/dj-back.jpg') 50% 40% no-repeat;
   background-size: cover;
 
-
-section.freetime .links {
+ .links {
   padding-top: 60px;
-}
-
-
-.how {
-  @include span(full);
-  @media screen and (min-width: $tablet) {
-    @include span(5 of 12);
   }
-  padding-top: $h-padding;
-  margin-bottom: 1em;
-}
 
-.how-left {
-  @media screen and (min-width: $tablet) {
-    @include pre(1);
+
+
+  .how {
+    @include span(full);
+    @media screen and (min-width: $tablet) {
+      @include span(5 of 12);
+    }
+    padding-top: $h-padding;
+    margin-bottom: 1em;
+  }
+
+  .how-left {
+    @media screen and (min-width: $tablet) {
+      @include pre(1);
+    }
+  }
+
+  .how-right {
+    @media screen and (min-width: $tablet) {
+      @include post(1);
+    }
   }
 }
-
-.how-right {
-  @media screen and (min-width: $tablet) {
-    @include post(1);
-  }
-}
-
 
 
 /*    .sticker {
@@ -284,8 +286,6 @@ section.freetime .links {
   }
   */
 
-
-}
 
 /**** PARTNERSHIPS ****/
 
@@ -362,12 +362,11 @@ section.probono {
 /**** OUR WORK  ****/
 
 .track-block {
-
   img {
     width: 100%;
-  }
-  
+  }  
 }
+
 .new-line {
   @include break;
 }
@@ -433,41 +432,41 @@ section.contribute {
     text-align: center;
     }
   }
+
+
+  @media screen and (min-width: $tablet) {
+    .contribute-column {
+      @include span(6 of 12);
+      margin-top: 20px;
+      .sameheight {
+        min-height: 180px;
+      }    
+
+    }
+    .contribute-column.last {
+      @include pre(3);
+      @include post(3);
+      margin-top: 40px;
+    }
+
+  }
+
+  @media screen and (min-width: $desktop) {
+    .contribute-column {
+      @include span(4 of 12);
+      margin: auto;
+      .sameheight {
+        min-height: 220px;
+      }    
+    }
+    .contribute-column.last {
+      @include pre(0);
+      @include post(0);
+      margin-top: 0px;
+    }
+   
+  }
 }
-
-@media screen and (min-width: $tablet) {
-  .contribute-column {
-    @include span(6 of 12);
-    margin-top: 20px;
-    .sameheight {
-      min-height: 180px;
-    }    
-
-  }
-  .contribute-column.last {
-    @include pre(3);
-    @include post(3);
-    margin-top: 40px;
-  }
-
-}
-
-@media screen and (min-width: $desktop) {
-  .contribute-column {
-    @include span(4 of 12);
-    margin: auto;
-    .sameheight {
-      min-height: 220px;
-    }    
-  }
-  .contribute-column.last {
-    @include pre(0);
-    @include post(0);
-    margin-top: 0px;
-  }
- 
-}
-
 
 /*****/
 .white {
@@ -497,8 +496,7 @@ section.contribute {
 
   @media screen and (min-width: $tablet) {
     .aim {
-    @include span(4);
-
+      @include span(4);
     }      
   }
 
@@ -512,7 +510,6 @@ section#comments .section-header {
 
 .quote {
   @include span(6);
-
   margin-bottom: 60px;
 
   p, blockquote {
@@ -560,6 +557,7 @@ section#comments .section-header {
     @include span(full);
   }
 }
+
 
 #comments {
   padding-bottom: 2*$section-padding;
@@ -625,95 +623,77 @@ section#comments .section-header {
     font-weight: 300;
     margin: 0;
   }
-
 }
 
-  @media screen and (max-width: $mobile) {
-    .card {
-      max-width: auto;
+@media screen and (max-width: $mobile) {
+  .card {
+    max-width: auto;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .card {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: $desktop) {
+  .card {
+    .card__body {
+      height: 120px;
     }
   }
+}
 
-  @media screen and (max-width: $tablet) {
-    .card {
-      max-width: 450px;
-    }
+@media screen and (min-width: $desktop) {
+  .card__body {
+    height: 180px;
   }
-
-  @media screen and (max-width: $desktop) {
-    .card {
-      .card__body {
-        height: 120px;
-      }
-    }
-  }
-   @media screen and (min-width: $desktop) {
-      .card__body {
-        height: 180px;
-      }
-    } 
-
+} 
 
 /***  CONTACT ****/
 section.contact {
   background-color: #EFEFEF;
-  
-  p, span, h3 {
-  text-align: left;
-  }
 
+  h3 {
+    font-size: $size-base;
+  }  
   img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    max-width: 150px;
-    float: left;
+    max-width: 50%;
   }
 
+  
   .contact-block {
     background-color: white;
-    text-align: left;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-
-   @media screen and (min-width: $mobile) {
-      @include span(5 of 12);
-    } 
-  }
-
-  .left {
-    @media screen and (min-width: $mobile) {
-      @include pre(1);
-    }
-
-    }
-
-  .center {
-    @media screen and (min-width: $mobile) {
-      @include pre(4);
-    }
-
+    text-align: center;
+    //display: inline-block;
+    margin: 12px 0px;
+    overflow: hidden;
+    padding: 24px;
+    vertical-align: top;
+    width: auto;
   }
 
 
-/*  .right {
-    @media screen and (min-width: $mobile) {
-      @include post(1);
-    }
+  .left {} 
+
+  .center {} 
+
+  .contact-details {
+    font-size: $size-small;
   }
-*/
 
   .contact-name {
     padding-top: 20px;
   } 
-  .contact-details {
-    margin-top: 10px;
 
-  }
 
   .contact-position {
-
+    padding-bottom: 0.5em;
+    line-height: 1.3;
+    color: $blue;
+    font-weight: 600;
+    font-size: $size-base*0.9;
   }
 
   .contact-phone {
@@ -723,6 +703,64 @@ section.contact {
   .contact-email {
 
   }
+
+ 
+  @media screen and (min-width: $mobile) {
+    text-align: center;
+
+   img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    max-width: 30%;
+    height: auto;
+    float: left;
+    }
+
+    .contact-block {
+      text-align: left;
+    
+    }
+ 
+  }
+
+  @media screen and (min-width: $tablet) {
+
+
+    .contact-block {
+      min-height: 380px;
+    }
+
+
+    img {
+      float: none;
+      max-width: 200px;
+      margin-bottom: 0;
+    }
+
+    .contact-block {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .left {
+        //margin-right: 20px;
+      
+      }
+
+      .right {
+       //margin-left: 20px; 
+      
+      }
+
+    .center {
+
+      }
+
+      .contact-details {
+        margin-top: 0px;
+      }
+    
+    }
+
+
 }
-
-
