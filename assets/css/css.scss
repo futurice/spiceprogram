@@ -491,13 +491,21 @@ section.contribute {
   margin-top: 60px;
   text-align: center;
   img {
-    margin-bottom: 10px;
+    max-width: 220px;
+  }
+
+  .aim {
+    margin-bottom: 40px;
   }
 
   @media screen and (min-width: $tablet) {
     .aim {
       @include span(4);
-    }      
+    }  
+
+    img {
+      margin-bottom: 10px;
+    }    
   }
 
 }
