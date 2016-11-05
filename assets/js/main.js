@@ -3,7 +3,7 @@ $(function() {
         var dummy = document.createElement('input');
         document.body.appendChild(dummy);
         dummy.setAttribute('id', 'dummy_id');
-        document.getElementById('dummy_id') .value = 'http://spiceprogram.org';
+        document.getElementById('dummy_id').value = 'http://spiceprogram.org';
         dummy.select();
         var successfull = document.execCommand('copy');
         if (successfull) {
