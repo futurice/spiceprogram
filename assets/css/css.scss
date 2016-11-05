@@ -772,3 +772,47 @@ section.contact {
 
 
 }
+
+#shareThisLink {
+  cursor: pointer;
+}
+
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+
+a.tooltips span {
+  position: absolute;
+  font-size: 12px;
+  width:140px;
+  color: #FFFFFF;
+  background: #000000;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  margin-top: -15px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-top: 8px solid transparent;
+}
+
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  left: 0%;
+  top: 100%;
+  margin-top: 4px;
+  margin-left: 13px;
+  z-index: 999;
+}
