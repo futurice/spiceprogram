@@ -4,3 +4,5 @@ sass:
      style: compressed
 gems:
   - jekyll-sitemap
+  - 'susy'
+port: 4001

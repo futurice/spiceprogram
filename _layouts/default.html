@@ -5,65 +5,16 @@
     </head>
 
     <body>
-        <header id="topnav">
-            <a href="http://www.futurice.com">
-                <img src="{{ site.baseurl }}/assets/img/futurice-favicon.png" style="max-height: 100%;" alt="Futurice logo" />
-            </a>
-            <a id="menu" href="#">
-                <div class="burger">&#9776;</div>
-            </a>
+        <header>
         </header>
 
-        <div id="sidebar-wrapper" class="hidden">
-
-            <ul class="sidebar-nav">
-                <li class="pull-right"><a href="#" id="close">&#10006;</a></li>
-                <li><a href="{{ site.baseurl }}/">Home</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/choose">Choosing a license</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/licenses">Popular Open Source licenses</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/creative-commons">Creative Commons</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/history">Brief history of OSS</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/why">Why are we doing this?</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/how">How to establish a similar program?</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/contracts">OSS contract terms</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/summer-of-love">Summer of Love</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/highlights">OSS Highlights</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/oss-sponsorship">Sponsoring free-time Open Source</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/chilicorn">Chilicorn</a>
-                </li>
-                <li><a href="{{ site.baseurl }}/artcorn">Artcorns</a>
-                </li>
-            </ul>
-        </div>
         {{ content }}
         <footer>
-            <p>The spiceprogram.org site is created by <a href="https://github.com/mkirvela/spice-doc-source/graphs/contributors">these people</a>.</p>
-            <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.</p>
-            <p>Contact: <a href="mailto:spice@futurice.com">spice@futurice.com</a></p>
+            <div class="container">
+                <p>The spiceprogram.org site is created by <a href="https://github.com/mkirvela/spice-doc-source/graphs/contributors">these people</a>.</p>
+                <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.</p>
+                <p>Contact: <a href="mailto:spice@futurice.com">spice@futurice.com</a></p>
+            </div>
         </footer>
-
-    <script>
-    $("#menu").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("hidden");
-        $("body").toggleClass("pushed");
-    });
-    $("#close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("hidden");
-        $("body").toggleClass("pushed");
-    });
-    </script>
     </body>
 </html>

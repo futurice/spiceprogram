@@ -2,157 +2,362 @@
 layout: default
 title: Spice Program - Futurice Open Source Program
 description: Spice Program is a company sponsored open source and social impact program. Our goal is to make Futurice a better company and the world a better place.
+custom_js:
+  - main.js
 ---
 
-<div class="fullscreen-cont">
-    <div class="fullscreen-img first">&nbsp;</div>
-    <div class="container content centered">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 top-level">
-                <h1>Futurice Open Source Program</h1>
-                <div class="beef">Spice is a company sponsored open source and social impact program. Our goal is to make Futurice a better company and the world a better place. On this site we share the details.</div>
-            </div>
+<div class="hero">
+  <div class="container">
+    <img class="chilicorn" src="{{ site.baseurl }}/assets/img/chilicorn_sticker.svg" alt="">
+    <h1>Spice Program</h1>
+    <p>An open source and social impact program sponsored by <a href="http://www.futurice.com">Futurice</a></p>
+  </div>
+</div>
+
+<div class="container aims">
+  <div class="aim">
+    <img src="{{ site.baseurl }}/assets/img/aim1-impact.png" alt="">
+    <h3>We build a better world</h3>
+    <p>We use our skills to make the world better by contributing to projects with positive social impact.</p>
+  </div>
+  <div class="aim">
+    <img src="{{ site.baseurl }}/assets/img/aim2-people.png" alt="">
+    <h3>We make our people happy</h3>
+    <p>We enable Futurice people to do good by contributing to initiatives that are close to their hearts and minds.</p>
+  </div>
+  <div class="aim">
+    <img src="{{ site.baseurl }}/assets/img/aim3-company.png" alt="">
+    <h3>We benefit our company</h3>
+    <p>We make Futurice a better company by engaging our people, improving our skills and being damn proud of working here.</p>
+  </div>
+</div>
+
+<!-- <section>
+  <div class="container">
+    <div class="section-header">
+      img src="{{ site.baseurl }}/assets/img/icon-how.svg" alt="">
+      <h2>How it works</h2>
+    </div>
+    <div class="how how-left">
+      <h3>Sponsorship for free-time open source acitivies</h3>
+      <ul>
+        <li>Futurice sponsores its employees free time open source activities</li>
+        <li>Contribute to any project is allowed, as long as it's Open Source</li>
+        <li>An employee will receive 15€/h extra money on top of salary</li>
+        <li>Futurice makes no IPR claims whatsoever regarding these contributions. This is not work.
+        </li>
+      </ul>
+    </div>
+    <div class="how how-right">
+      <h3>Collaboration with customers and other organisations and partners</h3>
+      <ul>
+        <li>Open source or social impact projects together with partners</li>
+        <li>Possibilities of making social impact on our own is limited</li>
+        <li>An employee will receive 15€/h extra money on top of salary</li>
+      </ul>
+    </div>
+  </div>
+</section> -->
+<section class="freetime white">
+  <div class="container">
+    <!--<img class="sticker" src="{{ site.baseurl }}/assets/img/chilicorn_sticker.svg" alt="">-->
+    <div class="section-header">
+      <h2>Supporting free time contributions</h2>
+      <p class="shortphrase">Our employees can work on open source and other social impact projects on their own time and get paid for it.
+      </p>
+    </div>
+      <div class="how how-left centered">
+        <p><strong> Use professional skills</strong></p>
+        <p>We pay 15E / hour on top of regular sallary for employees’ free time contributions that use their professional skills. </p>
+      </div>
+      <div class="how how-right centered" >
+        <p><strong>Share as open source</strong></p>
+        <p>Any project goes, as long as the outcome is shared with an open source license. This is not just for developers. It’s for all our specialists. </p>
+      </div>
+      <div class="how how-left centered">
+        <p><strong>Keep the balance</strong></p>
+        <p>We have a 30 hours / person monthly limit on how much is supported. It's meant to protect employees' from overloading themselves. </p>
+      </div>
+      <div class="how how-right centered">
+        <p><strong>This is not work</strong></p>
+        <p>Futurice makes no IPR claims whatsoever regarding these contributions. In fact, we insist on employees taking their due credit for their efforts. </p>
+      </div>
+      <div class="links white">
+        <p><a href="">Why open source has social impact</a> </p>
+        <p><a href="">List of Spice-supported open source contributions</a> </p>
+      </div>
+  </div>
+</section>
+
+<section class="probono">
+  <div class="container">
+    <!--<img class="sticker" src="{{ site.baseurl }}/assets/img/chilicorn_sticker.svg" alt="">-->
+    <div class="section-header">
+      <h2>Pro bono projects <br/>on company clock</h2>
+      <p class="shortphrase">We select certain projects to do pro bono, using company time. This helps us make a bigger impact and gives more people a chance to contribute.
+      </p>
+
+    </div>
+  </div>
+
+  <div class="container cards">
+    <div class="section-header">
+  <p class="shortphrase centered">Here are some examples:
+  </p>
+  </div>
+  <article class="card">
+    <div class="card__inner">    
+      <a href="https://play.google.com/store/apps/details?id=com.hemmo&amp;hl=en" class="card__cover">
+          <img src="{{ site.baseurl }}/assets/img/pelastakaa-lapset.jpg" alt="">
+      </a>
+      <div class="card__body">
+        <div class="card__title">
+          <a href="https://play.google.com/store/apps/details?id=com.hemmo&amp;hl=en">Save the Children Finland – Hemmo</a>
         </div>
+        <p class="card__summary">
+          Feedback tool for children visiting children homes in Finland
+        </p>
+      </div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card__inner">    
+      
+          <img src="{{ site.baseurl }}/assets/img/super-ada.jpg" alt="">
+      
+      <div class="card__body">
+        <div class="card__title">
+      Super Ada
+        </div>
+        <p class="card__summary">
+          App for the SuperAda event done in collaboration with students from Haaga Helia. Work in progress!
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
+
+
+
+</section>
+
+<section class="partnerships white">
+  <div class="container">
+    <!--<img class="sticker" src="{{ site.baseurl }}/assets/img/chilicorn_sticker.svg" alt="">-->
+    <div class="section-header">
+      <h2>Partnerships</h2>
+      <p class="shortphrase">There's only so much we can do on our own. We want our customers and competitors by our side to make great things happen together.
+    </div>
+    <div class="section-body">
+      </p>
+      <p class="question">
+        Want to do magic with us?
+      </p>
+        <a href="mailto:teemu.turunen@futurice.com" target="_top" class="btn">Get involved as a partner</a>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="section-header">
+      <!--<img src="{{ site.baseurl }}/assets/img/icon-results.svg" alt="">-->
+      <h2>Our work</h2>
+    </div>
+    <div class="track-block">
+      <img src="{{ site.baseurl }}/assets/img/track-os.jpg" alt="">
+      <div class="track-block-txt">
+        <h3>Open source software</h3>
+        <p>Tools, libraries, hobby apps &amp; more. All kinds of GitHub projects our employees deemed worthy to create or contribute to. Also a few bigger projects, supported directly by Futurice.</p>
+      <div class="links">
+        <p><a href="https://cycle.js.org/">Cycle.js</a>, by <a href="http://staltz.com/">André Staltz</a></p>
+        <p><a href="http://futurice.com/blog/reservator">The Reservator</a> </p>
+        <p><a href="https://github.com/futurice/pepperoni-app-kit">Pepperoni React Native Starter Kit</a> </p>
+        <p><a href="http://futurice.github.io/">Futurice featured open source projects on GitHub</a> </p>
+         <p><a href="https://github.com/futurice?utf8=%E2%9C%93&query=%20only%3Apublic%20/">All Futurice public projects on GitHub</a> </p>
+      </div>
+
+      </div>
+    </div>
+    <div class="track-block">
+      <img src="{{ site.baseurl }}/assets/img/track-education.jpg" alt="">
+      <div class="track-block-txt">
+        <h3>Open education</h3>
+        <p>Code schools, code clubs, design &amp; prototyping workshops, open-source teaching material, code clubs for teachers, mentoring...When it comes to digital open education in Finland, we can almost say "you name it, we've done it".</p>
+      <div class="links">
+        <p><a href="http://futurice.com/blog/chilicorn-code-club">Code Clubs</a>, 
+        <a href="http://futurice.com/blog/introducing-children-to-the-joy-of-programming">Code Schools</a> </p>
+        <p><a href="http://futurice.com/blog/the-coding-game-case-engaging-pupils-with-coding-design-and-sales">Coding, Design and Sales: The Game</a> </p>
+        <p><a href="http://futurice.com/blog/5-important-things-kids-learn-from-coding-other-than-coding">Teacher mentoring </a> </p>
+        <p><a href="">Code Clubs for teachers</a> </p>
+      </div>
+      </div>
+
+    </div>
+    <div class="track-block new-line">
+      <img src="{{ site.baseurl }}/assets/img/track-social.jpg" alt="">
+      <div class="track-block-txt">
+        <h3>Social inclusion</h3>
+        <p>Finnish language learning content on Memrise, free and accessible. Events &amp; professional coaching with an inclusive flavour. Collaboration with youth centers. More to come. </p>
+        <div class="links">
+          <p><a href="http://www.memrise.com/user/Futurice/courses/learning/">Finnish courses on Memrise</a></p>
+          <p><a href="http://theshortcut.org/digital-product-weekend/">Digital Product Weekend</a> </p>
+      </div>
+      </div>
+    </div>
+    <div class="track-block">
+      <img src="{{ site.baseurl }}/assets/img/track-climate.jpg" alt="">
+      <div class="track-block-txt">
+        <h3>Climate change</h3>
+        <p>Well, we got nothing yet here. Protecting the climate is extremely important and we're dying to do something about it. Haven't found a good opportunity yet. Any ideas?</p>
+        <p><a href="">Suggest a climate change project</a> </p>
+      </div>
+    </div>
+<!--    <div class="track-cta">
+      <a href="#" class="btn">Explore projects</a>
+    </div>-->
+  </div>
+</section>
+
+<section class="contribute white">
+  <div class="container">
+    <div class="section-header">
+      <!--<img src="{{ site.baseurl }}/assets/img/icon-collab.svg" alt="">-->
+      <h2>Want to contribute?</h2>
+    </div>
+    <div class="contribute-column">
+      <div class="sameheight">
+        <h3>Join Futurice</h3>
+        <p>Join one of the best workplaces in the world to enjoy the benefits of Spice: learning new skills at an alarming pace, contributing to worthy causes, getting paid to work on hobby projects you care about.
+        </p>
+      </div>
+      <a href="http://futurice.com/careers" class="btn">Futurice Careers</a>
+    </div>
+    <div class="contribute-column">
+      <div class="sameheight">
+        <h3>Partner with us</h3>
+        <p>Do you have money or experts' time and want to make some positive impact on the world, your employees and your company? Get in touch and let's find a way to collaborate. </p>
+      </div>
+      <a href="mailto:teemu.turunen@futurice.com" target="_top" class="btn">Get involved as a partner</a>
+    </div>
+    <div class="contribute-column last">
+      <div class="sameheight">
+        <h3>Spread the word</h3>
+        <p>Tell the world about our approach. Tell your employer; ask them to do the same. Tell your friends. Show that this model exists and that it works and challenge others to follow our lead.  </p>
+      </div>
+      <a class="btn tooltips" id="shareThisLink">Share this URL</a>
+    </div>
+  </div>
+</section>
+
+<section id="comments">
+  <div class="container">
+    <div class="section-header">
+      <!--<img src="{{ site.baseurl }}/assets/img/icon-comments.svg" alt="">-->
+      <h2>What people say</h2>
+    </div>
+    <div class="quote">
+      <img src="{{ site.baseurl }}/assets/img/no-photo-male.png" alt="">
+      <blockquote><span>“</span>Futurice has been instrumental in getting teachers on board with concrete suggestions and practical examples of where to find relevant material.</blockquote>
+      <div class="name">– Mark Ward, <span class="role">Teacher, </span></div>
+      <div class="role">Niittykumpu elementary school</div>
+    </div>
+    <div class="quote">
+      <img src="{{ site.baseurl }}/assets/img/seija.png" alt="">
+      <blockquote><span>“</span>We value the opportunity our students have been given to work together with professionals, discussing and finding new ideas. Those workshops we will never forget.</blockquote>
+      <div class="name">– Seija Nyholm, <span class="role"> Assistant Principal,</span> </div>
+      <div class="role">English School Pitäjänmäki</div>
+    </div>
+    <div class="quote">
+      <img src="{{ site.baseurl }}/assets/img/tuomas-S.png" alt="">
+      <blockquote><span>“</span>Spice Program enables people to do good by contributing to initiatives that are close to their hearts and minds.</blockquote>
+      <div class="name">– Tuomas Syrjänen</div>
+      <div class="role">CEO of Futurice</div>
+    </div>
+    <div class="quote">
+      <img src="{{ site.baseurl }}/assets/img/no-photo-female.png" alt="">
+      <blockquote><span>“</span>Getting examples of design thinking and learning from real life cases about design processes is important and exactly what the school / art &amp; design education needs.</blockquote>
+      <div class="name">– Päivi Huhtinen, <span class="role">Art &amp; Design Teacher, </span></div>
+      <div class="role">English School Pitäjänmäki</div>
+    </div>
+    <div class="quote">
+      <img src="{{ site.baseurl }}/assets/img/andre-M.png" alt="">
+      <blockquote><span>“</span>Spice program means being able to create what I believe shoud exist, and being rewarded for that.</blockquote>
+      <div class="name">– Andre Medeiros</div>
+      <div class="role">Creator of Cycle.js</div>
+    </div>
+  </div>
+</section>
+
+<!--<section class="learn-more">
+  <div class="container">
+    <div class="section-header">
+      <h2>Want to know more?</h2>
+    </div>
+      <h3>Read more from Futurice Blog</h3>
+      <h3>Get the book</h3>
+      <h3>Contact up</h3>
+  </div>
+</section>-->
+<section class="contact">
+  <div class="container">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+    </div>
+
+
+
+
+  <div class="contact-block left">
+    <img src="{{ site.baseurl }}/assets/img/teemu-T.jpg" alt="">
+    <h3 class="contact-name"><a href="https://fi.linkedin.com/in/turunen"> Teemu Turunen</a></h3>
+    <div class="contact-details">
+        <div class="contact-position">
+          Open Source and <br>Social Responsibility Lead
+        </div>
+        <div class="contact-phone">
+          +358407471885
+        </div>
+        <div class="contact-email">
+          teemu.turunen@futurice.com
+        </div>
+        <div class="new-line"> </div>
     </div>
 </div>
 
-<div class="fullscreen-cont" style="padding-bottom: 250px;">
-    <div class="fullscreen-img second">&nbsp;</div>
+  <div class="contact-block right">
+    <img src="{{ site.baseurl }}/assets/img/sebi-T.jpg" alt="">
+    <h3 class="contact-name"><a href="https://fi.linkedin.com/in/sergiutauciuc"> Sebi Tauciuc</a></h3>
+    <div class="contact-details">
+        <div class="contact-position">
+          Designer, Social Responsibility
+        </div>
+        <div class="contact-phone">
+          +358407740124
+        </div>
+        <div class="contact-email">
+          sebi.tauciuc@futurice.com
+        </div>
+        <div class="new-line"> </div>
+    </div>
+  </div>
 
-    <div class="container content">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <p class="quote">"A knotty puzzle may hold a scientist up for a century, when it may be that a colleague has the solution already and is not even aware of the puzzle that it might solve."<br /> &mdash;Isaac Asimov, The Robots of Dawn</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2" style="z-index: 1; background-color: #f3f3f4;">
-                <div class="row boxed">
-                    <a href="{{ site.baseurl }}/why">
-                        <div class="col-sm-10 arrow-box">
-                            <h3>Why are we doing this?</h3>
-                            <p>Read here why we decided to take a systematic approach to advancing open source ideology.</p>
-                        </div>
-                        <div class="col-sm-2 hidden-xs">
-                            <div class="arrow-right"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-8 col-sm-offset-2" style="z-index: 1; background-color: #f3f3f4;">
-                <div class="row boxed">
-                    <a href="how">
-                        <div class="col-sm-10 arrow-box">
-                            <h3>How can you do this?</h3>
-                            <p>Well, you can start by reading this description of our successes and failures.</p>
-                        </div>
-                        <div class="col-sm-2 hidden-xs">
-                            <div class="arrow-right"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="container content centered" style="padding-bottom: 80px;">
-    <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 centered">
-            <h2 class="grey" style="font-weight: 700;">What are we doing?</h2>
-        </div>
+    <div class="contact-block center">
+      <img src="{{ site.baseurl }}/assets/img/chilicorn.png" alt="">
+      <h3 class="contact-name"> The Chilicorn</h3>
+      <div class="contact-details">
+          <div class="contact-position">
+            Spice Program mascot
+          </div>
+          <div class="contact-email">
+            spice@futurice.com
+          </div>
+          <div class="new-line"> </div>
+      </div>
     </div>
-    <div class="container" style="margin-top: 20px;">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row highlights even">
-                    <div class="col-md-4 col-sm-4 box">
-                        <a href="{{ site.baseurl }}/freebeer">
-                            <h3>Brewing a beer</h3>
-                            <p><span class="rarr">&rarr;</span> Once we stumbled upon the old Free Beer initiative, we had no choice but to brew our own derivative work.</p>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 box">
-                        <a href="{{ site.baseurl }}/history">
-                            <h3>Brief history of Open Source</h3>
-                            <p><span class="rarr">&rarr;</span> Here stands a wall of text - an open source summary we wrote while we studied the subject, complemented with some shameless opinions.</p>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 box">
-                        <a href="{{ site.baseurl }}/contracts">
-                            <h3>OSS contract terms</h3>
-                            <p><span class="rarr">&rarr;</span> We created contract terms to be able to contribute our improvements to OSS projects used in customer projects. We'll share!</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="row highlights odd">
-                    <div class="col-md-4 col-sm-4 box">
-                        <a href="{{ site.baseurl }}/summer-of-love">
-                            <h3>Summer of Love</h3>
-                            <p><span class="rarr">&rarr;</span> Our support system portfolio is being published as open source, for the many reasons that you'll find here.</p>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 box">
-                        <a href="{{ site.baseurl }}/highlights">
-                            <h3>OSS Highlights</h3>
-                            <p><span class="rarr">&rarr;</span> Highlights from our Summer of Love initiative.</p>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 box">
-                        <a href="{{ site.baseurl }}/oss-sponsorship">
-                            <h3>Sponsoring free-time Open Source</h3>
-                            <p><span class="rarr">&rarr;</span> People practising <br/> Skills valuable at work <br/> Awesoming the world</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="row highlights even">
-                    <div class="col-md-4 col-sm-4 box">
-                        <a href="{{ site.baseurl }}/chilicorn">
-                            <h3>All things Chilicorn</h3>
-                            <p><span class="rarr">&rarr;</span> Our program logo and mascot, its history and the Realm of the Chilicorn</p>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 box">
-                        <a href="{{ site.baseurl }}/artcorn">
-                            <h3>Making of the Artcorns</h3>
-                            <p><span class="rarr">&rarr;</span> Our program logo transformed with neural-style algorithm for No Reason Whatsoever</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="container content fullscreen-cont highlight">
-    <div class="container content centered">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <p class="quote">If you work with software, you should have a basic understanding of the concepts and mechanics of free and open-source software. Start with these!</p>
-            </div>
-            <div class="col-sm-12">
-                <a href="{{ site.baseurl }}/choose">
-                    <div class="col-sm-4 box brown">
-                        <img src="{{ site.baseurl }}/assets/img/choose_big.svg" alt="Choosing an open source license" />
-                        <h3>Choosing a license</h3>
-                        <p>How to choose the appropriate license for your project? Can you make use of someone else's work?</p>
-                    </div>
-                </a>
-                <a href="{{ site.baseurl }}/licenses">
-                    <div class="col-sm-4 box grey">
-                        <img src="{{ site.baseurl }}/assets/img/popular.svg" alt="Common open source licenses" />
-                        <h3>Common open source licences</h3>
-                        <p>Our summaries for the most common OSS licenses.</p>
-                    </div>
-                </a>
-                <a href="{{ site.baseurl }}/creative-commons">
-                    <div class="col-sm-4 box orange">
-                        <img src="{{ site.baseurl }}/assets/img/cc.svg" alt="Creative commons" />
-                        <h3>Creative commons</h3>
-                        <p>What is creative commons? How can it be used?</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+  </div>
+</section>
+
