@@ -2,7 +2,7 @@ markdown:      kramdown
 baseurl: ""
 sass:
      style: compressed
+     sass_dir: assets/css
 gems:
   - jekyll-sitemap
-  - 'susy'
 port: 4001
