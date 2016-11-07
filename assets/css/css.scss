@@ -239,34 +239,32 @@ section.freetime {
     color: #fff;
   }
 
-  background: url('../img/dj-back.jpg') 50% 40% no-repeat;
+  background: url('../img/dj-back.jpg') 30% 20% no-repeat;
   background-size: cover;
 
  .links {
   padding-top: 60px;
   }
 
-
-
   .how {
     @include span(full);
-    @media screen and (min-width: $tablet) {
-      @include span(5 of 12);
-    }
     padding-top: $h-padding;
     margin-bottom: 1em;
   }
 
-  .how-left {
-    @media screen and (min-width: $tablet) {
-      @include pre(1);
-    }
-  }
+  @media screen and (min-width: $tablet) {
+  background: url('../img/dj-back.jpg') 40% 40% no-repeat;
+  background-size: cover;
 
+  .how {
+    @include span(5 of 12);
+  }
+  .how-left {
+      @include pre(1);
+  }
   .how-right {
-    @media screen and (min-width: $tablet) {
       @include post(1);
-    }
+  }
   }
 }
 
