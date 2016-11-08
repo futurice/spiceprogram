@@ -26,7 +26,7 @@ $desktop: 1024px;
 
 /* General measures */
 $h-padding: 10px;
-$section-padding: 90px;
+$section-padding: 70px;
 
 /* Typographic scale. Only use these font-sizes */
 /*$size-tiny: 12px;
@@ -244,6 +244,7 @@ section.freetime {
 
  .links {
   padding-top: 60px;
+  padding-bottom: 0;
   }
 
   .how {
@@ -588,7 +589,11 @@ section#comments .section-header {
     text-decoration: none; 
     a {
       text-decoration: none;
-      border-bottom: none;  
+      border-bottom: 1px solid;  
+    }
+
+    a.card__cover {
+      border-bottom: none;
     }
     
   }
@@ -623,6 +628,7 @@ section#comments .section-header {
     font-weight: 800;
     letter-spacing: 0.03em;
     margin: 0;
+    margin-bottom: 9px;
   }
   .card__summary {
     text-align: left;
@@ -646,15 +652,18 @@ section#comments .section-header {
 @media screen and (max-width: $desktop) {
   .card {
     .card__body {
-      height: 120px;
+      height: 150px;
     }
   }
 }
 
 @media screen and (min-width: $desktop) {
-  .card__body {
-    height: 180px;
+  .card__inner {
+    height: 400px;
   }
+ /* .card__body {
+    height: 180px;
+  }*/
 } 
 
 /***  CONTACT ****/
