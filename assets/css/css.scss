@@ -29,14 +29,6 @@ $h-padding: 10px;
 $section-padding: 70px;
 
 /* Typographic scale. Only use these font-sizes */
-/*$size-tiny: 12px;
-$size-small: 14px;
-$size-base: 16px;
-$size-medium: 22px;
-$size-large: 30px;
-$size-huge: 58px;*/
-
-
 $size-tiny: 12px;
 $size-small: 14px;
 $size-base: 18px;
@@ -126,33 +118,7 @@ html, body {
   color: $body;
 }
 
-@media screen and (max-width: $mobile) {
-  h1 {
-
-  }
-
-  h2 {
-
-  }
-
-  h3 {
-
-  }
-
-  h4 {
-
-  }
-  p {
-
-  }
-
-  li {
-
-  }
-}
-
 /* Main styles mobile */
-
 
 /*** HERO ***/
 
@@ -193,9 +159,7 @@ html, body {
   @media screen and (min-width: $tablet) {
     padding-top: 120px;
   }
-
 }
-
 
 /***/
 
@@ -226,11 +190,15 @@ footer {
   background-color: #333;
 }
 
-
 /*** Section Freetime ***/
 section.freetime {
   margin-top: 150px;
   color: rgba(255,255,255,0.9);
+  background-color: #615a47;
+  background-image: url('../img/dj-back-s.jpg');
+  background-position: 30% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   p {
     padding-bottom: 0.5em;
@@ -239,12 +207,9 @@ section.freetime {
     color: #fff;
   }
 
-  background: url('../img/dj-back.jpg') 30% 20% no-repeat;
-  background-size: cover;
-
- .links {
-  padding-top: 60px;
-  padding-bottom: 0;
+  .links {
+    padding-top: 60px;
+    padding-bottom: 0;
   }
 
   .how {
@@ -254,49 +219,30 @@ section.freetime {
   }
 
   @media screen and (min-width: $tablet) {
-  background: url('../img/dj-back.jpg') 40% 40% no-repeat;
-  background-size: cover;
+    background-image: url('../img/dj-back.jpg');
+    background-position: 40% 40%;
+    background-size: cover;
 
-  .how {
-    @include span(5 of 12);
-  }
-  .how-left {
-      @include pre(1);
-  }
-  .how-right {
-      @include post(1);
-  }
+    .how {
+      @include span(5 of 12);
+    }
+    .how-left {
+        @include pre(1);
+    }
+    .how-right {
+        @include post(1);
+    }
   }
 }
-
-
-/*    .sticker {
-    display: none;
-    }
-
-  @media screen and (min-width: $desktop) {
-    .sticker {
-      display: block;
-      position: absolute;
-      left: 90%;
-      width: 300px;
-      transform: rotate(-175deg);
-    }
-  }
-  */
-
 
 /**** PARTNERSHIPS ****/
 
 .partnerships {
-  background: url('../img/partnerships.jpg') 50% 20% no-repeat;
+  background-color: #31376a;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-image: url('../img/partnerships.jpg');
   background-size: cover;
-}
-
-
-.partnerships .question {
-
-
 }
 
 .section-header {
@@ -304,7 +250,6 @@ section.freetime {
   max-width: 600px;
   margin: auto;
   padding-bottom: $h-padding;
-
 
   img {
     padding-bottom: 15px;
@@ -321,7 +266,6 @@ section.freetime {
     width: 100%;
     margin: 0 auto;
   }
-
 }
 
 .shortphrase {
@@ -334,11 +278,9 @@ section.freetime {
 }
 
 .learn-more {
-
   h3 {
     padding-bottom: 50px;
   }
-
 }
 
 .track-block, .how, .contribute-column, .aim, .quote {
@@ -351,7 +293,6 @@ section.freetime {
 
 section.probono {
   background-color: #ececec;
-
 }
 
 .centered {
@@ -388,50 +329,44 @@ section.probono {
   background-size: cover;
 }
 
-
-@media screen and (min-width: $tablet) {
-  .track-block {
-  }
-}
-
 @media screen and (min-width: $desktop) {
   .track-block {
     @include span(6); 
   }
 }
 
-
 /****** Further links *******/
+
 .links {
-    @include span(12);
-    text-align: center;
-    max-width: 600px;
-    margin: auto;
-    padding-bottom: 30px;
+  @include span(12);
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 30px;
+  max-width: 100%;
+  padding-top: 10px;
+
+  p {
     max-width: 100%;
-    padding-top: 10px;
-    
-    p {
-      max-width: 100%;
-    }
+  }
 }
-
-
-
-/******/
 
 /***** Contribute ******/
 
 section.contribute {
-    background: url('../img/bg-chilicorn-blur.jpg');
-    background-size: cover;
+  background-color: #493b21;
+  background-image: url('../img/bg-chilicorn-blur-s.jpg');
+  background-size: cover;
 
   >.container {
     ul, p {
-    text-align: center;
+      text-align: center;
     }
   }
 
+  @media screen and (min-width: $mobile) {
+    background-image: url('../img/bg-chilicorn-blur.jpg');
+  }
 
   @media screen and (min-width: $tablet) {
     .contribute-column {
@@ -439,15 +374,13 @@ section.contribute {
       margin-top: 20px;
       .sameheight {
         min-height: 180px;
-      }    
-
+      }
     }
     .contribute-column.last {
       @include pre(3);
       @include post(3);
       margin-top: 40px;
     }
-
   }
 
   @media screen and (min-width: $desktop) {
@@ -463,11 +396,11 @@ section.contribute {
       @include post(0);
       margin-top: 0px;
     }
-   
   }
 }
 
 /*****/
+
 .white {
   color: #FFF;
 
@@ -480,15 +413,14 @@ section.contribute {
     text-shadow: none;
     background-color: $blue;
   }
-
 }
 
 /*** AIMS ***/
 
 .aims {
-  
   margin-top: 60px;
   text-align: center;
+
   img {
     max-width: 220px;
   }
@@ -506,7 +438,6 @@ section.contribute {
       margin-bottom: 10px;
     }    
   }
-
 }
 
 /**** QUOTES ****/
@@ -522,7 +453,6 @@ section#comments .section-header {
   p, blockquote {
     font-size: $size-medium;
     line-height: 1.2em;
-    //font-style: italic;
     text-align: center;
     margin: auto;
     max-width: 400px;
@@ -530,7 +460,7 @@ section#comments .section-header {
     padding-top: 1.2em;
   }
 
-  blockquote>span {
+  blockquote > span {
     font-size: 3 * $size-medium;
     font-family: arial;
     opacity: .3;
@@ -565,11 +495,9 @@ section#comments .section-header {
   }
 }
 
-
 #comments {
-  padding-bottom: 2*$section-padding;
+  padding-bottom: 2 * $section-padding;
 }
-
 
 /*** CARDS ***/
 .card {
@@ -580,13 +508,13 @@ section#comments .section-header {
   padding: 8px 5px;
   text-align: left;
 
-
   .card__inner {
     background: #fff;
     position: relative;
     width: 100%;
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    text-decoration: none; 
+    text-decoration: none;
+
     a {
       text-decoration: none;
       border-bottom: 1px solid;  
@@ -594,8 +522,7 @@ section#comments .section-header {
 
     a.card__cover {
       border-bottom: none;
-    }
-    
+    }    
   }
 
   .card__cover {
@@ -607,16 +534,16 @@ section#comments .section-header {
     padding-top: 56.25%;
     overflow: hidden;
     
-
-    img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
     }
   }
+
   .card__body {
     font-size: $size-base;
     padding: 20px;
@@ -624,12 +551,14 @@ section#comments .section-header {
     overflow: hidden;
     text-align: left;
   }
+
   .card__title {
     font-weight: 800;
     letter-spacing: 0.03em;
     margin: 0;
     margin-bottom: 9px;
   }
+
   .card__summary {
     text-align: left;
     font-weight: 300;
@@ -661,38 +590,30 @@ section#comments .section-header {
   .card__inner {
     height: 400px;
   }
- /* .card__body {
-    height: 180px;
-  }*/
 } 
 
-/***  CONTACT ****/
+/**** CONTACT ****/
+
 section.contact {
   background-color: #EFEFEF;
 
   h3 {
     font-size: $size-base;
-  }  
+  }
+
   img {
     max-width: 50%;
   }
 
-  
   .contact-block {
     background-color: white;
     text-align: center;
-    //display: inline-block;
     margin: 12px 0px;
     overflow: hidden;
     padding: 24px;
     vertical-align: top;
     width: auto;
   }
-
-
-  .left {} 
-
-  .center {} 
 
   .contact-details {
     font-size: $size-small;
@@ -702,7 +623,6 @@ section.contact {
     padding-top: 20px;
   } 
 
-
   .contact-position {
     padding-bottom: 0.5em;
     line-height: 1.3;
@@ -711,41 +631,27 @@ section.contact {
     font-size: $size-base*0.9;
   }
 
-  .contact-phone {
-
-  }
-
-  .contact-email {
-
-  }
-
- 
   @media screen and (min-width: $mobile) {
     text-align: center;
 
-   img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    max-width: 30%;
-    height: auto;
-    float: left;
+    img {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      max-width: 30%;
+      height: auto;
+      float: left;
     }
 
     .contact-block {
       text-align: left;
-    
     }
- 
   }
 
   @media screen and (min-width: $tablet) {
-
-
     .contact-block {
       min-height: 380px;
     }
-
 
     img {
       float: none;
@@ -757,27 +663,11 @@ section.contact {
       display: inline-block;
       margin-right: 20px;
     }
-    .left {
-        //margin-right: 20px;
-      
-      }
 
-      .right {
-       //margin-left: 20px; 
-      
-      }
-
-    .center {
-
-      }
-
-      .contact-details {
-        margin-top: 0px;
-      }
-    
+    .contact-details {
+      margin-top: 0px;
     }
-
-
+  }
 }
 
 #shareThisLink {
