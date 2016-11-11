@@ -9,7 +9,7 @@ Reservator is a meeting room display system for tablets. Mount your tablet next 
 
 [Summer of Love blog post](http://blog.futurice.com/reservator)
 
-[Source code](https://github.com/futurice-oss/meeting-room-tablet)
+[Source code](https://github.com/futurice/meeting-room-tablet)
 
 [Play store](https://play.google.com/store/apps/details?id=com.futurice.android.reservator)
 
@@ -24,7 +24,7 @@ Facegame is a simple game made for learning the faces and names of fellow employ
 
 [Summer of Love blog post](http://blog.futurice.com/facegame)
 
-[Source code](https://github.com/futurice-oss/facegame)
+[Source code](https://github.com/futurice/facegame)
 
 VPN Management
 --------------
@@ -37,9 +37,9 @@ VPN Management is a self-service tool for your employees to handle their OpenVPN
 
 [Summer of Love blog post](http://blog.futurice.com/vpn-management-self-provisioning-and-more)
 
-[Source code for the server](https://github.com/futurice-oss/vpn-management-server)  
+[Source code for the server](https://github.com/futurice/vpn-management-server)  
 
-[Source code for the wizard](https://github.com/futurice-oss/vpn-management-client)
+[Source code for the wizard](https://github.com/futurice/vpn-management-client)
 
 FUM
 ---
@@ -52,4 +52,4 @@ FUM is an user management system for LDAP. FUM makes it easy to handle informati
 
 [Summer of Love blog post](http://blog.futurice.com/user-friendly-web-ui-for-ldap)
 
-[Source code](https://github.com/futurice-oss/futurice-ldap-user-manager)
+[Source code](https://github.com/futurice/futurice-ldap-user-manager)
