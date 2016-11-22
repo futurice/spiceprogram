@@ -19,6 +19,23 @@ $susy: (
   text-align: center;
 }
 
+
+%clearfix {
+    *zoom: 1;
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+        // Fixes Opera/contenteditable bug:
+        // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+        line-height: 0;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
 /* General Breakpoints */
 $mobile: 500px;
 $tablet: 800px;
@@ -27,6 +44,7 @@ $desktop: 1024px;
 /* General measures */
 $h-padding: 10px;
 $section-padding: 70px;
+$item-spacing: 40px;
 
 /* Typographic scale. Only use these font-sizes */
 $size-tiny: 12px;
@@ -118,9 +136,54 @@ html, body {
   color: $body;
 }
 
+
+#shareThisLink {
+  cursor: pointer;
+}
+
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+
+a.tooltips span {
+  position: absolute;
+  font-size: 12px;
+  width:140px;
+  color: #FFFFFF;
+  background: #000000;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  margin-top: -15px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-top: 8px solid transparent;
+}
+
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  left: 0%;
+  top: 100%;
+  margin-top: 4px;
+  margin-left: 13px;
+  z-index: 999;
+}
+
 /* Main styles mobile */
 
-/*** HERO ***/
+/*** HERO: Spice Program home page + Chilicorn Fund home page ***/
 
 .hero {
   color: #000;
@@ -128,7 +191,7 @@ html, body {
   padding: 40px 0 0px 0;
   margin-bottom: 0px;
 
-  p {
+  p, h2 {
     font-size: $size-medium;
     font-weight: 300;
     max-width: 20em;
@@ -426,7 +489,7 @@ section.contribute {
   }
 
   .aim {
-    margin-bottom: 40px;
+    margin-bottom: $item-spacing;
   }
 
   @media screen and (min-width: $tablet) {
@@ -448,7 +511,7 @@ section#comments .section-header {
 
 .quote {
   @include span(6);
-  margin-bottom: 60px;
+  margin-bottom: $item-spacing;
 
   p, blockquote {
     font-size: $size-medium;
@@ -670,46 +733,124 @@ section.contact {
   }
 }
 
-#shareThisLink {
-  cursor: pointer;
+
+
+/******************************   CHILICORN FUND PAGE ****************************/
+
+/* overrule other .hero */
+.chilicorn.hero {
+  width: 100%;
+  min-height: 400px;
+  background-color: #615a47;
+  background-image: url('../img/chilicorn-world.jpg');
+  background-position: 70% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1, h2, p, a, a:hover, a:visited, a:active{
+    color: white;
+  }
+
+  .container {
+    margin-top: 150px;
+  }
+
+  @media screen and (min-width: $mobile) {
+    
+  }
+
+  @media screen and (min-width: $tablet) {
+
+  }
 }
 
-a.tooltips {
-  position: relative;
-  display: inline;
-}
 
-a.tooltips span {
-  position: absolute;
-  font-size: 12px;
-  width:140px;
-  color: #FFFFFF;
-  background: #000000;
-  height: 30px;
-  line-height: 30px;
+/******  WHO FOR ********/
+/* same with AIMS */
+
+section.who-for {
+  margin-top: 60px;
   text-align: center;
-  visibility: hidden;
-  border-radius: 6px;
+
+  img {
+    width: 100%;
+  }
+  
+  .who {
+     margin-bottom: $item-spacing;       
+  }
+
+  @media screen and (min-width: $mobile) {
+    .who {
+    
+    }
+    .who:last {
+      margin-bottom:0;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    .who {
+      @include span(4);
+
+      h3 {
+        min-height: 2em;
+        }
+      }
+
+    img {
+      margin-bottom: 10px;
+    }    
+  }
 }
 
-a.tooltips span:after {
-  content: '';
-  position: absolute;
-  top: 0%;
-  right: 50%;
-  margin-top: -15px;
-  width: 0; height: 0;
-  border-bottom: 8px solid #000000;
-  border-right: 8px solid transparent;
-  border-top: 8px solid transparent;
+/******  HOW IT WORKS ********/
+
+section.how-it-works {
+
+
 }
 
-a:hover.tooltips span {
-  visibility: visible;
-  opacity: 0.8;
-  left: 0%;
-  top: 100%;
-  margin-top: 4px;
-  margin-left: 13px;
-  z-index: 999;
+/******  CRITERIA ********/
+section.criteria {
+
+  .gallery {
+     @extend %clearfix;     
+    }
+
+  .criterion {
+    margin-bottom: $item-spacing;
+    //@include clearfix;
+
+  }
+
+  @media screen and (min-width: $mobile) {
+
+    .criterion {
+      
+    }
+
+  }
+
+  @media screen and (min-width: $tablet) {
+    .criterion {
+      @include gallery(6 of 12);
+    }  
+
+    img {
+      margin-bottom: 10px;
+    }    
+  }
+
+  @media screen and (min-width: $desktop) {
+    .criterion {
+      @include gallery(4 of 12);
+    }
+
+  }
+
 }
+
+
+
+
