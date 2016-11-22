@@ -84,7 +84,6 @@ section.criteria {
   .criterion {
     margin-bottom: $item-spacing;
     //@include clearfix;
-
   }
 
   @media screen and (min-width: $mobile) {
@@ -112,4 +111,41 @@ section.criteria {
 
   }
 
+}
+
+/****** SELECTION PROCESS ******/
+.selection-process {
+  .step {
+    margin-bottom: 2rem;
+  }
+  .step__image {
+    img {
+      max-width: 80%;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    .step {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+
+      &:nth-child(odd) {
+        flex-direction: row-reverse;
+      }
+
+      p {
+        text-align: left;
+        max-width: none;
+      }
+    }
+    .step__image {
+      width: calc(50% - 2rem);
+      text-align: center;
+    }
+    .step__content {
+      width: calc(50% - 2rem);
+    }
+  }
 }

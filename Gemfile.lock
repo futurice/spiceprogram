@@ -8,6 +8,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    autoprefixer-rails (6.5.3)
+      execjs
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -107,6 +109,9 @@ GEM
       pkg-config (~> 1.1.7)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
+    octopress-autoprefixer (2.0.0)
+      autoprefixer-rails
+      jekyll (~> 3.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     pkg-config (1.1.7)
@@ -134,6 +139,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  octopress-autoprefixer
 
 BUNDLED WITH
-   1.13.5
+   1.13.6
