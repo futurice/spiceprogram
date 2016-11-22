@@ -1,0 +1,169 @@
+/******************************   CHILICORN FUND PAGE ****************************/
+
+/* overrule other .hero */
+.chilicorn.hero {
+  width: 100%;
+  min-height: 400px;
+  background-color: #615a47;
+  background-image: url('../img/chilicorn-world.jpg');
+  background-position: 70% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1, h2, p, a, a:hover, a:visited, a:active {
+    color: white;
+  }
+
+  .container {
+    margin-top: 150px;
+  }
+}
+
+/****** NEWSLETTER ******/
+.newsletter {
+  background: #9F6CE3;
+  color: white;
+
+  p {
+    max-width: 36em;
+  }
+}
+
+.sign-up {
+  margin-top: 1rem;
+}
+
+/******  WHO FOR ********/
+/* same with AIMS */
+
+section.who-for {
+  margin-top: 60px;
+  text-align: center;
+
+  img {
+    width: 100%;
+  }
+  
+  .who {
+     margin-bottom: $item-spacing;       
+  }
+
+  @media screen and (min-width: $mobile) {
+    .who:last {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    .who {
+      @include span(4);
+
+      h3 {
+        min-height: 2em;
+      }
+    }
+
+    img {
+      margin-bottom: 10px;
+    }    
+  }
+}
+
+/******  HOW IT WORKS ********/
+@media screen and (max-width: $tablet) {
+  .how-it-works__image img {
+    display: block;
+    width: 80%;
+    max-width: 480px;
+    margin: 2rem auto 0 auto;
+  }
+}
+@media screen and (min-width: $tablet) {
+  .how-it-works {
+    .container, p {
+      text-align: left;
+    }
+    p {
+      max-width: none;
+      margin: 0;
+    }
+  }
+
+  .how-it-works__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .how-it-works__description {
+    width: calc(40% - 2rem);
+  }
+
+  .how-it-works__image {
+    width: calc(60% - 2rem);
+  }
+}
+
+/******  CRITERIA ********/
+.criteria {
+  .gallery {
+    @extend %clearfix;     
+  }
+
+  .criterion {
+    margin-bottom: $item-spacing;
+  }
+
+  @media screen and (min-width: $tablet) {
+    .criterion {
+      @include gallery(6 of 12);
+    }  
+
+    img {
+      margin-bottom: 10px;
+    }    
+  }
+
+  @media screen and (min-width: $desktop) {
+    .criterion {
+      @include gallery(4 of 12);
+    }
+  }
+}
+
+/****** SELECTION PROCESS ******/
+.selection-process {
+  .step {
+    margin-bottom: 2rem;
+  }
+  .step__image {
+    img {
+      max-width: 80%;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    .step {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+
+      &:nth-child(odd) {
+        flex-direction: row-reverse;
+      }
+
+      p {
+        text-align: left;
+        max-width: none;
+      }
+    }
+    .step__image {
+      width: calc(50% - 2rem);
+      text-align: center;
+    }
+    .step__content {
+      width: calc(50% - 2rem);
+    }
+  }
+}

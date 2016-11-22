@@ -65,14 +65,13 @@ custom_js:
 
 <section class="newsletter">
   <div class="container">
-    <p> We invite social impact project applications for pro bono design and implementation. The next application period is January 2017!<br>
+    <p>
+      We invite social impact project applications for pro bono design and implementation. The next application period is January 2017!<br />
       Sign up for the newsletter to get essential updates about the process.
     </p>
-    <div class="sign-up">
-      <input type="text">
-      <a class="button">Sign Up</a>
-    </div>
-
+    <form class="sign-up form">
+      <input class="form__input" type="text" placeholder="you@email.com" /><input class="form__submit" type="submit" value="Sign Up" />
+    </form>
   </div>
 </section>
 
@@ -113,8 +112,12 @@ custom_js:
 <section class="how-it-works">
   <div class="container">
     <h2>How does it work?</h2>
-    <p>Its aim is to work with charities to create meaningful and impactful digital services. It seeks to do this by working with partner companies and the Futurice team. We select projects by choosing those that generate value to the individuals working on the project, the company, and society. All three. </p>
-    <img src="{{ site.baseurl }}/assets/img/chilicorn-fund-diagram.png" alt=""></img>
+    <div class="how-it-works__content">
+      <p class="how-it-works__description">Its aim is to work with charities to create meaningful and impactful digital services. It seeks to do this by working with partner companies and the Futurice team. We select projects by choosing those that generate value to the individuals working on the project, the company, and society. All three.</p>
+      <div class="how-it-works__image">
+        <img src="{{ site.baseurl }}/assets/img/chilicorn-diagram-IN-PROGRESS.jpg" alt=""></img>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -160,25 +163,44 @@ custom_js:
 
 <section class="selection-process">
   <div class="container">
-    <div class="step">
-      <img src="{{ site.baseurl }}/assets/img/step1.png" alt="">
-      <h3>1. Application round opens</h3>
-      <p>Step 1 description.</p>
+    <div class="section-header">
+      <h2>Selection Process</h2>
     </div>
     <div class="step">
-      <img src="{{ site.baseurl }}/assets/img/step2.png" alt="">
-      <h3>2. Most fitting projects selected</h3>
-      <p>Step 2 description.</p>
+      <div class="step__image">
+        <img src="{{ site.baseurl }}/assets/img/step1.png" alt="">
+      </div>
+      <div class="step__content">
+        <h3>1. Application round opens</h3>
+        <p>Lorem ipsum dolor sit amet, ipsum nam orci, at dapibus, pellentesque voluptatem luctus. Rutrum ipsum quam scelerisque donec facilisis risus, in convallis varius mauris praesent tempus, ridiculus wisi, justo felis nostra duis amet viverra nec.</p>
+      </div>
     </div>
     <div class="step">
-      <img src="{{ site.baseurl }}/assets/img/step3.png" alt="">
-      <h3>3. Winners announced</h3>
-      <p>Step 3 description.</p>
+      <div class="step__image">
+        <img src="{{ site.baseurl }}/assets/img/step2.png" alt="">
+      </div>
+      <div class="step__content">
+        <h3>2. Most fitting projects selected</h3>
+        <p>Lorem ipsum dolor sit amet, ipsum nam orci, at dapibus, pellentesque voluptatem luctus. Rutrum ipsum quam scelerisque donec facilisis risus, in convallis varius mauris praesent tempus, ridiculus wisi, justo felis nostra duis amet viverra nec.</p>
+      </div>
     </div>
     <div class="step">
-      <img src="{{ site.baseurl }}/assets/img/step4.png" alt="">
-      <h3>4. Execution</h3>
-      <p>Step 4 description.</p>
+      <div class="step__image">
+        <img src="{{ site.baseurl }}/assets/img/step3.png" alt="">
+      </div>
+      <div class="step__content">
+        <h3>3. Winners announced</h3>
+        <p>Lorem ipsum dolor sit amet, ipsum nam orci, at dapibus, pellentesque voluptatem luctus. Rutrum ipsum quam scelerisque donec facilisis risus, in convallis varius mauris praesent tempus, ridiculus wisi, justo felis nostra duis amet viverra nec.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step__image">
+        <img src="{{ site.baseurl }}/assets/img/step4.png" alt="">
+      </div>
+      <div class="step__content">
+        <h3>4. Execution</h3>
+        <p>Lorem ipsum dolor sit amet, ipsum nam orci, at dapibus, pellentesque voluptatem luctus. Rutrum ipsum quam scelerisque donec facilisis risus, in convallis varius mauris praesent tempus, ridiculus wisi, justo felis nostra duis amet viverra nec.</p>
+      </div>
     </div>
   </div>
 </section>
