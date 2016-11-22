@@ -10,23 +10,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  h1, h2, p, a, a:hover, a:visited, a:active{
+  h1, h2, p, a, a:hover, a:visited, a:active {
     color: white;
   }
 
   .container {
     margin-top: 150px;
   }
-
-  @media screen and (min-width: $mobile) {
-    
-  }
-
-  @media screen and (min-width: $tablet) {
-
-  }
 }
-
 
 /******  WHO FOR ********/
 /* same with AIMS */
@@ -44,11 +35,8 @@ section.who-for {
   }
 
   @media screen and (min-width: $mobile) {
-    .who {
-    
-    }
     .who:last {
-      margin-bottom:0;
+      margin-bottom: 0;
     }
   }
 
@@ -58,8 +46,8 @@ section.who-for {
 
       h3 {
         min-height: 2em;
-        }
       }
+    }
 
     img {
       margin-bottom: 10px;
@@ -68,30 +56,48 @@ section.who-for {
 }
 
 /******  HOW IT WORKS ********/
+@media screen and (max-width: $tablet) {
+  .how-it-works__image img {
+    display: block;
+    width: 80%;
+    max-width: 480px;
+    margin: 2rem auto 0 auto;
+  }
+}
+@media screen and (min-width: $tablet) {
+  .how-it-works {
+    .container, p {
+      text-align: left;
+    }
+    p {
+      max-width: none;
+      margin: 0;
+    }
+  }
 
-section.how-it-works {
+  .how-it-works__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  .how-it-works__description {
+    width: calc(40% - 2rem);
+  }
 
+  .how-it-works__image {
+    width: calc(60% - 2rem);
+  }
 }
 
 /******  CRITERIA ********/
-section.criteria {
-
+.criteria {
   .gallery {
-     @extend %clearfix;     
-    }
+    @extend %clearfix;     
+  }
 
   .criterion {
     margin-bottom: $item-spacing;
-    //@include clearfix;
-  }
-
-  @media screen and (min-width: $mobile) {
-
-    .criterion {
-      
-    }
-
   }
 
   @media screen and (min-width: $tablet) {
@@ -108,9 +114,7 @@ section.criteria {
     .criterion {
       @include gallery(4 of 12);
     }
-
   }
-
 }
 
 /****** SELECTION PROCESS ******/
