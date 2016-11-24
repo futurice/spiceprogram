@@ -106,12 +106,25 @@ section.who-for {
 
 /******  CRITERIA ********/
 .criteria {
+  background-color: $purple;
+
+  h2 {
+    color: white;
+  }
+
   .gallery {
     @extend %clearfix;     
   }
 
   .criterion {
     margin-bottom: $item-spacing;
+    h3 {
+      color: $yellow-text;
+    }
+
+    p {
+      color: white;
+    }
   }
 
   @media screen and (min-width: $tablet) {

@@ -128,32 +128,27 @@ custom_js:
     </div>
     <div class="gallery">
       <div class="criterion">
-        <img src="{{ site.baseurl }}/assets/img/criterion1.png" alt="">
+        <!-- <img src="{{ site.baseurl }}/assets/img/criterion1.png" alt=""> -->
         <h3>Positive Impact</h3>
         <p>Is the project making the world better? How much better? <br>This is the most important measure to consider and it gets double the weight of the others. </p>
       </div>
      <div class="criterion">
-        <img src="{{ site.baseurl }}/assets/img/criterion1.png" alt="">
         <h3>Open Source Significance</h3>
         <p>Is the outcome replicable for other areas and for similar problems? When we share the results as open source, can that bring extra value to the world?</p>
       </div>
      <div class="criterion">
-        <img src="{{ site.baseurl }}/assets/img/criterion1.png" alt="">
         <h3>Competence Development</h3>
         <p>How much relevant learning do participants get out of this project? Are they learning new technologies or better ways of doing things? Can they apply what they learn in future projects?</p>
       </div>
      <div class="criterion">
-        <img src="{{ site.baseurl }}/assets/img/criterion1.png" alt="">
         <h3>Student Cooperation Opportunities</h3>
         <p>Can the project be done together with groups of students, under our guidance? How well is it suited for that type of setup?</p>
       </div>
      <div class="criterion">
-        <img src="{{ site.baseurl }}/assets/img/criterion1.png" alt="">
         <h3>Partner Sponsorship Opportunities</h3>
         <p>Are there good chances to get funding from one of Futurice's partners for this? Or could it get some public funding for example?</p>
       </div>
      <div class="criterion">
-        <img src="{{ site.baseurl }}/assets/img/criterion1.png" alt="">
         <h3>PR Opportunities</h3>
         <p>Could Futurice and any sponsoring partners get well-deserved publicity for doing this project pro-bono? Will we be proud of it?</p>
       </div>
@@ -237,4 +232,45 @@ custom_js:
   </article>
 
   </div>  
+</section>
+
+
+<section class="contact">
+  <div class="container">
+    <div class="section-header">
+      <a name="contact"></a>
+      <h2>Contact Us</h2>
+    </div>
+    <form action="contact-us.php">
+
+    <label class="form-label">You want to:</label>
+    <div class="radio-group">
+      <div class="radio">
+        <input id="radio_contact_project" name="objective" value="Propose a project" type="radio">
+          <label for="radio_contact_project">Propose a project</label>
+      </div>
+      <div class="radio">
+        <input id="radio_contact_partner" name="objective" value="Participate as a partner" type="radio">
+          <label for="radio_contact_partner">Participate as a partner</label>
+      </div>
+      <div class="radio">
+        <input id="radio_contact_student" name="objective" value="Participate as a partner" type="radio">
+          <label for="radio_contact_student">Volunteer as a student</label>
+      </div>
+      <div class="radio">
+        <input id="radio_contact_other" name="objective" value="Participate as a partner" type="radio">
+          <label for="radio_contact_other">Just get in touch</label>
+      </div>
+
+      <label for="name"> Your Name:<label>
+      <input type="text" name="name" value=""><br>
+      <label for="email"> Email address:<label>
+      <input type="text" name="email" value=""><br>
+      <label for="message"> Your message:<label>
+      <textarea id="message" placeholder="Tell us more about your intentions to collaborate with us."> </textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>
 </section>
