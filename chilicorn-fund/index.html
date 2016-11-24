@@ -142,15 +142,15 @@ custom_js:
       </div>
      <div class="criterion">
         <h3>Student Cooperation Opportunities</h3>
-        <p>Can the project be done together with groups of students, under our guidance? How well is it suited for that type of setup?</p>
+        <p>Can the project be done together with groups of students, under our guidance? Will they learn relevant things while working on it?</p>
       </div>
      <div class="criterion">
         <h3>Partner Sponsorship Opportunities</h3>
-        <p>Are there good chances to get funding from one of Futurice's partners for this? Or could it get some public funding for example?</p>
+        <p>Can our partners contribute to this project either financially, by providing people into the project team, or perhaps by some other means?</p>
       </div>
      <div class="criterion">
         <h3>PR Opportunities</h3>
-        <p>Could Futurice and any sponsoring partners get well-deserved publicity for doing this project pro-bono? Will we be proud of it?</p>
+        <p>Could Futurice and any sponsoring partners get well-deserved publicity for doing this project pro bono? Will we be proud of it?</p>
       </div>
     </div>
   </div>
@@ -166,8 +166,8 @@ custom_js:
         <img src="{{ site.baseurl }}/assets/img/step1.png" alt="">
       </div>
       <div class="step__content">
-        <h3>1. Application round opens</h3>
-        <p>Lorem ipsum dolor sit amet, ipsum nam orci, at dapibus, pellentesque voluptatem luctus. Rutrum ipsum quam scelerisque donec facilisis risus, in convallis varius mauris praesent tempus, ridiculus wisi, justo felis nostra duis amet viverra nec.</p>
+        <h3>1. Collecting applications</h3>
+        <p>When we open applications for the Chilicorn Fund, organisations and institutions can submit their project using a web form provided by us. We will go through the applications and make inquiries, if we find some relevant information missing. Please familiarise yourself with our application criteria before submitting your project!</p>
       </div>
     </div>
     <div class="step">
@@ -175,8 +175,8 @@ custom_js:
         <img src="{{ site.baseurl }}/assets/img/step2.png" alt="">
       </div>
       <div class="step__content">
-        <h3>2. Most fitting projects selected</h3>
-        <p>Lorem ipsum dolor sit amet, ipsum nam orci, at dapibus, pellentesque voluptatem luctus. Rutrum ipsum quam scelerisque donec facilisis risus, in convallis varius mauris praesent tempus, ridiculus wisi, justo felis nostra duis amet viverra nec.</p>
+        <h3>2. Choosing projects</h3>
+        <p>We apply our criteria to find several projects that seem the most promising to us. If we find the project not applicable, we will let you know why we think so. In some cases we may politely suggest some changes, to make it more applicable.</p>
       </div>
     </div>
     <div class="step">
@@ -184,8 +184,8 @@ custom_js:
         <img src="{{ site.baseurl }}/assets/img/step3.png" alt="">
       </div>
       <div class="step__content">
-        <h3>3. Winners announced</h3>
-        <p>Lorem ipsum dolor sit amet, ipsum nam orci, at dapibus, pellentesque voluptatem luctus. Rutrum ipsum quam scelerisque donec facilisis risus, in convallis varius mauris praesent tempus, ridiculus wisi, justo felis nostra duis amet viverra nec.</p>
+        <h3>3. Project prestudy</h3>
+        <p>The projects we consider both worthwhile and having an acceptable risk to reward ratio we will invite to a prestudy. In a period of several weeks we will have multiple discussions with you where we refine the concept, consider technology, estimate risks, plan the project and schedule.</p>
       </div>
     </div>
     <div class="step">
@@ -193,8 +193,8 @@ custom_js:
         <img src="{{ site.baseurl }}/assets/img/step4.png" alt="">
       </div>
       <div class="step__content">
-        <h3>4. Execution</h3>
-        <p>Lorem ipsum dolor sit amet, ipsum nam orci, at dapibus, pellentesque voluptatem luctus. Rutrum ipsum quam scelerisque donec facilisis risus, in convallis varius mauris praesent tempus, ridiculus wisi, justo felis nostra duis amet viverra nec.</p>
+        <h3>4. Project execution</h3>
+        <p>For the projects that pass the prestudy phase with mutual acceptance by all the relevant parties, on we go with the design and implementation!</p>
       </div>
     </div>
   </div>
@@ -234,43 +234,22 @@ custom_js:
   </div>  
 </section>
 
-
-<section class="contact">
+<section class="newsletter">
   <div class="container">
     <div class="section-header">
-      <a name="contact"></a>
       <h2>Contact Us</h2>
     </div>
-    <form action="contact-us.php">
 
-    <label class="form-label">You want to:</label>
-    <div class="radio-group">
-      <div class="radio">
-        <input id="radio_contact_project" name="objective" value="Propose a project" type="radio">
-          <label for="radio_contact_project">Propose a project</label>
-      </div>
-      <div class="radio">
-        <input id="radio_contact_partner" name="objective" value="Participate as a partner" type="radio">
-          <label for="radio_contact_partner">Participate as a partner</label>
-      </div>
-      <div class="radio">
-        <input id="radio_contact_student" name="objective" value="Participate as a partner" type="radio">
-          <label for="radio_contact_student">Volunteer as a student</label>
-      </div>
-      <div class="radio">
-        <input id="radio_contact_other" name="objective" value="Participate as a partner" type="radio">
-          <label for="radio_contact_other">Just get in touch</label>
-      </div>
-
-      <label for="name"> Your Name:<label>
-      <input type="text" name="name" value=""><br>
-      <label for="email"> Email address:<label>
-      <input type="text" name="email" value=""><br>
-      <label for="message"> Your message:<label>
-      <textarea id="message" placeholder="Tell us more about your intentions to collaborate with us."> </textarea>
-
-      <input type="submit" value="Submit">
+    <form class="sign-up form" action="https://formspree.io/spice@futurice.com"
+        method="POST">
+      <label for="email"> Your email:<label>
+      <input class="form__input" type="email" name="_replyto">
+      <label for="reason"> Your interest:<label>
+      <input class="form__input" type="text" name="reason">
+      <!-- the one below is a formspree honeypot input to attract bots, so it knows to disregard the submit -->
+      <input type="text" name="_gotcha" style="display:none" />
+      <input class="form__input" type="submit" value="Send">
     </form>
-
+        
   </div>
 </section>
