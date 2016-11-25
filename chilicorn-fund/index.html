@@ -5,56 +5,9 @@ description: Spice Program is a company sponsored open source and social impact 
 custom_js:
   - main.js
 ---
-<!--
-<div class="hero">
-  <div class="container">
-
-    <h1>Spice Program 2</h1>
-
-  </div>
-</div>
-
-<div class="container aims">
-  <div class="aim">
-  </div>
-  <div class="aim">
-  </div>
-  <div class="aim">
-  </div>
-</div>
-
-<section class="freetime white">
-  <div class="container">
-    <div class="section-header">
-      <h2>Supporting free time contributions</h2>
-      <p class="shortphrase">Our employees can work on open source and other social impact projects on their own time and get paid for it.
-      </p>
-    </div>
-      <div class="how how-left centered">
-        <p><strong> Use professional skills</strong></p>
-        <p>We pay 15€ / hour on top of regular salary for employees’ free time contributions that use their professional skills. </p>
-      </div>
-      <div class="how how-right centered" >
-        <p><strong>Share as open source</strong></p>
-        <p>Any project goes, as long as the outcome is shared with an open source license. This is not just for developers. It’s for all our specialists. </p>
-      </div>
-      <div class="how how-left centered">
-        <p><strong>Keep the balance</strong></p>
-        <p>We have a 30 hours / person monthly limit on how much is supported. It's meant to protect employees' from overloading themselves. </p>
-      </div>
-      <div class="how how-right centered">
-        <p><strong>This is not work</strong></p>
-        <p>Futurice makes no IPR claims whatsoever regarding these contributions. In fact, we insist on employees taking their due credit for their efforts. </p>
-      </div>
-      <div class="links white">
-        <p><a href="http://futurice.com/blog/year-2015-in-company-sponsored-open-source">Why sponsor free time open source contributions</a> </p>
-      </div>
-  </div>
-</section>
-
--->
 
 <section class="chilicorn hero">
+  <img src="{{ site.baseurl }}/assets/img/chilicorn-world.jpg" alt="">
   <div class="container">
 
     <h1>Chilicorn Fund</h1>
@@ -69,9 +22,7 @@ custom_js:
       We invite social impact project applications for pro bono design and implementation. The next application period is January 2017!<br />
       Sign up for the newsletter to get essential updates about the process.
     </p>
-    <form class="sign-up form">
-      <input class="form__input" type="text" placeholder="you@email.com" /><input class="form__submit" type="submit" value="Sign Up" />
-    </form>
+    <a href="#newsletter" class="btn">Sign up for newsletter</a>
   </div>
 </section>
 
@@ -87,7 +38,7 @@ custom_js:
         <p>If you are part of a student group, or an instructor to one, and looking for a meaningful project to design or implement with our coaching and mentoring, do get in touch!
         </p>
       </div>
-      <a href="#contact" class="btn">Contact</a>
+      <a href="#newsletter" class="btn">Contact</a>
     </div>
     <div class="who">
       <img src="{{ site.baseurl }}/assets/img/companies.png" alt="">      
@@ -96,7 +47,7 @@ custom_js:
         <p>Any company can get involved by either contributing financially, or providing individuals with the relevant skills to create digital services or solutions. Get in touch with us and we’ll hook you up. 
          </p>
       </div>
-     <a href="#contact" class="btn">Contact</a>
+     <a href="#newsletter" class="btn">Contact</a>
     </div>
     <div class="who">
       <img src="{{ site.baseurl }}/assets/img/ngo.png" alt="">
@@ -104,7 +55,7 @@ custom_js:
         <h3>NGOs, Social Enterprises</h3>
         <p>If you have a problem worth solving or a project that can change the world, but not enough funding to go for it, apply to be in our program. If your project gets selected, it will be completed pro-bono and you can then take it further.</p>
       </div>
-      <a href="#contact" class="btn">Contact</a>
+      <a href="#newsletter" class="btn">Contact</a>
     </div>
   </div>
 </section>
@@ -237,15 +188,19 @@ custom_js:
 <section class="newsletter">
   <div class="container">
     <div class="section-header">
-      <h2>Contact Us</h2>
+      <a name="newsletter"></a>
+      <h2>Sign up for the newsletter</h2>
+      <p>You don’t have time to read meaningless newsletters. <br>
+          And we don’t have time to write them.</p>
+      <p>You’ll only hear from us when we have something real to say!</p>
     </div>
 
     <form class="sign-up form" action="https://formspree.io/spice@futurice.com"
         method="POST">
-      <label for="email"> Your email:<label>
-      <input class="form__input" type="email" name="_replyto">
-      <label for="reason"> Your interest:<label>
-      <input class="form__input" type="text" name="reason">
+      <label for="email"> Email address: *<label><br>
+      <input class="form__input" type="email" name="_replyto"> <br>
+      <label for="reason"> Your interest in this newsletter<label><br>
+      <input class="form__input" type="text" name="reason"><br>
       <!-- the one below is a formspree honeypot input to attract bots, so it knows to disregard the submit -->
       <input type="text" name="_gotcha" style="display:none" />
       <input class="form__input" type="submit" value="Send">
