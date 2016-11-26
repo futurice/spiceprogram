@@ -6,13 +6,10 @@ custom_js:
   - main.js
 ---
 
-<section class="chilicorn hero">
-  <img src="{{ site.baseurl }}/assets/img/chilicorn-world.jpg" alt="">
+<section class="fund-section chilicorn hero">
   <div class="container">
-
     <h1>Chilicorn Fund</h1>
     <h2>Pro-bono projects for a slightly better world, by <a href="www.futurice.com"> Futurice</a></h2>
-
   </div>
 </section>
 
@@ -75,11 +72,10 @@ custom_js:
 <section class="criteria">
   <div class="container">
     <div class="section-header">
-      <h2>Selection Criteria</h2>
+      <h2>Selection criteria</h2>
     </div>
     <div class="gallery">
       <div class="criterion">
-        <!-- <img src="{{ site.baseurl }}/assets/img/criterion1.png" alt=""> -->
         <h3>Positive Impact</h3>
         <p>Is the project making the world better? How much better? <br>This is the most important measure to consider and it gets double the weight of the others. </p>
       </div>
@@ -110,11 +106,11 @@ custom_js:
 <section class="selection-process">
   <div class="container">
     <div class="section-header">
-      <h2>Selection Process</h2>
+      <h2>Selection process</h2>
     </div>
     <div class="step">
       <div class="step__image">
-        <img src="{{ site.baseurl }}/assets/img/step1.png" alt="">
+        <img src="{{ site.baseurl }}/assets/img/fund/selection-step-1.jpg" alt="">
       </div>
       <div class="step__content">
         <h3>1. Collecting applications</h3>
@@ -123,7 +119,7 @@ custom_js:
     </div>
     <div class="step">
       <div class="step__image">
-        <img src="{{ site.baseurl }}/assets/img/step2.png" alt="">
+        <img src="{{ site.baseurl }}/assets/img/fund/selection-step-2.jpg" alt="">
       </div>
       <div class="step__content">
         <h3>2. Choosing projects</h3>
@@ -141,7 +137,7 @@ custom_js:
     </div>
     <div class="step">
       <div class="step__image">
-        <img src="{{ site.baseurl }}/assets/img/step4.png" alt="">
+        <img src="{{ site.baseurl }}/assets/img/fund/selection-step-4.jpg" alt="">
       </div>
       <div class="step__content">
         <h3>4. Project execution</h3>
@@ -153,35 +149,37 @@ custom_js:
 
 <section class="projects">
   <div class="container">
+    <div class="section-header">
+      <h2>Projects</h2>
+    </div>
     <article class="project">
       <a href="https://play.google.com/store/apps/details?id=com.hemmo&amp;hl=en" class="project-image">
-          <img src="{{ site.baseurl }}/assets/img/pelastakaa-lapset.jpg" alt="">
+        <img src="{{ site.baseurl }}/assets/img/pelastakaa-lapset.jpg" alt="">
       </a>
       <div class="project-stage">
         Placeholder for visual: Completed  
       </div>    
-      <p class="project-name">
+      <h3 class="project-name">
         <a href="https://play.google.com/store/apps/details?id=com.hemmo&amp;hl=en">Save the Children Finland – Hemmo</a>
-      </p>
+      </h3>
       <p class="project-description">
         Feedback tool for children visiting children homes in Finland
       </p>
-  </article>
+    </article>
     <article class="project">
       <a href="https://play.google.com/store/apps/details?id=com.hemmo&amp;hl=en" class="project-image">
-          <img src="{{ site.baseurl }}/assets/img/super-ada.jpg" alt="">
+        <img src="{{ site.baseurl }}/assets/img/super-ada.jpg" alt="">
       </a>
       <div class="project-stage">
         Placeholder for visual: Work in progress!
       </div>    
-      <p class="project-name">
+      <h3 class="project-name">
         <a href="https://play.google.com/store/apps/details?id=com.hemmo&amp;hl=en">Save the Children Finland – Hemmo</a>
-      </p>
+      </h3>
       <p class="project-description">
         App for the SuperAda event done in collaboration with students from Haaga Helia. 
       </p>
-  </article>
-
+    </article>
   </div>  
 </section>
 
@@ -197,14 +195,64 @@ custom_js:
 
     <form class="sign-up form" action="https://formspree.io/spice@futurice.com"
         method="POST">
-      <label for="email"> Email address: *<label><br>
+      <label for="email">Email address: *<label><br>
       <input class="form__input" type="email" name="_replyto"> <br>
-      <label for="reason"> Your interest in this newsletter<label><br>
+      <label for="reason">Your interest in this newsletter<label><br>
       <input class="form__input" type="text" name="reason"><br>
       <!-- the one below is a formspree honeypot input to attract bots, so it knows to disregard the submit -->
       <input type="text" name="_gotcha" style="display:none" />
-      <input class="form__input" type="submit" value="Send">
+      <input class="form__submit" type="submit" value="Send">
     </form>
-        
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <div class="section-header">
+      <a name="contact"></a>
+      <h2>Contact Us</h2>
+    </div>
+    <div class="contact-block left">
+      <img src="{{ site.baseurl }}/assets/img/teemu-T.jpg" alt="">
+      <h3 class="contact-name"><a href="http://futurice.com/people/teemu-turunen"> Teemu Turunen</a></h3>
+      <div class="contact-details">
+        <div class="contact-position">
+          Open Source and <br>Social Responsibility Lead
+        </div>
+        <div class="contact-phone">
+          +358407471885
+        </div>
+        <div class="contact-email">
+          teemu.turunen@futurice.com
+        </div>
+      </div>
+    </div>
+    <div class="contact-block right">
+      <img src="{{ site.baseurl }}/assets/img/sebi-T.jpg" alt="">
+      <h3 class="contact-name"><a href="http://futurice.com/people/sebi-tauciuc"> Sebi Tauciuc</a></h3>
+      <div class="contact-details">
+        <div class="contact-position">
+          Designer, Social Responsibility
+        </div>
+        <div class="contact-phone">
+          +358407740124
+        </div>
+        <div class="contact-email">
+          sebi.tauciuc@futurice.com
+        </div>
+      </div>
+    </div>
+    <div class="contact-block center">
+      <img src="{{ site.baseurl }}/assets/img/chilicorn.png" alt="">
+      <h3 class="contact-name"> The Chilicorn</h3>
+      <div class="contact-details">
+        <div class="contact-position">
+          Spice Program mascot
+        </div>
+        <div class="contact-email">
+          spice@futurice.com
+        </div>
+      </div>
+    </div>
   </div>
 </section>

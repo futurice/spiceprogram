@@ -1,13 +1,15 @@
 .form__input {
   padding: 0.5rem 0.7rem;
+  margin-bottom: 0.5rem;
   border: 1px solid white;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px;
   font-size: 18px;
   transition: 0.2s all;
+  opacity: 0.6;
 
   &:focus {
     outline: none;
-    box-shadow: 0 0 13px #603499;
+    opacity: 1;
   }
 }
 
@@ -15,7 +17,7 @@
   appearance: none;
   border: 1px solid white;
   padding: 0.5rem 0.7rem;
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px;
   font-size: 18px;
   color: white;
   background: #9f6ce3;
