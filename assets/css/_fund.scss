@@ -2,13 +2,15 @@
 
 /* overrule other .hero */
 .chilicorn.hero {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 
   min-height: 400px;
   background-color: #615a47;
-  background-image: url('../img/chilicorn-world.jpg');
+  background-image: url('../img/fund/chilicorn-world-no-clouds-no-corn.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,10 +29,38 @@
     opacity: 1;
   }
 
-  img {
-    width: 100%;
-    height: auto;
+  .container {
+    z-index: 100;
   }
+}
+
+.cloud {
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 10rem;
+}
+
+.cloud-one {
+  width: 10rem;
+  top: 1rem;
+}
+
+.cloud-two {
+  top: 5rem;
+}
+
+.cloud-three {
+  top: 7rem;
+}
+
+.cloud-four {
+  top: 2rem;
+}
+
+.cloud-five {
+  top: 4rem;
 }
 
 /****** NEWSLETTER ******/
