@@ -1,16 +1,26 @@
 /******************************   CHILICORN FUND PAGE ****************************/
 
+@media screen and (max-width: $mobile) {
+  .fund-title {
+    font-size: 36px;
+  }
+}
+
 /* overrule other .hero */
 .chilicorn.hero {
   position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  padding-top: 0;
-  /*min-height: 400px;
+
+  min-height: 400px;
   background-color: #615a47;
-  background-image: url('../img/chilicorn-world.jpg');
-  background-position: 70% 70%;
+  background-image: url('../img/fund/chilicorn-world-no-clouds-no-corn.jpg');
+  background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;*/
+  background-size: cover;
 
   h1, h2, p, a, a:hover, a:visited, a:active {
     color: white;
@@ -18,7 +28,10 @@
   }
 
   h1 {
-    font-size: $size-extra-huge;
+    font-size: 40px;
+    @media screen and (min-width: $mobile) {
+      font-size: $size-extra-huge;
+    }
   }
 
   h2 {
@@ -26,20 +39,45 @@
     opacity: 1;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-  }
-
   .container {
-    margin-top: 150px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 30%;
-    left: 0%;
-    right: 0%;
+    z-index: 100;
   }
+}
+
+.cloud {
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 10rem;
+}
+
+.cloud-one {
+  width: 10rem;
+  top: 1rem;
+}
+
+.cloud-two {
+  top: 13rem;
+}
+
+.cloud-three {
+  top: 7rem;
+}
+
+.cloud-four {
+  top: 11rem;
+}
+
+.cloud-five {
+  top: 4rem;
+}
+
+.chilicorn-static {
+  position: absolute;
+  left: 33%;
+  bottom: 5%;
+  width: 110px;
 }
 
 /****** NEWSLETTER ******/
@@ -50,26 +88,29 @@
   p {
     max-width: 36em;
   }
-}
 
+  h2 {
+    color: white;
+  }
+
+  .btn {
+    margin-bottom: 0;
+  }
+}
 
 /******  WHO FOR ********/
 /* same with AIMS */
 
 section.who-for {
-  margin-top: 60px;
   text-align: center;
 
-  img {
-    width: 100%;
-  }
-  
-  .who {
-     margin-bottom: $item-spacing;       
+  @media screen and (max-width: $tablet) {
+    padding-bottom: 0;
   }
 
-  @media screen and (min-width: $mobile) {
-    .who:last {
+  .who {
+    margin-bottom: $item-spacing;
+    &:last-child {
       margin-bottom: 0;
     }
   }
@@ -99,7 +140,9 @@ section.who-for {
   }
 }
 @media screen and (min-width: $tablet) {
-  .how-it-works {
+  section.how-it-works {
+    padding-top: 0;
+
     .container, p {
       text-align: left;
     }
@@ -137,7 +180,10 @@ section.who-for {
   }
 
   .criterion {
-    margin-bottom: $item-spacing;
+    margin-bottom: $item-spacing / 2;
+    @media screen and (min-width: $mobile) {
+      margin-bottom: $item-spacing;
+    }
     h3 {
       color: $yellow-text;
     }
@@ -167,11 +213,14 @@ section.who-for {
 /****** SELECTION PROCESS ******/
 .selection-process {
   .step {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
   .step__image {
     img {
-      max-width: 80%;
+      max-width: 15rem;
     }
   }
   @media screen and (min-width: $tablet) {
@@ -179,12 +228,7 @@ section.who-for {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
       text-align: left;
-
-      &:nth-child(odd) {
-        flex-direction: row-reverse;
-      }
 
       p {
         text-align: left;
@@ -200,3 +244,33 @@ section.who-for {
     }
   }
 }
+
+/****** PROJECTS ******/
+
+section.projects {
+  padding-top: 0;
+}
+
+.project {
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: $tablet) {
+    img {
+      max-width: 15rem;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    @include span(6);
+    text-align: left;
+
+    p {
+      text-align: left;
+    }
+  }
+}
+
+a.project-image {
+  border-bottom: 0;
+}
+
