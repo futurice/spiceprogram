@@ -3,6 +3,7 @@
 /* overrule other .hero */
 .chilicorn.hero {
   position: relative;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +49,7 @@
 }
 
 .cloud-two {
-  top: 5rem;
+  top: 13rem;
 }
 
 .cloud-three {
@@ -56,11 +57,18 @@
 }
 
 .cloud-four {
-  top: 2rem;
+  top: 11rem;
 }
 
 .cloud-five {
   top: 4rem;
+}
+
+.chilicorn-static {
+  position: absolute;
+  left: 33%;
+  bottom: 5%;
+  width: 110px;
 }
 
 /****** NEWSLETTER ******/

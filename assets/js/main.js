@@ -21,14 +21,17 @@ $(function() {
 });
 
 var doClouds = function() {
-    var screenWidth = window.screen.width
-    var clouds = document.querySelectorAll('.cloud');
-    var animatedClouds = [];
+    var screenWidth = $(window).width();
+    if (screenWidth < 700) {
+        $('.cloud-two').remove();
+    }
 
-    var cloud = function (cloudEl) {
-        var xPos = Math.random() * screenWidth;
-        var speed = Math.random();
+    var clouds = [];
+    var speeds = [0.2, 0.25, 0.1, 0.15, 0.3];
+    var s = screenWidth / 5;
+    var startingPos = [-s, s * 4, s * 2, s * 0.7, s * 1.3];
 
+    var cloud = function (cloudEl, speed, xPos) {
         this.animate = function() {
             cloudEl.style.transform = 'translateX(' + (xPos += speed) + 'px)'; 
             if (xPos > screenWidth + 200) {
@@ -38,18 +41,21 @@ var doClouds = function() {
     };
 
     var createClouds = function() {
-        return Array.prototype.map.call(clouds, function(c) {
-            return new cloud(c, screenWidth);
+        var cloudEls = document.querySelectorAll('.cloud');
+        return Array.prototype.map.call(cloudEls, function(c, i) {
+            var speed = speeds[i];
+            var xPos = startingPos[i];
+            return new cloud(c, speed, xPos);
         });
     };
 
     var render = function() {
-        animatedClouds.forEach(function(c) {
+        clouds.forEach(function(c) {
             c.animate();
         })
         requestAnimationFrame(render);
     };
 
-    animatedClouds = createClouds();
+    clouds = createClouds();
     render();
 }
