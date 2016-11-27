@@ -1,5 +1,11 @@
 /******************************   CHILICORN FUND PAGE ****************************/
 
+@media screen and (max-width: $mobile) {
+  .fund-title {
+    font-size: 36px;
+  }
+}
+
 /* overrule other .hero */
 .chilicorn.hero {
   position: relative;
@@ -22,7 +28,10 @@
   }
 
   h1 {
-    font-size: $size-extra-huge;
+    font-size: 40px;
+    @media screen and (min-width: $mobile) {
+      font-size: $size-extra-huge;
+    }
   }
 
   h2 {
@@ -171,7 +180,10 @@ section.who-for {
   }
 
   .criterion {
-    margin-bottom: $item-spacing;
+    margin-bottom: $item-spacing / 2;
+    @media screen and (min-width: $mobile) {
+      margin-bottom: $item-spacing;
+    }
     h3 {
       color: $yellow-text;
     }
