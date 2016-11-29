@@ -6,6 +6,13 @@
   }
 }
 
+ .btnyellow {
+  background-color: $yellow-button;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+}
 /* overrule other .hero */
 .chilicorn.hero {
   position: relative;
@@ -80,13 +87,14 @@
   width: 110px;
 }
 
-/****** NEWSLETTER ******/
+/****** NEWSLETTER AD ******/
 .newsletter {
   background: #9F6CE3;
   color: white;
 
   p {
     max-width: 36em;
+    font-size: $size-medium;
   }
 
   h2 {
@@ -95,6 +103,7 @@
 
   .btn {
     margin-bottom: 0;
+    margin-top: 1em;
   }
 }
 
@@ -131,41 +140,46 @@ section.who-for {
 }
 
 /******  HOW IT WORKS ********/
-@media screen and (max-width: $tablet) {
-  .how-it-works__image img {
-    display: block;
-    width: 80%;
-    max-width: 480px;
-    margin: 2rem auto 0 auto;
+.how-it-works {
+  a {
+    border: 0;
   }
 }
-@media screen and (min-width: $tablet) {
-  section.how-it-works {
-    padding-top: 0;
-
-    .container, p {
-      text-align: left;
-    }
-    p {
-      max-width: none;
-      margin: 0;
+  @media screen and (max-width: $tablet) {
+    .how-it-works__image img {
+      display: block;
+      width: 80%;
+      max-width: 480px;
+      margin: 2rem auto 0 auto;
     }
   }
+  @media screen and (min-width: $tablet) {
+    section.how-it-works {
+      padding-top: 0;
 
-  .how-it-works__content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+      .container, p {
+        text-align: left;
+      }
+      p {
+        max-width: none;
+        margin: 0;
+      }
+    }
 
-  .how-it-works__description {
-    width: calc(40% - 2rem);
-  }
+    .how-it-works__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
-  .how-it-works__image {
-    width: calc(60% - 2rem);
+    .how-it-works__description {
+      width: calc(40% - 2rem);
+    }
+
+    .how-it-works__image {
+      width: calc(60% - 2rem);
+    }
   }
-}
 
 /******  CRITERIA ********/
 .criteria {
@@ -212,6 +226,11 @@ section.who-for {
 
 /****** SELECTION PROCESS ******/
 .selection-process {
+
+  h2 {
+    padding-bottom: $section-title-padding-to-image;
+  }
+
   .step {
     margin-bottom: 4rem;
     &:last-child {
@@ -220,9 +239,14 @@ section.who-for {
   }
   .step__image {
     img {
-      max-width: 15rem;
+      max-width: 18rem;
     }
   }
+
+  h3 {
+    font-size: $size-large;
+  }
+
   @media screen and (min-width: $tablet) {
     .step {
       display: flex;
@@ -236,11 +260,11 @@ section.who-for {
       }
     }
     .step__image {
-      width: calc(50% - 2rem);
-      text-align: center;
+      width: calc(45%);
+      text-align: right;
     }
     .step__content {
-      width: calc(50% - 2rem);
+      width: calc(50%);
     }
   }
 }
@@ -248,10 +272,10 @@ section.who-for {
 /****** PROJECTS ******/
 
 section.projects {
-  padding-top: 0;
+   background-color: #ececec;
 }
 
-.project {
+/*.project {
   margin-bottom: 2rem;
 
   @media screen and (max-width: $tablet) {
@@ -273,4 +297,6 @@ section.projects {
 a.project-image {
   border-bottom: 0;
 }
+*/
+
 

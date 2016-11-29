@@ -19,7 +19,6 @@ $susy: (
   text-align: center;
 }
 
-@import "form";
 
 %clearfix {
     *zoom: 1;
@@ -45,6 +44,8 @@ $desktop: 1024px;
 /* General measures */
 $h-padding: 10px;
 $section-padding: 70px;
+$section-title-padding: 30px;
+$section-title-padding-to-image: 36px;
 $item-spacing: 40px;
 
 /* Typographic scale. Only use these font-sizes */
@@ -65,6 +66,8 @@ $gray-text-lighter: #9c9c9c;
 $yellow-text: #FFE320;
 $yellow-button: #FCBE12;
 $purple: #9F6CE3;
+
+@import "form";
 
 /* Resets */
 * {
@@ -87,8 +90,12 @@ h1 {
 
 h2 {
   font-size: $size-huge;
-  font-weight: 400;
-  padding-bottom: 30px;
+  font-weight: 800;
+  padding-bottom: $section-title-padding;
+}
+
+.selection-process h2, .who-for h2, .projects h2 {
+  padding-bottom: $section-title-padding-to-image;
 }
 
 h3 {
@@ -341,8 +348,24 @@ section.freetime {
   font-size: $size-medium;
 }
 
+/* PROBONO - CHILICORN FUND */
+
+section.probono {
+  .section-header {
+    max-width: 640px;
+  }
+  //background-color: #ececec;
+  img {
+    max-width: 600px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+}
+
 .probono p.shortphrase {
-  max-width: 30em;
+  max-width: 32em;
+  margin-top: 0.6em;
 }
 
 .learn-more {
@@ -359,9 +382,6 @@ section.freetime {
   }
 }
 
-section.probono {
-  background-color: #ececec;
-}
 
 .centered {
   text-align: center;
