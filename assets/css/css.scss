@@ -56,6 +56,7 @@ $size-medium: 23px;
 $size-large: 38px;
 $size-huge: 53px;
 $size-extra-huge: 61px;
+$size-hero: 75px;
 
 /* Colours */
 $body: #4A515E;
@@ -82,8 +83,8 @@ img {
 /**** Main styles ****/
 h1 {
   text-align: center;
-  font-size: $size-huge;
-  font-weight: 700;
+  font-size: $size-extra-huge;
+  font-weight: 800;
   padding-bottom: 10px;
   font-family: "Space mono";
 }
@@ -203,6 +204,7 @@ a:hover.tooltips span {
   padding: 40px 0 0px 0;
   margin-bottom: 0px;
 
+
   p, h2 {
     font-size: $size-medium;
     font-weight: 300;
@@ -227,12 +229,19 @@ a:hover.tooltips span {
     margin-bottom: 20px;
   }
 
+  @media screen and (max-width: $mobile) {
+     h1 {font-size: $size-large;} 
+     p,h2 {font-size: $size-base;}
+  }
   @media screen and (min-width: $mobile) {
     padding-top: 60px;
+    h1 {font-size: $size-huge;}
+    p,h2 {font-size: $size-medium;}
   }
 
   @media screen and (min-width: $tablet) {
     padding-top: 120px;
+    h1 {font-size: $size-hero;} 
   }
 }
 

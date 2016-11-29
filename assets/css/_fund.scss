@@ -34,15 +34,22 @@
     text-shadow: 1px 1px 1px gray;
   }
 
-  h1 {
-    font-size: 40px;
+/*   h1 {
+    font-size: $size-large;
+    
     @media screen and (min-width: $mobile) {
-      font-size: $size-extra-huge;
+      font-size: $size-huge;
+      line-height: 1;
+    }
+
+    @media screen and (min-width: $tablet) {
+      font-size: $size-hero;
+      line-height: 1;
     }
   }
-
+ */
   h2 {
-    font-weight: bold;
+    font-weight: 600;
     opacity: 1;
   }
 
