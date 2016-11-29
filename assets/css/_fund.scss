@@ -1,0 +1,309 @@
+/******************************   CHILICORN FUND PAGE ****************************/
+
+@media screen and (max-width: $mobile) {
+  .fund-title {
+    font-size: 36px;
+  }
+}
+
+ .btnyellow {
+  background-color: $yellow-button;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+}
+/* overrule other .hero */
+.chilicorn.hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  min-height: 400px;
+  background-color: #615a47;
+  background-image: url('../img/fund/chilicorn-world-no-clouds-no-corn.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1, h2, p, a, a:hover, a:visited, a:active {
+    color: white;
+    text-shadow: 1px 1px 1px gray;
+  }
+
+/*   h1 {
+    font-size: $size-large;
+    
+    @media screen and (min-width: $mobile) {
+      font-size: $size-huge;
+      line-height: 1;
+    }
+
+    @media screen and (min-width: $tablet) {
+      font-size: $size-hero;
+      line-height: 1;
+    }
+  }
+ */
+  h2 {
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  .container {
+    z-index: 100;
+  }
+}
+
+.cloud {
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 10rem;
+}
+
+.cloud-one {
+  width: 10rem;
+  top: 1rem;
+}
+
+.cloud-two {
+  top: 13rem;
+}
+
+.cloud-three {
+  top: 7rem;
+}
+
+.cloud-four {
+  top: 11rem;
+}
+
+.cloud-five {
+  top: 4rem;
+}
+
+.chilicorn-static {
+  position: absolute;
+  left: 33%;
+  bottom: 5%;
+  width: 110px;
+}
+
+/****** NEWSLETTER AD ******/
+.newsletter {
+  background: #9F6CE3;
+  color: white;
+
+  p {
+    max-width: 36em;
+    font-size: $size-medium;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  .btn {
+    margin-bottom: 0;
+    margin-top: 1em;
+  }
+}
+
+/******  WHO FOR ********/
+/* same with AIMS */
+
+section.who-for {
+  text-align: center;
+
+  @media screen and (max-width: $tablet) {
+    padding-bottom: 0;
+  }
+
+  .who {
+    margin-bottom: $item-spacing;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    .who {
+      @include span(4);
+
+      h3 {
+        min-height: 2em;
+      }
+    }
+
+    img {
+      margin-bottom: 10px;
+    }    
+  }
+}
+
+/******  HOW IT WORKS ********/
+.how-it-works {
+  a {
+    border: 0;
+  }
+}
+  @media screen and (max-width: $tablet) {
+    .how-it-works__image img {
+      display: block;
+      width: 80%;
+      max-width: 480px;
+      margin: 2rem auto 0 auto;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    section.how-it-works {
+      padding-top: 0;
+
+      .container, p {
+        text-align: left;
+      }
+      p {
+        max-width: none;
+        margin: 0;
+      }
+    }
+
+    .how-it-works__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .how-it-works__description {
+      width: calc(40% - 2rem);
+    }
+
+    .how-it-works__image {
+      width: calc(60% - 2rem);
+    }
+  }
+
+/******  CRITERIA ********/
+.criteria {
+  background-color: $purple;
+
+  h2 {
+    color: white;
+  }
+
+  .gallery {
+    @extend %clearfix;     
+  }
+
+  .criterion {
+    margin-bottom: $item-spacing / 2;
+    @media screen and (min-width: $mobile) {
+      margin-bottom: $item-spacing;
+    }
+    h3 {
+      color: $yellow-text;
+    }
+
+    p {
+      color: white;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    .criterion {
+      @include gallery(6 of 12);
+    }  
+
+    img {
+      margin-bottom: 10px;
+    }    
+  }
+
+  @media screen and (min-width: $desktop) {
+    .criterion {
+      @include gallery(4 of 12);
+    }
+  }
+}
+
+/****** SELECTION PROCESS ******/
+.selection-process {
+
+  h2 {
+    padding-bottom: $section-title-padding-to-image;
+  }
+
+  .step {
+    margin-bottom: 4rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .step__image {
+    img {
+      max-width: 18rem;
+    }
+  }
+
+  h3 {
+    font-size: $size-large;
+  }
+
+  @media screen and (min-width: $tablet) {
+    .step {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+
+      p {
+        text-align: left;
+        max-width: none;
+      }
+    }
+    .step__image {
+      width: calc(45%);
+      text-align: right;
+    }
+    .step__content {
+      width: calc(50%);
+    }
+  }
+}
+
+/****** PROJECTS ******/
+
+section.projects {
+   background-color: #ececec;
+}
+
+/*.project {
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: $tablet) {
+    img {
+      max-width: 15rem;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    @include span(6);
+    text-align: left;
+
+    p {
+      text-align: left;
+    }
+  }
+}
+
+a.project-image {
+  border-bottom: 0;
+}
+*/
+
+

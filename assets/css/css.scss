@@ -19,6 +19,23 @@ $susy: (
   text-align: center;
 }
 
+
+%clearfix {
+    *zoom: 1;
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+        // Fixes Opera/contenteditable bug:
+        // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+        line-height: 0;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
 /* General Breakpoints */
 $mobile: 500px;
 $tablet: 800px;
@@ -27,6 +44,9 @@ $desktop: 1024px;
 /* General measures */
 $h-padding: 10px;
 $section-padding: 70px;
+$section-title-padding: 30px;
+$section-title-padding-to-image: 36px;
+$item-spacing: 40px;
 
 /* Typographic scale. Only use these font-sizes */
 $size-tiny: 12px;
@@ -35,6 +55,8 @@ $size-base: 18px;
 $size-medium: 23px;
 $size-large: 38px;
 $size-huge: 53px;
+$size-extra-huge: 61px;
+$size-hero: 75px;
 
 /* Colours */
 $body: #4A515E;
@@ -42,6 +64,11 @@ $headlines: #303031;
 $blue: #45A4FC;
 $gray-text: #6b6b6b;
 $gray-text-lighter: #9c9c9c;
+$yellow-text: #FFE320;
+$yellow-button: #FCBE12;
+$purple: #9F6CE3;
+
+@import "form";
 
 /* Resets */
 * {
@@ -56,16 +83,20 @@ img {
 /**** Main styles ****/
 h1 {
   text-align: center;
-  font-size: $size-huge;
-  font-weight: 700;
+  font-size: $size-extra-huge;
+  font-weight: 800;
   padding-bottom: 10px;
   font-family: "Space mono";
 }
 
 h2 {
   font-size: $size-huge;
-  font-weight: 400;
-  padding-bottom: 30px;
+  font-weight: 800;
+  padding-bottom: $section-title-padding;
+}
+
+.selection-process h2, .who-for h2, .projects h2 {
+  padding-bottom: $section-title-padding-to-image;
 }
 
 h3 {
@@ -118,9 +149,54 @@ html, body {
   color: $body;
 }
 
+
+#shareThisLink {
+  cursor: pointer;
+}
+
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+
+a.tooltips span {
+  position: absolute;
+  font-size: 12px;
+  width:140px;
+  color: #FFFFFF;
+  background: #000000;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  margin-top: -15px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-top: 8px solid transparent;
+}
+
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  left: 0%;
+  top: 100%;
+  margin-top: 4px;
+  margin-left: 13px;
+  z-index: 999;
+}
+
 /* Main styles mobile */
 
-/*** HERO ***/
+/*** HERO: Spice Program home page + Chilicorn Fund home page ***/
 
 .hero {
   color: #000;
@@ -128,7 +204,8 @@ html, body {
   padding: 40px 0 0px 0;
   margin-bottom: 0px;
 
-  p {
+
+  p, h2 {
     font-size: $size-medium;
     font-weight: 300;
     max-width: 20em;
@@ -152,12 +229,19 @@ html, body {
     margin-bottom: 20px;
   }
 
+  @media screen and (max-width: $mobile) {
+     h1 {font-size: $size-large;} 
+     p,h2 {font-size: $size-base;}
+  }
   @media screen and (min-width: $mobile) {
     padding-top: 60px;
+    h1 {font-size: $size-huge;}
+    p,h2 {font-size: $size-medium;}
   }
 
   @media screen and (min-width: $tablet) {
     padding-top: 120px;
+    h1 {font-size: $size-hero;} 
   }
 }
 
@@ -273,8 +357,24 @@ section.freetime {
   font-size: $size-medium;
 }
 
+/* PROBONO - CHILICORN FUND */
+
+section.probono {
+  .section-header {
+    max-width: 640px;
+  }
+  //background-color: #ececec;
+  img {
+    max-width: 760px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+}
+
 .probono p.shortphrase {
-  max-width: 30em;
+  max-width: 32em;
+  margin-top: 0.6em;
 }
 
 .learn-more {
@@ -291,9 +391,6 @@ section.freetime {
   }
 }
 
-section.probono {
-  background-color: #ececec;
-}
 
 .centered {
   text-align: center;
@@ -426,7 +523,7 @@ section.contribute {
   }
 
   .aim {
-    margin-bottom: 40px;
+    margin-bottom: $item-spacing;
   }
 
   @media screen and (min-width: $tablet) {
@@ -448,7 +545,7 @@ section#comments .section-header {
 
 .quote {
   @include span(6);
-  margin-bottom: 60px;
+  margin-bottom: $item-spacing;
 
   p, blockquote {
     font-size: $size-medium;
@@ -670,46 +767,5 @@ section.contact {
   }
 }
 
-#shareThisLink {
-  cursor: pointer;
-}
-
-a.tooltips {
-  position: relative;
-  display: inline;
-}
-
-a.tooltips span {
-  position: absolute;
-  font-size: 12px;
-  width:140px;
-  color: #FFFFFF;
-  background: #000000;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  visibility: hidden;
-  border-radius: 6px;
-}
-
-a.tooltips span:after {
-  content: '';
-  position: absolute;
-  top: 0%;
-  right: 50%;
-  margin-top: -15px;
-  width: 0; height: 0;
-  border-bottom: 8px solid #000000;
-  border-right: 8px solid transparent;
-  border-top: 8px solid transparent;
-}
-
-a:hover.tooltips span {
-  visibility: visible;
-  opacity: 0.8;
-  left: 0%;
-  top: 100%;
-  margin-top: 4px;
-  margin-left: 13px;
-  z-index: 999;
-}
+// The Chilicorn Fund page styles
+@import "fund";
