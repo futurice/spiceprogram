@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Spice Program - Futurice Open Source Program
+title: Futurice Open Source and Social Impact Program
 description: Spice Program is a company sponsored open source and social impact program. Our goal is to make Futurice a better company and the world a better place.
 custom_js:
   - main.js
@@ -9,7 +9,7 @@ custom_js:
 <section class="chilicorn hero">
   <div class="container">
     <h1 class="fund-title">Chilicorn Fund</h1>
-    <h2>Pro-bono projects for a slightly better world, by <a href="www.futurice.com"> Futurice</a></h2>
+    <h2>Pro bono projects for a slightly better world, by <a href="http://www.futurice.com"> Futurice</a></h2>
   </div>
   <img class="cloud cloud-one" src="{{ site.baseurl }}/assets/img/fund/cloud2.png" />
   <img class="cloud cloud-two" src="{{ site.baseurl }}/assets/img/fund/cloud1.png" />
@@ -200,12 +200,12 @@ custom_js:
     <div class="container cards">
     <article class="card">
       <div class="card__inner">    
-        <a href="https://play.google.com/store/apps/details?id=com.hemmo&amp;hl=en" class="card__cover">
+        <a href="http://spiceprogram.org/assets/docs/Casestudy-HemmoAppforSavetheChildren.pdf" class="card__cover">
             <img src="{{ site.baseurl }}/assets/img/pelastakaa-lapset.jpg" alt="">
         </a>
         <div class="card__body">
           <div class="card__title">
-            <a href="https://play.google.com/store/apps/details?id=com.hemmo&amp;hl=en">Save the Children Finland – Hemmo</a>
+            <a href="http://spiceprogram.org/assets/docs/Casestudy-HemmoAppforSavetheChildren.pdf">Save the Children Finland – Hemmo</a>
           </div>
           <p class="card__summary">
             Feedback tool for children visiting children homes in Finland
@@ -215,15 +215,15 @@ custom_js:
     </article>
     <article class="card">
       <div class="card__inner">    
-        <a class="card__cover">
+        <a href="http://spiceprogram.org/assets/docs/Casestudy-Super-AdaAppforNiceTuesday.pdf" class="card__cover">
             <img src="{{ site.baseurl }}/assets/img/super-ada.jpg" alt="">
         </a>
         <div class="card__body">
           <div class="card__title">
-        Super Ada
+            <a href="http://spiceprogram.org/assets/docs/Casestudy-Super-AdaAppforNiceTuesday.pdf">Super-Ada</a>
           </div>
           <p class="card__summary">
-            App for the SuperAda event done in collaboration with students from Haaga Helia. Work in progress!
+            App for the SuperAda event done in collaboration with students from Haaga-Helia. Work in progress!
           </p>
         </div>
       </div>
@@ -248,6 +248,11 @@ custom_js:
           method="POST">
         <label for="email">Email address: *</label><br>
         <input class="form__input" type="email" name="_replyto" /> <br>
+        <label for="type">Interested as...</label><br>
+        <input type="radio" name="type" value="partner"> Potential partner<br>
+        <input type="radio" name="type" value="nonprofit"> Nonprofit<br>
+        <input type="radio" name="type" value="student"> Student<br>
+        <input type="radio" name="type" value="other"> Other<br> 
         <label for="reason">Your interest in this newsletter</label><br>
         <input class="form__input" type="text" name="reason" /><br>
         <!-- the one below is a formspree honeypot input to attract bots, so it knows to disregard the submit -->
