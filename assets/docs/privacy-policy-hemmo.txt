@@ -1,4 +1,4 @@
-PRIVARY POLICY FOR PELASTAKAA LAPSET HEMMO - APP
+PRIVACY POLICY FOR PELASTAKAA LAPSET HEMMO - APP
 
 Hemmo is a feedback collecting app for children in foster families managed by the Save the Children Fund. The children leave feedback through the app for the authorised employees to read and listen to through a private backend service.
 
