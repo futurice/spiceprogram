@@ -1,0 +1,29 @@
+PRIVACY POLICY FOR SUPER-ADA - APP
+
+Super-Ada is an event support app for the annual Super-Ada event in Helsinki, Finland. In the event teams visit company held stations, perform simple tasks, and receive a grade. 
+The teams can take a team picture with the app and submit it to the backend service. 
+There is no registration in the app, the teams have pre-registered and use a keyword to log in. 
+
+PERSONAL INFORMATION
+
+We do not collect any personal information about the users of this app. The accounts created in the app do not ask for any sensitive or identifiable information. 
+
+GEO-LOCATION
+
+Our app does not collect information about the location of the mobile device.
+
+LINKS WITHIN
+
+We do not link to any external content in the app.
+
+IN-APP PURCHASES
+
+Our app does not contain any in-app purchases, it's free all the way.
+
+ADVERTISING
+
+Our app does not contain any kind of advertising.
+
+PRIVACY QUESTIONS
+
+If you have any questions about our apps or privacy policy please contact us at: sol@futurice.com
