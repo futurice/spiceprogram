@@ -2,7 +2,7 @@
     <div class="col-md-8 col-md-offset-2">
         <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/0-title.png" alt="Title" />
         <a href="http://futurice.com/blog/payroll-system-in-blockchain"><img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/banner.png" alt="Banner" /></a>
-        <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/1-santa-peeved.png" alt="Santa" />
+        <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/1-santa-peeved.jpg" alt="Santa" />
         <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/2-santa-book.png" alt="Book" />
         <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/3-book-chain-1.png" alt="Chain 1" />
         <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/4-book-chain-2.png" alt="Chain 2" />
