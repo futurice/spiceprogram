@@ -15,7 +15,7 @@
         <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/11-boring-stuff.png" alt="Boring" />
         <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/12-mapping-1.png" alt="Mapping" />
         <a href="https://twitter.com/@hippielobster"><img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/end.png" alt="Contact" /></a>
-        <a href="https://www.spiceprogram.org"><img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/chilicorn_with_text-360.png" alt="Chilicorn" /></a>
+        <a href="https://www.spiceprogram.org"><img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/chilicorn_with_text-360.png" alt="Spice Program" /></a>
 
     </div>
 </div>
