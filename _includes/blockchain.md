@@ -1,5 +1,5 @@
 <div class="row text-center">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-12">
         <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/0-title.png" alt="Title" />
         <a href="http://futurice.com/blog/payroll-system-in-blockchain"><img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/banner.png" alt="Banner" /></a>
         <img class="padded-img page-img" src="{{ site.baseurl }}/assets/img/blockchain/1-santa-peeved.jpg" alt="Santa" />
