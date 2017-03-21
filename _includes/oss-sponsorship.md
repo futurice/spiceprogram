@@ -122,9 +122,7 @@ Since we know Futurice company culture is of interest to some people, we will in
 Known challenges
 ----------------
 
-Currently this benefit is limited to our full-time employees. We are not happy about that and neither are our part-time employees. There are reasons for the limitation, but we hope we will soon find a better solution.
-
-This also easily becomes a benefit solely for the technically oriented. It does not need to, but that’s how the open source scene is — the entry barrier for people who don't code is high. Artists, designers or analytics experts for example may never have even heard of Git or Github. People with other competence areas and interests will require support, specifically for selecting projects and finding ways to contribute. We are working on that. For the academically inclined, [legitimate peripheral participation](http://en.wikipedia.org/wiki/Legitimate_peripheral_participation) is a good starting point.
+This easily becomes a benefit solely for the technically oriented. It does not need to, but that’s how the open source scene is — the entry barrier for people who don't code is high. Artists, designers or analytics experts for example may never have even heard of Git or Github. People with other competence areas and interests will require support, specifically for selecting projects and finding ways to contribute. We are working on that. For the academically inclined, [legitimate peripheral participation](http://en.wikipedia.org/wiki/Legitimate_peripheral_participation) is a good starting point.
 
 
 Motivating people<a name="motivation"></a>
