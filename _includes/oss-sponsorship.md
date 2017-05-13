@@ -54,12 +54,10 @@ Post-pilot
 
 We have sponsored hundreds (soon thousands) of Open Source contributions. Currently we are working on better metrics to measure the produced value (for the individual, the company, and the society), and also finding new ways to get people to contribute.
 
-Full-time limitation
---------------------
+Part-timers
+-----------
 
-Only full-time employees are eligible for this bonus. We are in software project consultancy business. There were arguments that being able to do less than full work week is a benefit as such (it does have a financial impact), so combining a 4-day work week with this open source sponsorship might be both tempting to many, and problematic to the business. Yet we value our part-time employees, and advocate shorter work weeks. This is a conflict that we want to resolve soon. 
-
-There's an exception to the full-time rule, as we learned that it is not possible to offer a benefit to only full-timers in Germany and Switzerland. In those countries our part-timers are welcome to make use of this benefit. The compensation is applied pro rata. 
+Part-time employees get the bonus pro rata.
 
 Intellectual property 
 ---------------------
@@ -124,9 +122,7 @@ Since we know Futurice company culture is of interest to some people, we will in
 Known challenges
 ----------------
 
-Currently this benefit is limited to our full-time employees. We are not happy about that and neither are our part-time employees. There are reasons for the limitation, but we hope we will soon find a better solution.
-
-This also easily becomes a benefit solely for the technically oriented. It does not need to, but that’s how the open source scene is — the entry barrier for people who don't code is high. Artists, designers or analytics experts for example may never have even heard of Git or Github. People with other competence areas and interests will require support, specifically for selecting projects and finding ways to contribute. We are working on that. For the academically inclined, [legitimate peripheral participation](http://en.wikipedia.org/wiki/Legitimate_peripheral_participation) is a good starting point.
+This easily becomes a benefit solely for the technically oriented. It does not need to, but that’s how the open source scene is — the entry barrier for people who don't code is high. Artists, designers or analytics experts for example may never have even heard of Git or Github. People with other competence areas and interests will require support, specifically for selecting projects and finding ways to contribute. We are working on that. For the academically inclined, [legitimate peripheral participation](http://en.wikipedia.org/wiki/Legitimate_peripheral_participation) is a good starting point.
 
 
 Motivating people<a name="motivation"></a>
