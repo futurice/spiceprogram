@@ -1,0 +1,33 @@
+PRIVACY POLICY FOR RESERVATOR - APP
+
+Reservator is an open source meeting room display system for tablets. Reservator uses Google calendar’s resources for
+booking. While using Reservator, it is still possible to book rooms normally through Google Calendar. It is also possible
+to use the application for reserving other meeting rooms within your company.
+
+The app doesn't create it's own accounts or data, but uses Google calendar and Google accounts for reserving the
+meeting rooms.
+
+
+PERSONAL INFORMATION
+
+We do not collect any personal information about the users of this app.
+
+GEO-LOCATION
+
+Our app does not collect information about the location of the mobile device.
+
+LINKS WITHIN
+
+We do not link to any external content in the app.
+
+IN-APP PURCHASES
+
+Our app does not contain any in-app purchases, it's free all the way.
+
+ADVERTISING
+
+Our app does not contain any kind of advertising.
+
+PRIVACY QUESTIONS
+
+If you have any questions about our apps or privacy policy please contact us at: sol@futurice.com
