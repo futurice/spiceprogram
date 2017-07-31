@@ -7,6 +7,8 @@ to use the application for reserving other meeting rooms within your company.
 The app doesn't create it's own accounts or data, but uses Google calendar and Google accounts for reserving the
 meeting rooms.
 
+For more information related to Google's privacy policies, visit https://www.google.com/policies/privacy/
+
 
 PERSONAL INFORMATION
 
