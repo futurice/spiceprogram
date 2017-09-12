@@ -253,11 +253,13 @@ p + ul {
 
 section {
   padding: $section-padding 0;
+  clear: both;
 }
 
 footer {
   padding: 40px 0;
   font-size: $size-small;
+  background-color: #EFEFEF;
 }
 
 .btn {
@@ -757,8 +759,6 @@ section#comments .section-header {
 /**** CONTACT ****/
 
 section.contact {
-  background-color: #EFEFEF;
-
   h3 {
     font-size: $size-base;
   }
