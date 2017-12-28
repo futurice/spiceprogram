@@ -559,6 +559,20 @@ section.purple {
 }
 
 /*** SHOW CASE HERO BANNERS ***/
+.chilicorn.hero {
+  min-height: 200px;
+
+  @media (min-width: $tablet) { 
+    min-height: 300px;
+  }
+
+  @media (min-width: $desktop) {
+    min-height: 400px;
+  }
+
+  
+}
+
 .chilicorn.hero.hemmo {
   background-image: url('../img/fund/hemmo/hemmo-hero-small.jpg');
 
