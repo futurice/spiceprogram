@@ -345,10 +345,6 @@ section.purple, section.case-study {
 
     @media screen and (min-width: 500px) {
       text-align: left;
-
-      &:last-child {
-        margin-top: 12px;
-      }
     }
   }
 
@@ -367,6 +363,10 @@ section.purple, section.case-study {
     .position, .company {
       line-height: 1.3;
       text-align: center;      
+    }
+
+    img {
+      max-width: 300px;
     }
   }
 
@@ -459,6 +459,7 @@ section.purple, section.case-study {
 
   .image-row {
     max-width: 100%;
+    margin-top: 18px;
   }
 
   .width-33 {
@@ -468,6 +469,20 @@ section.purple, section.case-study {
 
     @media (min-width: $tablet) {
       max-width: calc(33% - 18px);
+      margin-right: 18px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .width-50 {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+
+    @media (min-width: $tablet) {
+      max-width: calc(50% - 18px);
       margin-right: 18px;
 
       &:last-child {
@@ -550,4 +565,17 @@ section.purple {
   @media (min-width: $tablet) {
     background-image: url('../img/fund/hemmo/hemmo-hero-large.jpg');
   }
+}
+
+.chilicorn.hero.arms {
+  background-image: url('../img/fund/arms/arms-hero-small.jpg');
+
+  @media (min-width: $tablet) {
+    background-image: url('../img/fund/arms/arms-hero-large.jpg');
+  }
+
+  @media (min-width: $desktop) {
+    background-image: url('../img/fund/arms/arms-hero-xlarge.jpg');
+  }
+
 }
