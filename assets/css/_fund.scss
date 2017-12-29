@@ -314,15 +314,29 @@ a.project-image {
 
 
 /****** CASE STUDIES ******/
+
+.mention {
+  font-size: 0.8em;
+}
+
 section.purple, section.case-study {
   h2 {
     font-family: Futurice;
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 21px;
+    margin-bottom: 12px;
 
     @media (min-width: $tablet) {
       font-size: 55px;
+    }
+  }
+
+  h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 12px;
+    @media (min-width: $tablet) {
+      font-size: 36px;
     }
   }
 
@@ -352,12 +366,17 @@ section.purple, section.case-study {
     margin-bottom: 50px;
 
     .name {
-      font-size: 24px;
+      font-size: 20px;
       font-weight: bold;
       line-height: 1.25;
       text-align: center;
       color: #e4c554;
       margin: 20px 0 3px 0;
+
+    @media (min-width: $tablet) {
+      font-size: 220x;
+      }
+    
     }
 
     .position, .company {
@@ -591,5 +610,16 @@ section.purple {
   @media (min-width: $desktop) {
     background-image: url('../img/fund/arms/arms-hero-xlarge.jpg');
   }
+}
 
+.chilicorn.hero.match {
+  background-image: url('../img/fund/match/match-hero-small.jpg');
+
+  @media (min-width: $tablet) {
+    background-image: url('../img/fund/match/match-hero-large.jpg');
+  }
+
+  @media (min-width: $desktop) {
+    background-image: url('../img/fund/match/match-hero-xlarge.jpg');
+  }
 }
