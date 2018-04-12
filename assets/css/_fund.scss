@@ -599,6 +599,14 @@ section.purple {
   
 }
 
+.chilicorn.hero.friendship {
+  background-image: url('../img/fund/friendship/friendship-hero-small.jpg');
+
+  @media (min-width: $tablet) {
+    background-image: url('../img/fund/friendship/friendship-hero-large.jpg');
+  }
+}
+
 .chilicorn.hero.hemmo {
   background-image: url('../img/fund/hemmo/hemmo-hero-small.jpg');
 
