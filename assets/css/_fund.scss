@@ -324,10 +324,13 @@ section.purple, section.case-study {
     font-family: Futurice;
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    padding-bottom: 18px;
 
     @media (min-width: $tablet) {
       font-size: 55px;
+      margin-bottom: 12px;
     }
   }
 
@@ -494,7 +497,7 @@ section.purple, section.case-study {
     vertical-align: top;
 
     @media (min-width: $tablet) {
-      max-width: calc(33% - 18px);
+      max-width: calc(32% - 18px);
       margin-right: 18px;
 
       &:last-child {
@@ -516,12 +519,16 @@ section.purple, section.case-study {
       }
     }
   }
+  a.width-33, a.width-50 {
+    border-bottom: 0;
+  }
 }
 
 section.case-study {
   max-width: 823px;
   width: 100%;
   margin: 0 auto;
+  padding: 12px 0;
 
   ul {
     text-align: left;
@@ -539,6 +546,8 @@ section.case-study {
 
   .tags {
     margin-bottom: 16px;
+    margin-top: 0;
+    padding: 0 0;
     text-align: left;
 
     & > * {
@@ -561,6 +570,10 @@ section.case-study {
       margin-bottom: 42px;
       text-align: center;
     }
+  }
+
+  @media (min-width: $tablet) {
+    padding: 32px 0;
   }
 }
 
