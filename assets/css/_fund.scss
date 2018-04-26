@@ -100,6 +100,18 @@
   width: 110px;
 }
 
+/*overrule other section*/
+section {
+  padding: 20px 0;
+  h2 {
+    padding: $section-title-padding-to-image/1.5 0;
+  }
+
+  @media screen and (min-width: $tablet) {
+    padding: $section-title-padding-to-image 0;
+  }
+
+}
 /****** NEWSLETTER AD ******/
 .newsletter {
   background: #9F6CE3;

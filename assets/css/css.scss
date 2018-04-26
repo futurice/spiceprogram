@@ -96,7 +96,12 @@ h2 {
 }
 
 .selection-process h2, .who-for h2, .projects h2 {
-  padding-bottom: $section-title-padding-to-image;
+  padding-bottom: $section-title-padding-to-image / 1.5;
+
+    @media screen and (min-width: $tablet) {
+      padding-bottom: $section-title-padding-to-image;    
+    }
+
 }
 
 h3 {
