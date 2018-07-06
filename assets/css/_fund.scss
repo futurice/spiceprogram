@@ -208,11 +208,7 @@ section.who-for {
 
 /******  CRITERIA ********/
 .criteria {
-  background-color: $purple;
-
-  h2 {
-    color: white;
-  }
+  background-color: #ececec;
 
   .gallery {
     @extend %clearfix;     
@@ -222,13 +218,6 @@ section.who-for {
     margin-bottom: $item-spacing / 2;
     @media screen and (min-width: $mobile) {
       margin-bottom: $item-spacing;
-    }
-    h3 {
-      color: $yellow-text;
-    }
-
-    p {
-      color: white;
     }
   }
 
@@ -251,9 +240,13 @@ section.who-for {
 
 /****** SELECTION PROCESS ******/
 .selection-process {
-
+  background-color: #ececec;
   h2 {
     padding-bottom: $section-title-padding-to-image;
+  }
+
+  p {
+    max-width: 40rem;
   }
 
   .step {
