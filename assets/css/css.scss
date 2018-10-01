@@ -326,6 +326,66 @@ section.freetime {
   }
 }
 
+/*** Section Freetime ***/
+section.encounter {
+  margin-top: 150px;
+  color: rgba(255,255,255,0.9);
+  background-color: #615a47;
+  background-image: url('../img/18-09-11_the-other-encounter_106.jpg');
+  background-position: 30% 20%;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  p {
+    padding-bottom: 0.5em;
+  }
+  strong {
+    color: #fff;
+  }
+
+  .links {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  background-position: 30% 20%;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  p {
+    padding-bottom: 0.5em;
+  }
+  strong {
+    color: #fff;
+  }
+
+  .links {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .how {
+    @include span(full);
+    padding-top: $h-padding;
+    margin-bottom: 1em;
+  }
+
+  @media screen and (min-width: $tablet) {
+    background-image: url('../img/18-09-11_the-other-encounter_106.jpg');
+    background-position: 40% 40%;
+    background-size: cover;
+
+    .how {
+      @include span(5 of 12);
+    }
+    .how-left {
+        @include pre(1);
+    }
+    .how-right {
+        @include post(1);
+    }
+  }
+}
+
 /**** PARTNERSHIPS ****/
 
 .partnerships {
