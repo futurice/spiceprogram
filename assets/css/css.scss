@@ -424,6 +424,13 @@ section.encounter {
   font-size: $size-medium;
 }
 
+.othershortphrase {
+  max-width: 45em;
+  text-align: left;
+  font-weight: normal;
+  font-size: $size-medium;
+}
+
 /* PROBONO - CHILICORN FUND */
 
 section.probono {
@@ -462,6 +469,21 @@ section.book {
 .book p.shortphrase {
   max-width: 32em;
   margin-top: 0.6em;
+}
+
+/* OTHER ENCOUNTER */
+
+section.otherencounter {
+  .section-header {
+    max-width: 820px;
+  }
+
+  img {
+    max-width: 760px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
 }
 
 /*** SPICE BOOK DOWNLOAD ***/
@@ -727,6 +749,67 @@ section#comments .section-header {
 #comments {
   padding-bottom: 2 * $section-padding;
 }
+
+
+/**** OTHER ENCOUNTER QUOTES ****/
+
+section#othercomments .section-header {
+  padding-bottom: 2em;
+}
+
+.otherquote {
+  @include span(6);
+  margin-bottom: $item-spacing;
+
+  p, blockquote {
+    font-size: $size-base;
+    line-height: 1.2em;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    padding-bottom: 1em;
+    padding-top: 1.2em;
+  }
+
+  blockquote > span {
+    font-size: 3 * $size-medium;
+    font-family: arial;
+    opacity: .3;
+    display: block;
+    float: left;
+    padding-top: $size-base;
+  }
+
+  img {
+    max-width: 75px;
+    margin: auto;
+    display: block;
+    @media screen and (min-width: $mobile) {
+      max-width: 130px;
+    }
+  }
+
+  .name {
+    font-size: $size-base;
+    font-weight: bold;
+    margin-top: 0.2em;
+    color: $gray-text;
+  }
+
+  .role {
+    color: $gray-text-lighter;
+    font-weight: normal;
+  }
+
+  @media screen and (max-width: $mobile) {
+    @include span(full);
+  }
+}
+
+#othercomments {
+  padding-bottom: 2 * $section-padding;
+}
+
 
 /*** CARDS ***/
 .card {
