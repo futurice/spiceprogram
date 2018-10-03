@@ -431,6 +431,13 @@ section.encounter {
   font-size: $size-medium;
 }
 
+.acknowledgements {
+  max-width: 45em;
+  text-align: left;
+  font-weight: normal;
+  font-size: $size-base;
+}
+
 /* PROBONO - CHILICORN FUND */
 
 section.probono {
@@ -479,7 +486,7 @@ section.otherencounter {
   }
 
   img {
-    max-width: 760px;
+    max-width: 360px;
     margin-top: 2rem;
     margin-bottom: 3rem;
     width: 100%;
