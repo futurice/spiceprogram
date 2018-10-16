@@ -617,6 +617,14 @@ section.purple {
   
 }
 
+.chilicorn.hero.ylitse {
+  background-image: url('../img/fund/ylitse/ylitse-hero-small.jpg');
+
+  @media (min-width: $tablet) {
+    background-image: url('../img/fund/ylitse/ylitse-hero-large.jpg');
+  }
+}
+
 .chilicorn.hero.friendship {
   background-image: url('../img/fund/friendship/friendship-hero-small.jpg');
 
