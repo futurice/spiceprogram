@@ -15,3 +15,9 @@ Install dependencies with Bundler:
 
 Run the site locally:  
 `bundle exec jekyll serve`
+
+If getting this error when trying to build:
+"An error occurred while installing json (1.8.3), and Bundler cannot continue.", try the following: 
+1. Remove json 1.8.3 library line from Gemfile.lock
+2. run bundle install again to add and update all the dependencies
+Json library should get updated to the correct version and a new bundle should be generated
