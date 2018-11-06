@@ -21,8 +21,8 @@ custom_js:
       <div>#D3</div>
     </div>
     <div class="case-content">
-      <p>SaferGlobe is a group of researchers bringing transparency to arms trade in Finland. Over the years, their annual pdf report has gathered ever-increasing interest from journalists and state officials. Now for the first time ever, the report is widely available to anyone interested, in the form of a mini-website and interactive data visualisations.</p>
-      <p><a href="https://saferglobe.fi/armsreport/" target="_blank">https://saferglobe.fi/armsreport/</p>
+      <p>SaferGlobe is a group of researchers bringing transparency to arms trade in Finland. Over the years, their annual pdf report has gathered ever-increasing interest from journalists and state officials. With the help of this project, the report has become widely available to anyone interested, in the form of a mini-website and interactive data visualisations.</p>
+      <p><a href="https://saferglobe.fi/armsreport/" target="_blank">https://saferglobe.fi/armsreport/</a></p>
     </div>
 </section>
 
@@ -30,7 +30,7 @@ custom_js:
   <div class="container">
     <h2>Customer</h2>
     <div class="case-content">
-      <p>SaferGlobe is an independent peace and security think tank, which studies and develops tools for the promotion of lasting peace and security. Their members range from seasoned experts to young academics, from military personnel to peace researchers. Many of their members have practical experience from conflict or post-conflict zones. Through their network of researchers, SaferGlobe have expertise on a wide range of topics from local security priorities to conflict sensitive business, arms control and development of crisis management.
+      <p>SaferGlobe is an independent peace and security think tank, studying and developing tools for the promotion of lasting peace and security. Its membership ranges from seasoned experts to young academics, and from military personnel to peace researchers, many of whom have experience from conflict and post-conflict zones.
       SaferGlobe has published over twenty reports, many of which have been covered by the Finnish television or other national or international news media.</p>
     </div>
 </section>
@@ -39,18 +39,9 @@ custom_js:
   <div class="container">
     <h2>Challenge</h2>
     <div class="case-content">
-        <p>&ldquo;Arms control is a global challenge that directly impacts the life of most people on the
-planet, especially those in the most vulnerable, conflict-prone areas. Finland both
-produces and sells arms, and increasingly sells them outside the EU to areas that may
-have other problems.
-SaferGlobe has created the Finnish Arms Control Report (Suomen asevalvontaraportti) for
-8 years, and it has already reached a wide audience. In autumn 2016, the report went directly to the
-Prime Minister ́s question hour and there was even a cartoon of our work in Iltasanomat.
-However, we have been unable to develop a digital version of the Finnish Arms Control
-Report or even the statistics that the Report is based on. The main information is in the
-written report, which is unaccessible by the vast majority of readers. In this project, SaferGlobe we need help creating a digital source of information on arms trade,
-so that anyone can access it and see where and what kind of arms Finland is
-selling.&ldquo; (source: SaferGlobe)</p>
+			<p>SaferGlobe’s annual report on Finland’s arms exports was distributed to a restricted audience of decision makers and journalists. The majority of public attention came through press releases. Though the report was based on factual information, media coverage often referred to “SaferGlobe's opinions”, due to lack of easy access to the source data. This diminished the credibility of the entire report.</p>
+			<p>Information about the Finnish arms trade needed to be presented in a manner that helped decision-makers, journalists, researchers, activists, and ordinary citizens better understand the nature and development of Finnish arms exports.</p>
+			<p>SaferGlobe and Futurice set out to create a digital arms export report that was easy to understand, as well as a neutral and credible tool with a much wider audience than before.</p>
     </div>
     <div class="image-row">
        <img src="{{ site.baseurl }}/assets/img/fund/arms/arms-paper-report.jpg" alt="">
@@ -59,13 +50,21 @@ selling.&ldquo; (source: SaferGlobe)</p>
 
 <section class="case-study">
   <div class="container">
-    <h2>Approach</h2>
+    <h2>What we did</h2>
     <div class="case-content">
       
-      <p>Our design and development team did extensive work to understand the problem domain, the different stakeholders' needs and what was most important to achieve with this project. </p>
-      <p>One very clear goal that emerged was to remain neutral. We wanted to present the data in the most understandable and accessible way, without building a narrative. This way we could retain trustworthiness and transparency in what is a very controversial subject. It is up to the user to explore the data and make up their own mind about it.</p>
-      <p>Another important goal was accessibility: we wanted to ensure the visualisation is accessible and approximately 4% of Finnish population are red-green colorblind. We clocked several hours of work in testing colors and looking for inspiration in previously implemented data visualisations.</p>
-      <p>Finally, we knew from the very beginning that testing with real data would be key to finding a good design. This meant that we jumped straight into coding the design from the very beginning, using typical design software only on the side, for quick experiments with different layouts and colours.</p>
+			<p>For increased impact, the decision was made to present the available data in an easily distributable way that helps people from different backgrounds, from ordinary citizens to researchers, government officials and decision-makers, to intuitively perceive the overall picture of Finland’s arms exports – and to use that information in their work. Or just to be better informed. 
+			</p>
+			<p>An interactive and responsive website was the best solution for presenting the report in a way that serves the largest number of people.
+			</p>
+			<p>The site is easy to approach, but credible. A layered approach is used to serve the needs of different user groups: the basic information is complemented by information about export permits, policies related to the permits, countries or regions with special circumstances, or exports of different arms types.
+			</p>
+			<p>Visually, the website is a map of the world where you zoom in on individual countries to see the arms export information. The data collected goes back to 2003, providing users with a sufficient statistical basis to see and analyse trends. The colour scheme is designed to present complex information in an intuitive and user-friendly way without sacrificing precision. The most common types of colour blindness have been taken into account, too, to make the report more accessible. 
+			</p>
+			<p>Enriching the data with context is important, so information about conflicts in regions where Finland exports arms was added to the report. The colouring of the map is based on the Global Peace Index that allows us to emphasise unstable regions and ones with ongoing conflicts. 
+			</p>
+			<p>The site uses D3.js library to visualise the arms export information and React to render the user interface. D3 allows fetching information from CSV- and JSON-files and renders the visualisation directly on the page as SVG-images. 
+			</p>
       <p> More on our approach can be found in this <a href="https://futurice.com/blog/visualising-finnish-arms-export-data"> Arms Exports blog article </a></p>
 
       <div class="image-row">
@@ -81,19 +80,33 @@ selling.&ldquo; (source: SaferGlobe)</p>
   <div class="container">
     <h2>Impact</h2>
     <div class="case-content">
-      <p>The impact of this service has been significant and measurable. All of Finland’s main ministries were present at the publishing event. The keynote speaker at the event was Finland’s former minister of foreign affairs, Ilkka Kanerva. The report now goes directly to the highest levels of Finnish political decision-making.
-</p>
-<p>The media also took interest. The arms export report was the number 1 news item on Yle’s main news broadcast at 20.30, a first for the report. SaferGlobe’s executive director Maria Mekri commented on the improved accuracy of the reporting, noting that journalists had clearly used the website, and were using the correct terms and figures, so it works as intended.</p>
+			<p>Finland’s arms trade hadn’t been in the public eye in the past, even though the export permit decisions are political. By expanding the debate about the arms trade and its control, the arms control report can help make the world safer.
+			</p>
+			<p>The Finnish Arms Export Report for 2016 (published in late 2017) had a much wider reach and gained more attention than the earlier reports. It was the lead story of the most popular newscast (YLE TV1) on Finnish television that day, and received a lot of media attention. At the press event, the keynote was delivered by Mr Ilkka Kanerva (MP), the chairperson of the governmental Defence Committee of Finland. He stated that the digitalised Arms Export Report is the best tool related to arms trade that he has seen. He also extended his gratitude to SaferGlobe and Futurice. SaferGlobe was invited to the Parliament of Finland to present the report.
+			</p>
+			<p>In public discourse, the theme of arms control has grown in significance since the release of the digital report and the Finnish media has started to question export permits to areas with ongoing conflicts much more visibly, using the report as a trusted source. National public debate on the topic has grown more active in general.
+			</p>
+
+    <div class="quote-full">
+      <blockquote><span>“</span>I’m really looking forward for what we can do in the future, but for now, I am very proud and happy! I feel we have made the world a better place.&ldquo;.</blockquote>
+      <div class="name">– Maria Mekri, <span class="role">Executive Director, </span></div>
+      <div class="role">SaferGlobe</div>
     </div>
+
+		</div>
 </section>
 
 <section class="case-study">
   <div class="container">
     <h2>What next</h2>
     <div class="case-content">
+
       <p>Our hope for the service is that it will inspire other organizations to share their data in a clear and understandable format. If accurate information is available to everyone, we get closer to a more truthful view of things, regardless of subject matter. In addition to arms exports, open data could be utilized to solve or at least explore problems in areas such as gender, race, income inequality, substance abuse and mental health.</p>
+
+			<p>The Finnish Arms Export Report – as all Chilicorn Fund projects – was implemented as fully open source.  The service is distributed under the permissive MIT-license, meaning it is freely reusable and modifiable. The codebase is available at: https://github.com/futurice/safer-globe-arms-report.    </div>
+			</p>
         
-      <p>As Maria Mekri from SaferGlobe said: &ldquo;I’m really looking forward for what we can do in the future, but for now, I am very proud and happy! I feel we have made the world a better place.&ldquo;</p>
+<!--      <p>As Maria Mekri from SaferGlobe said: &ldquo;I’m really looking forward for what we can do in the future, but for now, I am very proud and happy! I feel we have made the world a better place.&ldquo;</p> -->
     </div>
 </section>
 
@@ -182,6 +195,10 @@ selling.&ldquo; (source: SaferGlobe)</p>
         <div class="width-33">
           <a href="https://facebook.github.io/react/">React</a>
           <p>A JavaScript library for building user interfaces.</p>
+        </div>
+        <div class="width-33">
+          <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>
+          <p>A lightweight markup language with plain text formatting syntax.</p>
         </div>
       </div>
     </div>
