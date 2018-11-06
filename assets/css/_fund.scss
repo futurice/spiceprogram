@@ -329,7 +329,7 @@ section.purple, section.case-study {
     font-family: Futurice;
     font-size: 32px;
     font-weight: bold;
-    margin-top: 24px;
+    padding-top: 24px;
     margin-bottom: 0;
     padding-bottom: 18px;
 
@@ -372,8 +372,9 @@ section.purple, section.case-study {
   }
 
   .contributor {
-    margin-bottom: 50px;
-
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
     .name {
       font-size: 20px;
       font-weight: bold;
@@ -383,7 +384,7 @@ section.purple, section.case-study {
       margin: 20px 0 3px 0;
 
     @media (min-width: $tablet) {
-      font-size: 220x;
+      font-size: 22px;
       }
     
     }
@@ -581,6 +582,46 @@ section.case-study {
     padding: 32px 0;
   }
 }
+
+section.case-study .quote-full {
+  margin-top:  $item-spacing;
+  margin-bottom: $item-spacing;
+
+  p, blockquote {
+    font-size: $size-medium;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0 10%;
+    padding-bottom: 1em;
+    padding-top: 1.2em;
+  }
+
+  blockquote > span {
+    font-size: 3 * $size-medium;
+    font-family: arial;
+    opacity: .3;
+    display: block;
+    float: left;
+    padding-top: $size-base;
+  }
+
+  .name {
+    font-size: $size-base;
+    font-weight: bold;
+    margin-top: 0.2em;
+    color: $gray-text;    
+  }
+
+  .role {
+    color: $gray-text-lighter;
+    font-weight: normal;
+  }
+
+  @media screen and (max-width: $mobile) {
+    @include span(full);
+  }
+}
+
 
 section.purple {
   background-color: #9f69e3;
