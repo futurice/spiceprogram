@@ -493,6 +493,21 @@ section.otherencounter {
   }
 }
 
+/* ROBOT DESIGN */
+
+section.robotdesign {
+  .section-header {
+    max-width: 1280px;
+  }
+
+  img {
+    max-width: 360px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
+
 /*** SPICE BOOK DOWNLOAD ***/
 
 section.bookdownload {
@@ -590,6 +605,42 @@ section.bookdownload {
 @media screen and (min-width: $desktop) {
   .track-block {
     @include span(6); 
+  }
+}
+
+/**** SOCIAL ROBOT  ****/
+
+.robot-block {
+  img {
+    width: 100%;
+  }
+}
+
+.new-line {
+  @include break;
+}
+
+.robot-block-txt {
+  position: relative;
+  margin: 0 30px;
+  padding: 15px 20px 0px 20px;
+  top: -50px;
+  background-color: #fff;
+}
+
+.robot-cta {
+  text-align: center;
+}
+
+.robot-img {
+  height: 300px;
+  background: url('../img/track-education.jpg');
+  background-size: cover;
+}
+
+@media screen and (min-width: $desktop) {
+  .robot-block {
+    @include span(3);
   }
 }
 
