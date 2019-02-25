@@ -494,7 +494,16 @@ section.purple, section.case-study {
 
   .image-row {
     max-width: 100%;
-    margin-top: 18px;
+    margin-top: 24px;
+    margin-bottom: 18px; 
+        @media (max-width: $mobile) {
+          margin-top: 12px;
+          margin-bottom: 9px;
+        }
+    a {
+      border-bottom: 0;
+    }
+
   }
 
   .width-33 {
@@ -657,6 +666,15 @@ section.purple {
 
   
 }
+
+.chilicorn.hero.kierratyskeskus {
+  background-image: url('../img/fund/kk/kk-hero-small.jpg');
+
+  @media (min-width: $tablet) {
+    background-image: url('../img/fund/kk/kk-hero-large.jpg');
+  }
+}
+
 
 .chilicorn.hero.ylitse {
   background-image: url('../img/fund/ylitse/ylitse-hero-small.jpg');
